@@ -7,6 +7,7 @@ $LOAD_PATH << __dir__
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'minispec-metadata'
+require 'mocha/mini_test'
 
 Minitest::Test.make_my_diffs_pretty!
 

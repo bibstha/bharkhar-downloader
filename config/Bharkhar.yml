@@ -1,0 +1,19 @@
+development: &development
+  papers:
+    com_myrepublica:
+      class_name: ComMyrepublica
+      enabled: true
+    xyz:
+      class_name: Dummy
+      enabled: false
+
+  pdf_write_dir: tmp/pdf_out
+
+  tmp_dir: tmp
+
+test: 
+  <<: *development
+
+production: 
+  <<: *development
+  pdf_write_dir: /app/pdf_out
