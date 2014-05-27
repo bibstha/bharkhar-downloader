@@ -1,5 +1,8 @@
+require 'typhoeus'
 require 'nokogiri'
 require 'uri'
+require 'json'
+require 'date'
 
 module Bharkhar
   module Crawler
@@ -9,7 +12,7 @@ module Bharkhar
 
       attr_reader :date
 
-      def initialize(date = DateTime.now)
+      def initialize(date = Date.today)
         @date = date
       end
 
@@ -27,6 +30,7 @@ module Bharkhar
     private 
 
       def paper_url
+        raise DateNotFound, "Date #{@date} not found" unless all_papers[@date]
         all_papers[@date]
       end
 
@@ -41,6 +45,9 @@ module Bharkhar
           url_map
         end
       end
+
+      class DateNotFound < StandardError; end
+
     end
   end
 end

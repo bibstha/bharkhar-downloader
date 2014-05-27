@@ -1,4 +1,6 @@
 require 'yaml'
+require_relative 'pdf_packager'
+require_relative 'config'
 
 module Bharkhar
   class App
@@ -21,15 +23,16 @@ module Bharkhar
     end
 
     def download paper_name, class_name
-      convert_pdf crawler(paper_name, class_name).page_urls
+      page_urls = crawler(paper_name, class_name).page_urls
+      PdfPackager.new(page_urls, "#{paper_name}/#{@date.to_s}.pdf").package
     end
 
     def convert_pdf page_urls
     end
 
-    def crawler name, class_name
-      require_relative "crawler/#{paper}"
-      class_name = "Crawler::#{details.fetch("name")}"
+    def crawler paper_name, class_name
+      require_relative "crawler/#{paper_name}"
+      class_name = "Bharkhar::Crawler::#{class_name}"
       Kernel.const_get(class_name).new(@date)
     end
   end

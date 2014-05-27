@@ -3,6 +3,9 @@ development: &development
     com_myrepublica:
       class_name: ComMyrepublica
       enabled: true
+    com_nagariknews:
+      class_name: ComNagariknews
+      enabled: true
     xyz:
       class_name: Dummy
       enabled: false
@@ -11,8 +14,11 @@ development: &development
 
   tmp_dir: tmp
 
+  thumbnail_write_dir: tmp/thumbnail_out
+
 test: 
   <<: *development
+  pdf_write_dir: tmp/pdf_out_test
 
 production: 
   <<: *development
