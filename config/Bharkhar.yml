@@ -19,6 +19,7 @@ development: &development
 test: 
   <<: *development
   pdf_write_dir: tmp/pdf_out_test
+  thumbnail_write_dir: tmp/thumbnail_out_test
 
 production: 
   <<: *development

@@ -36,4 +36,17 @@ describe PdfPackager do
     # cleanup
     FileUtils.remove_entry containing_dir
   end
+
+  it '#thumbnail_write_path returns valid png path' do
+    packager = PdfPackager.new([], "test_out.pdf")
+
+    expected_file = File.expand_path("tmp/thumbnail_out_test/test_out.png")
+    containing_dir = File.dirname(expected_file)
+
+    packager.send(:thumbnail_write_path).must_equal expected_file
+    Dir.exists?(containing_dir).must_equal true
+
+    # cleanup
+    FileUtils.remove_entry containing_dir
+  end
 end
