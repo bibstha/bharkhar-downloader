@@ -35,12 +35,13 @@ RUN gem install bundler
 
 ADD config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
 WORKDIR /app
-ADD . /app
-ADD lib/webapp/public /data/bharkharapp/public
 
 RUN bundle install --without development --without test
 RUN bundle exec rake download_latest
+
+ADD lib/webapp/public /data/bharkharapp/public
 
 EXPOSE 4567
 
