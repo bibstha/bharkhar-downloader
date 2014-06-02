@@ -10,11 +10,10 @@ development: &development
       class_name: Dummy
       enabled: false
 
-  pdf_write_dir: tmp/pdf_out
-
+  pdf_write_dir: lib/webapp/public/pdf
+  thumbnail_write_dir: lib/webapp/public/thumbnail
   tmp_dir: tmp
 
-  thumbnail_write_dir: tmp/thumbnail_out
 
 test: 
   <<: *development
@@ -23,4 +22,5 @@ test:
 
 production: 
   <<: *development
-  pdf_write_dir: /app/pdf_out
+  pdf_write_dir: /data/bharkharapp/public/pdf
+  thumbnail_write_dir: /data/bharkharapp/public/thumbnail

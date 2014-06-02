@@ -1,3 +1,5 @@
+require 'yaml'
+
 module Bharkhar
   class Config
     class << self

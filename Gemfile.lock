@@ -18,6 +18,9 @@ GEM
       metaclass (~> 0.0.1)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
+    rack (1.5.2)
+    rack-protection (1.5.3)
+      rack
     rake (10.3.2)
     redis (3.0.7)
     redis-namespace (1.4.1)
@@ -33,6 +36,15 @@ GEM
       celluloid (>= 0.14.1)
       ice_cube (~> 0.11.0)
       sidekiq (>= 2.16.0)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    slim (2.0.2)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
+    temple (0.6.7)
+    tilt (1.4.1)
     timers (1.1.0)
     typhoeus (0.6.8)
       ethon (>= 0.7.0)
@@ -49,5 +61,7 @@ DEPENDENCIES
   rmagick
   sidekiq
   sidetiq
+  sinatra
+  slim
   typhoeus
   vcr
