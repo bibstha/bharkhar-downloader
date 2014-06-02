@@ -46,4 +46,4 @@ EXPOSE 4567
 
 ENV RACK_ENV production
 
-CMD ["/usr/local/bin/supervisord", "-c config/supervisord.conf"]
+CMD ["/usr/local/bin/supervisord", "-c /app/config/supervisord.conf"]
