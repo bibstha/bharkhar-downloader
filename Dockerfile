@@ -37,7 +37,7 @@ ADD config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 WORKDIR /app
 ADD . /app
-ADD webapp/public /data/bharkharapp/public
+ADD lib/webapp/public /data/bharkharapp/public
 
 RUN bundle install --without development --without test
 
