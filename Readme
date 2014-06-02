@@ -8,7 +8,4 @@ Start the docker container for sidekiq workers
 
     docker run --volumes-from DATA bibstha/bharkhar-workers
 
-Start docker container for web server. This runs a rails app in production mode. `bibstha/bharkhar-server` exposes port 3000, we map it to host port 3000. Make sure to host nginx by proxing 
-
-    docker run --volumes-from DATA -p 3000:3000 bibstha/bharkhar-server
 
