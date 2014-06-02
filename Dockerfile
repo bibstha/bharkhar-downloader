@@ -40,6 +40,7 @@ ADD . /app
 ADD lib/webapp/public /data/bharkharapp/public
 
 RUN bundle install --without development --without test
+RUN bundle exec rake download_latest
 
 EXPOSE 4567
 
