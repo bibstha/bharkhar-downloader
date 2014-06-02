@@ -33,8 +33,6 @@ RUN \
 
 RUN gem install bundler
 
-ADD config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-
 RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
 WORKDIR /app
 
@@ -47,4 +45,4 @@ EXPOSE 4567
 
 ENV RACK_ENV production
 
-CMD ["/usr/local/bin/supervisord", "-c /app/config/supervisord.conf"]
+CMD /usr/local/bin/supervisord -c /app/config/supervisord.conf
