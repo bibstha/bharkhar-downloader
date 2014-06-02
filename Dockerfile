@@ -44,4 +44,6 @@ RUN bundle exec rake download_latest
 
 EXPOSE 4567
 
+ENV RACK_ENV production
+
 CMD ["/usr/bin/supervisord", "-c config/supervisord.conf"]
