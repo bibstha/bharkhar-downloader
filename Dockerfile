@@ -8,8 +8,10 @@ RUN \
   make install && \
   ruby-install -i /usr/local ruby 2.1.2
 
+# imagemagick
 RUN apt-get install -y imagemagick libmagickwand-dev
 
+# supervisord
 RUN apt-get install -y python-pip
 RUN pip install supervisor
 
@@ -31,7 +33,14 @@ RUN \
 
 RUN gem install bundler
 
+ADD config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
 WORKDIR /app
 ADD . /app
+ADD webapp/public /data/bharkharapp/public
 
 RUN bundle install --without development --without test
+
+EXPOSE 4567
+
+CMD ["/usr/bin/supervisord"]
