@@ -2,6 +2,8 @@ require 'sinatra'
 require 'slim'
 require_relative '../config'
 
+set :environment, :production
+
 get '/' do
   @title = 'Bharkhar matrai pakeko ekdam taja'
   @date_file_map = date_file_map
@@ -49,5 +51,3 @@ end
 def config
   @config ||= Bharkhar::Config.load
 end
-
-# puts date_file_map

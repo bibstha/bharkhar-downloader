@@ -43,4 +43,4 @@ RUN bundle install --without development --without test
 
 EXPOSE 4567
 
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord", "-c config/supervisord.conf"]
