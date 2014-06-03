@@ -22,5 +22,6 @@ test:
 
 production: 
   <<: *development
+  static_dir: /data/bharkharapp/public
   pdf_write_dir: /data/bharkharapp/public/pdf
   thumbnail_write_dir: /data/bharkharapp/public/thumbnail

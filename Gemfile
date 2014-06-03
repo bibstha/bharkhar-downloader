@@ -19,3 +19,7 @@ group 'test' do
   gem 'minispec-metadata'
   gem 'vcr'
 end
+
+group 'production' do
+  gem 'thin'
+end
