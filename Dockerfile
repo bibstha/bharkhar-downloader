@@ -43,7 +43,7 @@ RUN bundle install --without development --without test
 
 VOLUME ["/data"]
 
-ADD scripts /app
+ADD scripts /app/scripts
 
 EXPOSE 4567
 
