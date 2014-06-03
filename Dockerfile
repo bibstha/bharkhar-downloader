@@ -43,6 +43,8 @@ RUN bundle install --without development --without test
 
 VOLUME ["/data"]
 
+ADD scripts
+
 EXPOSE 4567
 
 CMD ["scripts/run.sh"]
