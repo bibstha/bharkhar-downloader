@@ -1,12 +1,5 @@
-FROM dockerfile/ubuntu
-
-# ruby-install
-RUN \
-  wget -O ruby-install-0.4.3.tar.gz https://github.com/postmodern/ruby-install/archive/v0.4.3.tar.gz && \
-  tar -xzvf ruby-install-0.4.3.tar.gz && \
-  cd ruby-install-0.4.3/ && \
-  make install && \
-  ruby-install -i /usr/local ruby 2.1.2
+FROM bibstha/ruby:2.1
+MAINTAINER bibekshrestha@gmail.com
 
 # imagemagick
 RUN apt-get update
@@ -42,10 +35,7 @@ WORKDIR /app
 RUN bundle install --without development --without test
 
 VOLUME ["/data"]
-RUN bundle exec rake download_latest
-ADD lib/webapp/public /data/bharkharapp/public
 
 EXPOSE 4567
 
-
-CMD /usr/local/bin/supervisord -c /app/config/supervisord.conf
+CMD ["scripts/run.sh"]
