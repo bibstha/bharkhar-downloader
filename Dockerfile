@@ -42,8 +42,10 @@ WORKDIR /app
 RUN bundle install --without development --without test
 RUN bundle exec rake download_latest
 
+VOLUME ["/data"]
 ADD lib/webapp/public /data/bharkharapp/public
 
 EXPOSE 4567
+
 
 CMD /usr/local/bin/supervisord -c /app/config/supervisord.conf
