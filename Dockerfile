@@ -9,6 +9,7 @@ RUN \
   ruby-install -i /usr/local ruby 2.1.2
 
 # imagemagick
+RUN apt-get update
 RUN apt-get install -y imagemagick libmagickwand-dev
 
 # supervisord
@@ -31,6 +32,8 @@ RUN \
   sed -i 's/^\(dir .*\)$/# \1\ndir \/data/' /etc/redis/redis.conf && \
   sed -i 's/^\(logfile .*\)$/# \1/' /etc/redis/redis.conf
 
+ENV RACK_ENV production
+
 RUN gem install bundler
 
 RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
@@ -42,7 +45,5 @@ RUN bundle exec rake download_latest
 ADD lib/webapp/public /data/bharkharapp/public
 
 EXPOSE 4567
-
-ENV RACK_ENV production
 
 CMD /usr/local/bin/supervisord -c /app/config/supervisord.conf

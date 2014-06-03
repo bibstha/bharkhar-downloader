@@ -14,7 +14,7 @@ task :download_latest do |t|
   
   config = Bharkhar::Config.load
   config.fetch("papers").each do |name, paper_settings|
-  
+    puts "#{name} enabled -> #{paper_settings.fetch("enabled")}"
     if paper_settings.fetch("enabled")
       puts "Downloading #{name} for #{Date.today.to_s}"
       Bharkhar::PaperDownloader.new(name, config.fetch("papers").fetch(name)).download

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'typhoeus'
 gem 'nokogiri'
-gem 'rmagick'
+gem 'mini_magick'
 gem 'sidekiq'
 gem 'sidetiq'
 

@@ -1,5 +1,5 @@
 require 'tmpdir'
-require 'RMagick'
+require 'mini_magick'
 
 require_relative 'config'
 
@@ -12,18 +12,33 @@ module Bharkhar
     end
 
     def package
-      begin
-        download.map { |page_path| File.expand_path(page_path, tmp_dir) }
-        .tap do |page_paths|
-          image_list = Magick::ImageList.new(*page_paths)
-          image_list.write(pdf_write_path)
-
-          front_page = Magick::Image.read(page_paths.first).first
-          front_page.thumbnail(170, 262).write(thumbnail_write_path)
+      download.map { |page_path| File.expand_path(page_path, tmp_dir) }.map do |path|
+        IO.popen(["file", "--brief", "--mime-type", path], in: :close, err: :close) do |mime|
+          if mime.read.chomp.include? "image"
+            pdf_path = "#{path[0..-4]}pdf"
+            image = MiniMagick::Image.open(path)
+            image.format "pdf"
+            image.write(pdf_path)
+            pdf_path
+          else
+            path
+          end
         end
-      ensure
-        cleanup
+        
+      end.tap do |page_paths|
+        cmd = "gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=%s -dBATCH %s"
+        puts "exec: #{cmd % [pdf_write_path, page_paths.join(" ")]}"
+        IO.popen(cmd % [pdf_write_path, page_paths.join(" ")], in: :close, err: :close) { |x| puts x.read.chomp }
+        
+        puts "Creating thumbnail at #{thumbnail_write_path}"
+        image = MiniMagick::Image.open(page_paths.first)
+        image.flatten
+        image.thumbnail "170x262"
+        image.format "png"
+        image.write(thumbnail_write_path)
       end
+    ensure
+      cleanup
     end
 
   private
