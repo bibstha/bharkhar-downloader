@@ -40,9 +40,9 @@ RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
 WORKDIR /app
 
 RUN bundle install --without development --without test
-RUN bundle exec rake download_latest
 
 VOLUME ["/data"]
+RUN bundle exec rake download_latest
 ADD lib/webapp/public /data/bharkharapp/public
 
 EXPOSE 4567
