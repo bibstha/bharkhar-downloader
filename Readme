@@ -1,11 +1,17 @@
 # Docker instructions
 
+Clone
+
+    git clone https://github.com/bibstha/bharkhar-downloader.git
+    cd bharkhar-downloader
+    docker build --rm -t bharkharapp .
+    
 Start a docker data volume by
 
     docker run -v /data -name DATA tianon/true
 
-Start the docker container for sidekiq workers
+Start the docker container for sidekiq workers and sshd
 
-    docker run --volumes-from DATA bibstha/bharkhar-workers
+    docker run -d --name bharkharapp -p 127.0.0.1:4567:4567 -p 127.0.0.1:49122:22 --volumes-from DATA bharkharapp
 
 
