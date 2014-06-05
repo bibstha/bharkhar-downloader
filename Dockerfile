@@ -1,12 +1,10 @@
-FROM dockerfile/ubuntu
+FROM bibstha/ruby:2.1
+MAINTAINER Bibek Shrestha, bibekshrestha@gmail.com
 
-# ruby-install
-RUN \
-  wget -O ruby-install-0.4.3.tar.gz https://github.com/postmodern/ruby-install/archive/v0.4.3.tar.gz && \
-  tar -xzvf ruby-install-0.4.3.tar.gz && \
-  cd ruby-install-0.4.3/ && \
-  make install && \
-  ruby-install -i /usr/local ruby 2.1.2
+# sshd
+RUN apt-get install -y openssh-server
+RUN mkdir /var/run/sshd 
+RUN echo 'root:bharkhar_demo' |chpasswd
 
 # imagemagick
 RUN apt-get update
@@ -45,6 +43,6 @@ VOLUME ["/data"]
 
 ADD scripts /app/scripts
 
-EXPOSE 4567
+EXPOSE 4567 22
 
 CMD ["scripts/run.sh"]
