@@ -12,7 +12,7 @@ RUN pip install supervisor
 RUN gem install bundler
 
 ENV RACK_ENV production
-ENV BHARKHAR_UPDATED 1
+ENV BHARKHAR_UPDATED 2
 
 RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
 WORKDIR /app
