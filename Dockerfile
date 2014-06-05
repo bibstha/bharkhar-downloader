@@ -17,6 +17,6 @@ ENV BHARKHAR_UPDATED 2
 RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
 WORKDIR /app
 RUN bundle install --without development --without test
-VOLUME ["/data"]
+VOLUME ["/data", "/log"]
 EXPOSE 4567 22
 CMD ["scripts/run.sh"]
