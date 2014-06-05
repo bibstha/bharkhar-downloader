@@ -1,48 +1,22 @@
 FROM bibstha/ruby:2.1
 MAINTAINER Bibek Shrestha, bibekshrestha@gmail.com
 
-# sshd
-RUN apt-get install -y openssh-server
+RUN apt-get update
+
+# sshd, imagemagick, python-pip for supervisord, redis-server
+RUN apt-get install -y imagemagick libmagickwand-dev openssh-server python-pip redis-server
+
 RUN mkdir /var/run/sshd 
 RUN echo 'root:bharkhar_demo' |chpasswd
-
-# imagemagick
-RUN apt-get update
-RUN apt-get install -y imagemagick libmagickwand-dev
-
-# supervisord
-RUN apt-get install -y python-pip
 RUN pip install supervisor
-
-RUN \
-  cd /tmp && \
-  wget http://download.redis.io/redis-stable.tar.gz && \
-  tar xvzf redis-stable.tar.gz && \
-  cd redis-stable && \
-  make && \
-  make install && \
-  cp -f src/redis-sentinel /usr/local/bin && \
-  mkdir -p /etc/redis && \
-  cp -f *.conf /etc/redis && \
-  rm -rf /tmp/redis-stable* && \
-  sed -i 's/^\(bind .*\)$/# \1/' /etc/redis/redis.conf && \
-  sed -i 's/^\(daemonize .*\)$/# \1/' /etc/redis/redis.conf && \
-  sed -i 's/^\(dir .*\)$/# \1\ndir \/data/' /etc/redis/redis.conf && \
-  sed -i 's/^\(logfile .*\)$/# \1/' /etc/redis/redis.conf
+RUN gem install bundler
 
 ENV RACK_ENV production
-
-RUN gem install bundler
+ENV BHARKHAR_UPDATED 1
 
 RUN git clone https://github.com/bibstha/bharkhar-downloader.git /app
 WORKDIR /app
-
 RUN bundle install --without development --without test
-
 VOLUME ["/data"]
-
-ADD scripts /app/scripts
-
 EXPOSE 4567 22
-
 CMD ["scripts/run.sh"]
