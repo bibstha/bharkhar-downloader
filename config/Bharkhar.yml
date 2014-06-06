@@ -6,6 +6,9 @@ development: &development
     com_nagariknews:
       class_name: ComNagariknews
       enabled: true
+    com_thehimalayantimes:
+      class_name: ComThehimalayantimes
+      enabled: true
     xyz:
       class_name: Dummy
       enabled: false

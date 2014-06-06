@@ -26,7 +26,7 @@ module Bharkhar
     end
 
     def handle_paper(name, date)
-      PaperDownloader.new(name, config.fetch("papers").fetch(name), date).download
+      PaperDownloader.new(name, date).download
     end
 
     def config

@@ -1,0 +1,1124 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://epaper.thehimalayantimes.com/epapermain.aspx?queryed=9&eddate=6/6/2014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '115313'
+      Content-Type:
+      - text/html; charset=utf-8
+      Server:
+      - Microsoft-IIS/8.0
+      X-AspNet-Version:
+      - 2.0.50727
+      Set-Cookie:
+      - ASP.NET_SessionId=pu22m2nsbwofljm4xako3f55; path=/; HttpOnly
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 06 Jun 2014 06:52:15 GMT
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\r\n<html>\r\n<head>\r\n
+        \   <title>The Himalayan Times ePaper</title>\r\n    <meta name=\"description\"
+        content=\"Bengali ePaper, Sandhya Times e-Paper launched by Times of India
+        Group brings Latest News in Bengali on Politics, Business, Bollywood, Cricket,
+        Lifestyle, Education, Entertainment, sports and more from Calcutta.\" />\r\n
+        \   <meta name=\"keywords\" content=\"Sandhya Times ePaper, Bengali News,
+        Latest News in Bengali, Bengali e-Paper, Online Bengali NewsPaper, news in
+        Bengali, news, Bengali news paper, Times Of India, TOI Calcutta e-Paper\"
+        />\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\r\n
+        \   <meta content=\"Microsoft Visual Studio .NET 7.1\" name=\"GENERATOR\">\r\n
+        \   <meta content=\"Visual Basic .NET 7.1\" name=\"CODE_LANGUAGE\">\r\n    <meta
+        content=\"JavaScript\" name=\"vs_defaultClientScript\">\r\n    <meta content=\"http://schemas.microsoft.com/intellisense/ie5\"
+        name=\"vs_targetSchema\">\r\n\r\n    <script language=\"javascript\" src=\"javascript/pageno.js\"
+        type=\"text/javascript\"></script>\r\n\r\n    <link href=\"css/main.css\"
+        type=\"text/css\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"css/lightbox.css\"
+        type=\"text/css\">\r\n    <link rel=\"stylesheet\" href=\"css/lightbox_feed.css\"
+        type=\"text/css\">\r\n\r\n    <script src=\"javascript/commonfunction.js\"
+        type=\"text/javascript\"></script>\r\n\r\n    <script language=\"javascript\"
+        src=\"javascript/popcalendar.js\"></script>\r\n\r\n    \r\n    <style>\r\n
+        \       .pagespan\r\n        {\r\n            border: 1px solid black;\r\n
+        \           cursor: pointer;\r\n            background-color: #fff;\r\n        }\r\n
+        \       .pageselectedSpan\r\n        {\r\n            border: 1px solid red;\r\n
+        \           cursor: default;\r\n            background-color: #ff0000;\r\n
+        \       }\r\n    </style>\r\n\r\n    <script language=\"javascript\" type=\"text/javascript\">\r\n//\t$(function()
+        {\r\n//        $('.map').maphilight();\r\n//        $('#squidheadlink').mouseover(function(e)
+        {\r\n//            $('#squidhead').mouseover();\r\n//        }).mouseout(function(e)
+        {\r\n//            $('#squidhead').mouseout();\r\n//        })\r\n//\t\t//.click(function(e)
+        { e.preventDefault(); });\r\n//    });\r\n    function borderit(which, color,
+        al) {\r\n       // alert(\"hi\");\r\n    }\r\n     function borderit1(which,color,al)
+        {\r\n        \r\n\t\t}\r\n    </script>\r\n\r\n    \r\n    <!-------------this
+        is for page method--->\r\n\r\n    <script type=\"text/javascript\" language=\"javascript\">\r\n
+        \       function load_function() {\r\n            var b = document.getElementById('txtpageno').value;\r\n
+        \           getimg(b, '123');\r\n        }\r\n        function Chnage_Edition(a,b,c)
+        {\r\n            document.getElementById('txtedition').value = a;\r\n            document.getElementById('txtpageno').value
+        = b;\r\n            document.frmepaper.submit();\r\n            getimg(b,c);\r\n
+        \       }\r\n        function showpdf() {\r\n            if (document.getElementById('imgpageimg')
+        == null) {\r\n                alert('Please minimise the Size.....');\r\n
+        \               return false;\r\n            }\r\n            else {\r\n                if
+        ((document.getElementById('txtturn').value == \"turn_page\") && (document.getElementById('txtpageno').value
+        == \"1\") && (document.getElementById('txtpageno').value == document.getElementById('txtmaxpageno').value))
+        {\r\n                    window.open(document.getElementById('imgpageimg').src.replace('l.jpg',
+        '.jpg').replace('s.jpg', '.jpg').replace('epaperimages', 'epaperpdf').replace('.jpg',
+        '.pdf'));\r\n                }\r\n                else {\r\n                    window.open(document.getElementById('imgpageimg').src.replace('l.jpg',
+        '.jpg').replace('s.jpg', '.jpg').replace('epaperimages', 'epaperpdf').replace('.jpg',
+        '.pdf'));\r\n                    window.open(document.getElementById('Image1').src.replace('l.jpg',
+        '.jpg').replace('s.jpg', '.jpg').replace('epaperimages', 'epaperpdf').replace('.jpg',
+        '.pdf'));\r\n                }\r\n            }\r\n        }\r\n        function
+        getimgnext(pageno, dv1) {\r\n            //alert(pageno);\r\n\t\t        //alert(document.getElementById(\"moveIframe\").style.display);\r\n\t\t
+        \       if (document.getElementById(\"moveIframe\").style.display = \"block\")
+        {\r\n\t\t            document.getElementById(\"moveIframe\").style.display
+        = \"none\";\r\n\t\t             checkLImg = \"0.jpg\"; ;\r\n\t\t        }\r\n\t\t
+        \      // alert(document.getElementById(\"moveIframe\").style.display);\r\n\t\t
+        \       if (document.getElementById('getpgno').value == document.getElementById('txtmaxpageno').value)
+        {\r\n\t\t            alert('you are viewing the last page.')\r\n\t\t            return
+        false\r\n\t\t        }\r\n\t\t        else {\r\n\t\t            //alert(document.getElementById('getpgno').value);\r\n\t\t
+        \           var pg1 = document.getElementById('getpgno').value;\r\n\t\t            var
+        edtn = document.getElementById('txtedition').value;\r\n\t\t            pageno
+        = parseInt(pg1) + 1;\r\n\t\t            //alert(pageno);\r\n\t\t            var
+        dt = document.getElementById('txtdate').value;\r\n\t\t            var dt =
+        document.getElementById('txtdate').value;\r\n\t\t            $('span[id ^=\"span\"]').removeClass('headforpagenextselected').addClass('headforpagenext');\r\n\t\t
+        \           $('img[id ^=\"span\"]').removeClass('selected').addClass('notselected');\r\n\t\t
+        \           //epapermain.loadimage1(pageno, dt, callback_loadimage1)\r\n\t\t
+        \           epapermain.loadimage1(pageno, dt,edtn, callback_loadimage1)\r\n\t\t
+        \           document.getElementById('spanNumber' + pageno).className = 'headforpagenextselected';\r\n\t\t
+        \           document.getElementById('spanthumbNumber' + pageno).className
+        = 'selected';\r\n\t\t        } \r\n\t\t    }\r\n\t\t    function getimgnpre()
+        {\r\n\t\t        if (document.getElementById('getpgno').value == 1) {\r\n\t\t
+        \           alert('you are viewing the first page.')\r\n\t\t            return
+        false\r\n\t\t        }\r\n\t\t        else {\r\n\t\t            //alert(document.getElementById('txtmaxpageno').value);\r\n\t\t
+        \           var pg1 = document.getElementById('getpgno').value;\r\n\t\t            var
+        edtn = document.getElementById('txtedition').value;\r\n\t\t            pageno
+        = parseInt(pg1) - 1;\r\n\t\t            //alert(pageno);\r\n\t\t            var
+        dt = document.getElementById('txtdate').value;\r\n\t\t            var dt =
+        document.getElementById('txtdate').value;\r\n\t\t            $('span[id ^=\"span\"]').removeClass('headforpagenextselected').addClass('headforpagenext');\r\n\t\t
+        \           $('img[id ^=\"span\"]').removeClass('selected').addClass('notselected');\r\n\t\t
+        \           //epapermain.loadimage1(pageno, dt, callback_loadimage1)\r\n\t\t
+        \           epapermain.loadimage1(pageno, dt,edtn, callback_loadimage1)\r\n\t\t
+        \           document.getElementById('spanNumber' + pageno).className = 'headforpagenextselected';\r\n\t\t
+        \           document.getElementById('spanthumbNumber' + pageno).className
+        = 'selected';\r\n\t\t        } \r\n\t\t    }\r\n\t\t    function getimg(pageno,
+        dv1) {\r\n\t\t        //alert(pageno);\r\n\t\t        if (document.getElementById('moveIframe').src
+        != \"\") {\r\n\t\t            document.getElementById(\"moveIframe\").style.display
+        = \"none\";\r\n\t\t            document.getElementById('right_ads').style.display
+        = \"block\";\r\n\t\t            checkLImg = \"0.jpg\";\r\n\t\t        }\r\n\t\t
+        \        var dt = document.getElementById('txtdate').value;\r\n\t\t         var
+        edtn = document.getElementById('txtedition').value;\r\n\t\t         \r\n\t\t
+        \        $('span[id ^=\"span\"]').removeClass('headforpagenextselected').addClass('headforpagenext');\r\n\t\t
+        \        $('img[id ^=\"span\"]').removeClass('selected').addClass('notselected');\r\n\t\t
+        \        //epapermain.loadimage1(pageno, dt, callback_loadimage1)\r\n\t\t
+        \        epapermain.loadimage1(pageno, dt,edtn, callback_loadimage1)\r\n\t\t
+        \       document.getElementById('spanNumber' + pageno).className = 'headforpagenextselected';\r\n\t\t
+        \       document.getElementById('spanthumbNumber' + pageno).className = 'selected';\r\n\t\t
+        \   }\r\n\t\t    function callback_loadimage1(response) {\r\n\t\t        var
+        aaa = response.value;\r\n\t\t        bdat = aaa.split(\"---\");\r\n\t\t        document.getElementById('maindv').innerHTML
+        = bdat[0];\r\n\t\t        document.getElementById('getpgno').value = bdat[1];\r\n\t\t
+        \       $(function() {\r\n\t\t            $('.map').maphilight();\r\n\t\t
+        \           $('#squidheadlink').mouseover(function(e) {\r\n\t\t                $('#squidhead').mouseover();\r\n\t\t
+        \           }).mouseout(function(e) {\r\n\t\t                $('#squidhead').mouseout();\r\n\t\t
+        \           })\r\n\t\t            //.click(function(e) { e.preventDefault();
+        });\r\n\t\t        });\r\n\t\t        function borderit(which, color, al)
+        {\r\n\t\t            // alert(color);\r\n\t\t            // alert(al);\r\n\t\t
+        \       }\r\n\t\t        function borderit1(which, color, al) {\r\n\r\n\t\t
+        \       }\r\n\t\t    }\r\n    </script>\r\n\r\n    <!---js for j-query--->\r\n\r\n
+        \   <script type=\"text/javascript\" src=\"jquery/jquery-1.4.2.min.js\"></script>\r\n\r\n
+        \   <script type=\"text/javascript\" src=\"jquery/jquery.metadata.min.js\"></script>\r\n\r\n
+        \   <script type=\"text/javascript\" src=\"jquery/jquery.maphilight.min.js\"></script>\r\n\r\n
+        \   <!---js for j-query--->\r\n\r\n    <script>\r\n    </script>\r\n\r\n    <script
+        language=\"javascript\">\r\n\t\tfunction acb()\r\n\t\t{}\r\n\t\tfunction archives11()
+        {\r\n\r\n\t\t    var editioncode = document.getElementById('txtedition').value;\r\n\t\t
+        \   if (document.all) {\r\n\t\t        //alert(document.getElementById('txtedition').value);\r\n\t\t
+        \       window.open(\"archives.aspx?editioncode=\" + editioncode + \"\", \"Archives\",
+        \"top=100,left=200,width=550,height=575,scrollbars=no,statusbar=no,toolbars=no\");\r\n\t\t
+        \   }\r\n\t\t    else {\r\n\t\t        window.open(\"archives.aspx?editioncode=\"
+        + editioncode + \"\", \"Archives\", \"top=100,left=200,width=550,height=450,scrollbars=no,statusbar=no,toolbars=no\");\r\n\t\t
+        \   }\r\n\t\t}\r\n\t\t\r\n\t\t\r\n\t\tfunction pagegalery()\r\n\t\t{\r\n\t\t//window.open(\"pagethumbnails.aspx?eddate=\"+document.getElementById('txtdate').value+\"&queryed=\"+document.getElementById('txtedition').value);\r\n\t\twindow.open(\"pagethumbnails.aspx?eddate=\"+document.getElementById('txtdate').value+\"&queryed=\"+document.getElementById('txtedition').value);\r\n\t\t}\r\n\t\t\r\n\t\t\r\n\tfunction
+        checkcolor(idd,source)\r\n{\r\n//alert(idd);\r\n\tdocument.getElementById(idd).src=\"editionimage/\"+source;\r\n\t//document.getElementById(idd).className=\"delhiI\";\r\n}\r\nfunction
+        backcolore(idd,source)\r\n{\r\n//alert(idd);\r\ndocument.getElementById(idd).src=\"editionimage/\"+source;\r\n//document.getElementById(idd).style.backgroundColor=\"#282828\";\r\n}\r\n\r\n\r\n\r\n\r\nfunction
+        backcolorold(idd)\r\n{\r\ndocument.getElementById(idd).style.backgroundColor=\"black\";\r\n}\r\n\t\tfunction
+        checknew()\r\n\t\t{\r\n\t\t\talert(\"check\");\r\n\t\t\tdocument.getElementById('Div1').className.replace('NaiDuniabottombar','NaiDuniabottombar12');\r\n\t\t
+        \   //var a \r\n           //a = document.getElementById('bottomNai Dunia').innerHTML\r\n
+        \       //a = a.replace('Nai Duniabottombar', 'Nai Duniabottombar12')\r\n
+        \       //bottomNai Dunia.innerHTML = a\r\n\t\t}\r\n\t\twindow.status = \"Powered
+        By Vast Digital!\"\r\n\t\t\r\n\t\tfunction setbottombar()\r\n\t\t{\r\n\t\tif(document.getElementById('txtturn').value==
+        \"page_turn\" && document.getElementById('txtpageno').value!=document.getElementById('txtmaxpageno').value)\r\n\t\t{\r\n\t\t\t//alert(document.getElementById('txtmaxpageno').value);\r\n\t\talert('you
+        are viewing the first page.')\r\n\t\treturn false\r\n\t\t}\r\n\t\tif(document.getElementById('txtpageno').value==document.getElementById('txtfirstpage').value)\r\n\t\t{\r\n\t\talert('you
+        are viewing the first page.')\r\n\t\treturn false\r\n\t\t}\r\n\t\tif(document.getElementById('txtpageno').value==document.getElementById('txtmaxpageno').value)\r\n\t\t{\r\n\t\talert('you
+        are viewing the last page.')\r\n\t\treturn false\r\n\t\t}\r\n\t\t  \r\n\t\t}\r\n\t\tfunction
+        setbottombars()\r\n\t\t{\r\n\t\r\n\t\tif(document.getElementById('txtturn').value==
+        \"turn_page\")\r\n\t\t{\r\n\t\talert('you are viewing single page view.')\r\n\t\treturn
+        false\r\n\t\t}\r\n\t\t  \r\n\t\t}\r\n    </script>\r\n\r\n    <script>\r\n\t\t\r\n\t\tvar
+        menu2=new Array();\r\n\t\tmenu2[0]='<a href=\"#\" onclick=\"showclip();return
+        false;\">My Clippings</a>';\r\n\t\tmenu2[1]='<a href=\"#\" onclick=\"hidepdf();return
+        false;\">Read Offline</a>';\r\n\t\tmenu2[2]='<a href=\"#\" onclick=\"showaccount();return
+        false;\">User Account</a>';\r\n\t\tmenu2[3]='<a href=\"#\" onclick=\"showPersonalize();return
+        false;\">Personalize</a>';\r\n\t\tmenu2[4]='<a href=\"#\"onclick=\"showalert();return
+        false;\">Alert</a>';\r\n\t\t var menu3=new Array();\r\n\t\tmenu3[0]='<a href=\"#\"
+        onclick=\"javascript:return zoominimage();\">Smaller&nbsp;&nbsp;&nbsp;<img
+        src=\"images/check.gif\" id=\"small\" style=\"VISIBILITY: hidden;border=none;\"></a>';\r\n\t\tmenu3[1]='<a
+        href=\"#\" onclick=\"normalimage();return false;\">Medium&nbsp;&nbsp;&nbsp;<img
+        src=\"images/check.gif\" id=\"med\" style=\"VISIBILITY: visible;border=none;\"></a>';\r\n\t\tmenu3[2]='<a
+        href=\"#\" onclick=\"zoomoutimage();return false;\">Larger&nbsp;&nbsp;&nbsp;<img
+        src=\"images/check.gif\" id=\"larg\" style=\"VISIBILITY: hidden;border=none;\"></a>';\r\n\t\t\r\n\t\t
+        var menu4=new Array();\r\n\t\tmenu4[0]='<a href=\"#\" onclick=\"javascript:return
+        content();\"><img src=\"images/1.jpg\" style=\"border=none;\">&nbsp;&nbsp;Content</a></span>';\r\n\t\tmenu4[1]='<a
+        href=\"#\" onclick=\"javascript:return Page_Thumbnail();\"><img src=\"images/2.jpg\"
+        style=\"border=none;margin-top:5px;\">&nbsp;&nbsp;Thumbnail</a></span>';\r\n\t\t\r\n\t\t//alert(document.getElementById('small'));\r\n\t\t//\tdocument.getElementById('small').style.display=\"none\";\r\n\t\r\n\t\t\r\n\t\tvar
+        adiv=true;\r\n\t\tvar sub_adiv=false;\r\n\t\tvar st_story;\r\n\t\t\tfunction
+        hidepdf()\r\n\t\t\t{\r\n\t\t\t\tdocument.getElementById('divrate').style.visibility=\"visible\";\r\n\t\t\t}\r\n\t\tvar
+        popUpWin=0;\r\n\t\tfunction popUpWindow(URLStr, left, top, width, height)\r\n\t\t{\r\n\r\n\t\tif(popUpWin)\r\n\t\t{\r\n\t\t\tif(!popUpWin.closed)
+        popUpWin.close();\r\n\t\t}\r\n\t\tpopUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub
+        ar=no,scrollbars=yes,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+',
+        top='+top+',screenX='+left+',screenY='+top+'');\r\n\t\t}\r\n\t\t\r\n\t\tfunction
+        l_page_turn()\r\n\t\t{\r\n\t\t//alert(document.getElementById('txtmaxpageno').value);\r\n\t\t//alert(document.getElementById('txtpageno').value);\r\n\t\t\tvar
+        pg=document.getElementById(\"txtpageno\").value;\r\n\t\t\t//alert(document.getElementById('txtfirstpage').value);\r\n\t\t\t//alert(document.getElementById('txtpageno').value);\r\n\t\t\tif(document.getElementById('txtpageno').value==document.getElementById('txtfirstpage').value)\r\n\t\t\t{\r\n\t\t\t//document.getElementById('Div1').style.left=480;\r\n\t\t\t\talert('you
+        are on the first page.')\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\t\t//pg
+        = parseInt(pg)+1\r\n\t\t\t\t//document.getElementById('txtpageno').value=pg;\r\n\t\t\t\t//document.getElementById('txtsubeditiionload').value=23;\r\n\t\t\t\t//document.frmepaper.submit();\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t}\r\n\t\t\r\n\t\t}\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\tfunction
+        R_page_turn()\r\n\t\t{\r\n\t\t\tvar pg=document.getElementById(\"txtpageno\").value;\r\n\t\t\t//alert(document.getElementById(\"txtpageno\").value);\r\n\t\t\t//alert(document.getElementById('txtmaxpageno').value);\r\n\t\t\tif(document.getElementById('txtpageno').value==document.getElementById('txtmaxpageno').value)\r\n\t\t\t{\r\n\t\t\t\t\t//document.getElementById('Div1').style.left=480;\r\n\t\t\talert('you
+        are on the last page.');\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\r\n\t\t\t\r\n\t\t\t\t//pg
+        = parseInt(pg)-1\r\n\t\t\t\t//document.getElementById('txtpageno').value=pg;\r\n\t\t\t//\tdocument.getElementById('txtsubeditiionload').value=23;\r\n\t\t//\tdocument.frmepaper.submit();\t\r\n\t\t\t}\r\n\t\t\r\n\t\t}\r\n\t\tfunction
+        mail_page(data)\r\n\t\t{\r\n\t\t//if(data!=\"\")\r\n\t\t\twindow.open(\"linkmail.aspx?eddate=\"
+        +document.getElementById('txtdate').value +\"&pageno=\" +document.getElementById('txtpageno').value
+        + \"&edition=\" +document.getElementById('txtedition').value + \"&pgno=\"+
+        document.getElementById('txtpageno').value,\"MailPage\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=20,left=50,width=550,height=500,titlebar=yes\");\r\n\t\t//else\r\n\t\t//\talert(\"Please
+        login first!\");\t\r\n\t\t//window.open(\"linkmail.aspx?eddate=\" +document.getElementById('txtdate').value
+        +\"&pageno=\" +document.getElementById('txtpageno').value + \"&edition=\"
+        +document.getElementById('txtedition').value + \"&pgno=\"+ document.getElementById('txtpageno').value,\"Mail
+        Page\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,top=20,left=50,width=939,height=600,titlebar=yes\");
+        \     \r\n\t\t}\r\n\t\tfunction page_print(data) {\r\n\t\t    if (document.getElementById('imgpageimg')
+        == null) {\r\n\t\t        alert('Please Minimise First...');\r\n\t\t        return
+        false;\r\n\t\t    }\r\n\t\t    else {\r\n\t\t        window.print(document.getElementById('imgpageimg').src)\r\n\t\t
+        \   }\r\n\t\t}\r\n\t\t\r\n\t\tfunction showDIV(t,l)\r\n\t\t{\r\n\t\t//alert(\"show
+        first main div\");\r\n\t\t\tdv.style.visibility=\"visible\";\r\n\t\t\t//alert(t.offsetLeft);\r\n\t\t\t//alert(screen.availWidth);\r\n\t\t\tdv.style.top=t.offsetTop+parseInt('30');\r\n\t\t\tdv.style.left=t.offsetLeft+parseInt('58');\r\n\t\t\tvar
+        c=l;\r\n\t\t\tc=c.replace('$','\"');\r\n\t\t\twhile (c.indexOf('$')>0)\r\n\t\t\t{\r\n\t\t\t\tc=c.replace('$','\"');\r\n\t\t\t}\r\n\t\t\tdv.innerHTML=c;\r\n\t\t\tdocument.getElementById('dv');\r\n\t\t\tsub_adiv=true;\r\n\t\t\t\r\n\t\t}\r\n\tfunction
+        show_arrow(t)\r\n\t{\r\n\t\t\tif(sub_adiv==true)\r\n\t\t\t{\r\n\t\t\t\tarrow_dv.style.visibility=\"visible\";\r\n\t\t\t\tarrow_dv.style.top=t.offsetTop+parseInt('22');\r\n\t\t\t\tarrow_dv.style.left=t.offsetLeft+parseInt('50');\r\n\t\t\t\tdocument.getElementById('arrow_dv');\r\n\t\t\t}\r\n\t}\r\n\t\t\r\n\t\tfunction
+        hideDIV()\r\n\t\t{\r\n\t\t\tif(adiv==false)\r\n\t\t\t{\r\n\t\t\t\tdv.style.visibility=\"hidden\";\r\n\t\t\t\tarrow_dv.style.visibility=\"hidden\";\r\n\t\t\t\tsub_dv.style.visibility=\"hidden\";\r\n\t\t\t\tsub_dv_outer.style.visibility=\"hidden\";\r\n\t\t\t\t\r\n\t\t\t}\r\n\t\t}\r\n\t\tfunction
+        showalert()\r\n\t\t{\r\n\t\twindow.open('saveallert.aspx');\r\n\t\t\r\n\t\t}\r\n\t\tfunction
+        showPersonalize()\r\n\t\t{\r\n\t\t\t\t\r\n\t\t\tdocument.all.personalize.style.visibility=\"visible\";\r\n\t\t\tdocument.getElementById('personaliz_form').src=\"personalize1.aspx\";\r\n\t\t}\r\n\t\tfunction
+        content()\r\n\t\t {\r\n\t\tShowcontent();\r\n\t\t}\r\n\t\t\r\n\t\tfunction
+        Page_Thumbnail()\r\n\t\t{\r\n\t\tdocument.getElementById('thumbpg').className=\"optionviewload\"\r\n\t\tdocument.getElementById('listpg').className=\"optionview\"\r\n\t\tdocument.getElementById('txtthumbnail').value=1;\r\n\t\tdocument.frmepaper.submit();\t\r\n\t\t\t\t\r\n\t\t}\r\n\t\tfunction
+        Page_List()\r\n\t\t{\r\n\t\tdocument.getElementById('thumbpg').className=\"optionview\"\r\n\t\tdocument.getElementById('listpg').className=\"optionviewload\"\r\n\t\tdocument.getElementById('txtthumbnail').value=45\r\n\t\tdocument.frmepaper.submit();\t\r\n\t\t}\r\n\t\t\r\n\t\tfunction
+        changecss()\r\n\t\t{\r\n\t\t//alert(document.getElementById('txtturn').value);\r\n\t\t//alert(document.getElementById('txtmaxpageno').value);\r\n\t\t\r\n\t\tif
+        (document.getElementById('txtturn').value==\"page_turn\")\r\n\t\t{\r\n\t\t//document.getElementById('div1').style.left=480;\r\n\t\t}\r\n\t\tif
+        (document.getElementById('txtmaxpageno').value==10)\r\n\t\t{\r\n\t\t\r\n\t\t}\r\n\t\t\r\n\t\tif(document.getElementById('imgpage').width>600)\r\n\t\t{\r\n\t\t//alert('ashish');\r\n\t\t//document.getElementById(\"googleadd\").style.display='none';\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t//\tdocument.getElementById(\"googleadd\").style.display='block';\r\n\t\t}\r\n\t\tif
+        (navigator.userAgent.toLowerCase().indexOf('mozilla')>0||navigator.userAgent.indexOf('Firefox')>0||navigator.userAgent.indexOf('Mozilla')||navigator.userAgent.indexOf('3.0.1')>0)\r\n\t\t{\r\n\t\t\t//document.getElementById('popupmnu').innerHTML=document.getElementById('popupmnu').innerHTML.replace('&nbsp;<img
+        src='images/downarrow.jpg'>','&nbsp;&nbsp;<img src='images/downarrow.jpg'>');\r\n\t\t\t\r\n\t\t\t//document.getElementById(\"Dropsubedition\").style.width=\"190px\"\r\n\t\t\t//document.getElementById(\"Div4\").style.top=\"115px\"\r\n\t\t\t\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t//document.getElementById(\"Div4\").style.top=\"117px\"\r\n\t\t\r\n\t\t}\r\n\t\t//alert(document.getElementById('mysub_div').innerText)\r\n\t\tif(document.getElementById('txtthumbnail').value==45)\r\n\t\t{\r\n\t\tdocument.getElementById('thumbpg').className=\"optionview\"\r\n\t\tdocument.getElementById('listpg').className=\"optionviewload\"\r\n\t\t}\r\n\t\t}\r\n\t\t\r\n\t\t\r\n\t\tfunction
+        changpre()\r\n\t\t{\r\n\t\tdocument.getElementById('img_back').src=\"\";\r\n\t\tdocument.getElementById('img_back').src=\"images/back2.gif\";\r\n\t\tdocument.getElementById('Img4').src=\"\";\r\n\t\tdocument.getElementById('Img4').src=\"images/backwordover.gif\";\r\n\t\t}\r\n\t\tfunction
+        changpreout()\r\n\t\t{\r\n\t\tdocument.getElementById('img_back').src=\"\";\r\n\t\tdocument.getElementById('img_back').src=\"images/back1.gif\";\r\n\t\tdocument.getElementById('Img4').src=\"\";\r\n\t\tdocument.getElementById('Img4').src=\"images/backword1.gif\";\r\n\t\t\r\n\t\t}\r\n\t\tfunction
+        home()\r\n\t\t{\r\n\t\t///alert(document.getElementById('txtpageno'));\r\n\t\t\tif(document.getElementById('txtpageno').value!=1)\r\n\t\t\t{\r\n\t\t\tvar
+        pageno=1;\r\n\t\t//\talert('dsc');\r\n\t\t\tdocument.getElementById(\"txtpageno\").value=pageno;\r\n\t\t\t//document.getElementById('sphome').style.cursor=\"hand\";\r\n\t\t\tdocument.frmepaper.submit();\t\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\t\treturn
+        false;\r\n\t\t\t}\r\n\t\t    //document.forms(0).txtparentid.value=ixml;\r\n\t\t\t//window.location=window.location;\r\n\t\t}\r\n\t\tfunction
+        changenext()\r\n\t\t{\r\n\t\tdocument.getElementById('img_next').src=\"\";\r\n\t\tdocument.getElementById('img_next').src=\"images/next2.gif\";\r\n\t\tdocument.getElementById('Img5').src=\"\";\r\n\t\tdocument.getElementById('Img5').src=\"images/forwordover.gif\";\r\n\t\t}\r\n\t\tfunction
+        changenextout()\r\n\t\t{\t\t\r\n\t\tdocument.getElementById('img_next').src=\"\";\r\n\t\tdocument.getElementById('img_next').src=\"images/next1.gif\";\r\n\t\tdocument.getElementById('Img5').src=\"\";\r\n\t\tdocument.getElementById('Img5').src=\"images/forword1.gif\";\r\n\t\t\r\n\t\t}\r\n\t\tfunction
+        Showcontent()\r\n\t\t{\r\n\t\t\tdocument.all.dvSample.style.visibility=\"visible\";\r\n\t\t\tvar
+        edition=document.getElementById('txtedition').value;\r\n\t\t\tvar pgdate=document.getElementById('txtdate').value;\r\n\t\t\tdocument.getElementById('myFrame').src=\"content.aspx?\"
+        + \"txtedition=\" + edition + \"&txtdate=\" + pgdate;\r\n\t\t}\r\n\t\t\t\r\n
+        \       \r\n\t\r\n\t\tfunction borderit1(which,color,al,at,ar,ab)\r\n\t\t{\r\n\t\t
+        \   alert('sffffffffffffff');\r\n\t\t\r\n\t\t\t/*(alert(color);\r\n\t\t\talert(al);\r\n\t\t\talert(at);\r\n\t\t\talert(ar);\r\n\t\t\talert(ab);*/\r\n\t\t\t\r\n\t\t\t\t
+        //alert(\"nitin here for second page link\");\r\n\t\t\tif (navigator.userAgent.toLowerCase().indexOf('safari')>=0||navigator.userAgent.indexOf('Chrome')>0||navigator.userAgent.toLowerCase().indexOf('Chrome')>0||navigator.userAgent.toLowerCase().indexOf('mozilla')>0||navigator.userAgent.indexOf('Firefox')>0||navigator.userAgent.indexOf('Mozilla')||navigator.userAgent.indexOf('3.0.1')>0)\r\n\t\t\t{\r\n\t\t\t\tvar
+        a\r\n\t\t\t\ta=document.getElementById('imgpage').src;\r\n\t\t\t\tvar strd\r\n\t\t\t\tvar
+        ad\r\n\t\t\t\tvar\tbd \r\n\t\t\t\tvar sd\r\n\t\t\t\tad=0;\r\n\t\r\n\t\t\t\t
+        if (screen.width>3379 & screen.height>767)\r\n\t\t\t\t{\r\n\t\t \r\n\t\t\t\t\t
+        if (color==\"black\")\r\n\t\t\t\t\t{\r\n\t\t\t\t\tvar firedobj=ns6? e.target
+        : event.srcElement\r\n\t\t\t\t\tvar topelement=ns6? \"HTML\" : \"BODY\"\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop + document.getElementById('trimagemain4').offsetTop
+        + document.getElementById('ashish').offsetTop+9;\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('tdmainimg').offsetLeft +  document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetLeft+8+391;\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.width=document.getElementById('k1').offsetWidth;\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.height=document.getElementById('k1').offsetHeight;\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.visibility=\"visible\";\r\n\t\t\t\t\tif(document.all)e
+        = event;\r\n\t\t\t\t\tvar st = Math.max(document.body.scrollTop,document.documentElement.scrollTop);\r\n\t\t\t\t\t\tif(navigator.userAgent.toLowerCase().indexOf('safari')>=0)st=0;
+        \r\n\t\t\t\t\t\tvar leftPos = e.clientX - 100;\r\n\t\t\t\t\t\tvar an;\r\n\t\t\t\t\t\tan
+        = document.getElementById('oFilterDIV').style.top;\r\n\t\t\t\t\t\tan=an.replace(\"px\",\"\")\r\n\t\r\n\t\r\n\t\t\t\t\t}\r\n\t\r\n\t\t\t\t\telse\r\n\t\t\t\t\t{
+        \ \r\n\t   \t\t\t\tdocument.getElementById('oFilterDIV').style.visibility=\"hidden\";\r\n\t
+        \  \t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t \r\n\t\t\t\t\tif
+        (color==\"black\")\r\n\t\t\t\t\t{\r\n\t\t\t\t\t   elml=which;\r\n\t\t\t\t\t
+        \  elm=document.getElementById(\"oFilterDIV\")\r\n\t\t\t\t\t\tvar topelement=ns6?
+        \"HTML\" : \"BODY\"\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.background=\"blue\";\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.opacity=.15;\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.border=0;\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').onclick=document.getElementById('oFilterDIV').onclick;\r\n\t\t\t
+        \           document.getElementById('oFilterDIV').onmouseout=abd();\r\n\t\t\t
+        \           elm.onclick=elml.onclick;\r\n\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\tif(document.getElementById('txtturn').value=='turn_page'||document.getElementById('txtpageno').value==document.getElementById('txtfirstpage').value||document.getElementById('txtpageno').value==document.getElementById('txtmaxpageno').value)\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop + document.getElementById('trimagemain4').offsetTop
+        +document.getElementById('ashish').offsetTop +300;\r\n\t\t\t\t\t\t\tif(a.indexOf(\"lll.jpg\")>0)\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        -120;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\telse if(a.indexOf(\"ll.jpg\")>0)\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop-90;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t//alert(\"hi\");\r\n\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        -495;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t//PLEASE
+        SEE HERE\r\n\t\t\t\t\t\t//its all abouit second right page\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop + document.getElementById('trimagemain4').offsetTop
+        +document.getElementById('ashish').offsetTop +250;\r\n\t\t\t\t\t\t\t\tif(a.indexOf(\"lll.jpg\")>0)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t//alert(\"nn\");\r\n\t\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft-960;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\telse if(a.indexOf(\"ll.jpg\")>0)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t//document.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop-90;\r\n\t\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft-110;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t//alert(\"hi\");\r\n\t\t\t\t\t\t\t\t\t\t//document.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        -930;\r\n\t\t\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+505;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t
+        if(navigator.userAgent.indexOf('Chrome')>0)\r\n\t\t\t\t\t\t\t  {\r\n\t\t\t\t\t\t\t
+        \ //alert(\"d\");\r\n\t\t\t\t\t\t\t\tif(a.indexOf(\"lll.jpg\")>0)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+130;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\telse if(a.indexOf(\"ll.jpg\")>0)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+133;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+690;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t  }\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t//alert(\"adwe\");\r\n\t\t\t\t\t\t//document.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop  + document.getElementById('trimagemain4').offsetTop
+        +document.getElementById('ashish').offsetTop + which.offsetTop+112;\r\n\t\t\t\t\t\t//document.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+460;\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=eval(document.getElementById('oFilterDIV').style.left.replace('px',''))+eval(al);\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.top=eval(document.getElementById('oFilterDIV').style.top.replace('px',''))+eval(at);\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.width=eval(ar)-eval(al);\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.height=eval(ab)-eval(at);\r\n\t\t\t\t\t//\tdocument.getElementById('oFilterDIV').style.border=\"solid
+        violet 2px\";\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.visibility=\"visible\";\r\n\t\t\t\t\t\tif(document.all)e
+        = event;\r\n\t\t\t\t\t\tvar st = Math.max(document.body.scrollTop,document.documentElement.scrollTop);\r\n\t\t\t\t\t\tif(navigator.userAgent.toLowerCase().indexOf('safari')>=0)st=0;
+        \r\n\t\t\t\t\t\tvar leftPos = e.clientX - 100;\r\n\t\t\t\t\t\tvar an;\r\n\t\t\t\t\t\tan
+        = document.getElementById('oFilterDIV').style.top;\r\n\t\t\t\t\t\tan=an.replace(\"px\",\"\")\r\n\t\r\n\t\t\t\t\t\t}\r\n\t\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t
+        \  {\r\n\t  \t   \t\t//document.getElementById('oFilterDIV').style.visibility=\"hidden\";\r\n\t\t
+        }\r\n\t\t}\r\n\t\t}\r\n\t\t\r\n\t\telse  //inter net explorer\r\n\t\t{\r\n\t\t{\r\n\t\t\r\n\t\t\t\tvar
+        a\r\n\t\t\t\ta=document.getElementById('imgpage').src;\r\n\t\t\t\tvar strd\r\n\t\t\t\tvar
+        ad\r\n\t\t\t\tvar\tbd \r\n\t\t\t\tvar sd\r\n\t\t\t\tad=0;\r\n\t\r\n\t\t\t\t
+        if (screen.width>6279 & screen.height>767)\r\n\t\t\t\t{\r\n\t\t\t\t\r\n\t\t
+        \r\n\t\t\t\t\t if (color==\"black\")\r\n\t\t\t\t\t{\r\n\t\t\t\t\tvar firedobj=ns6?
+        e.target : event.srcElement\r\n\t\t\t\t\tvar topelement=ns6? \"HTML\" : \"BODY\"\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop + document.getElementById('trimagemain4').offsetTop
+        + document.getElementById('ashish').offsetTop+9;\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('tdmainimg').offsetLeft +  document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetLeft+8+391;\r\n\t\t\t\t\tdocument.getElementById('oFilterDIV').style.visibility=\"visible\";\r\n\t\t\t\t\tif(document.all)e
+        = event;\r\n\t\t\t\t\tvar st = Math.max(document.body.scrollTop,document.documentElement.scrollTop);\r\n\t\t\t\t\t\tif(navigator.userAgent.toLowerCase().indexOf('safari')>=0)st=0;
+        \r\n\t\t\t\t\t\tvar leftPos = e.clientX - 100;\r\n\t\t\t\t\t\tvar an;\r\n\t\t\t\t\t\tan
+        = document.getElementById('oFilterDIV').style.top;\r\n\t\t\t\t\t\tan=an.replace(\"px\",\"\")\r\n\t\r\n\t\r\n\t\t\t\t\t}\r\n\t\r\n\t\t\t\t\telse\r\n\t\t\t\t\t{
+        \ \r\n\t   \t\t\t\tdocument.getElementById('oFilterDIV').style.visibility=\"hidden\";\r\n\t
+        \  \t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\r\n\t\t\t\t\tif
+        (color==\"black\")\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tvar topelement=ns6? \"HTML\"
+        : \"BODY\"\r\n\t\t\t\t\t\t//document.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop + document.getElementById('trimagemain4').offsetTop
+        +document.getElementById('ashish').offsetTop +130;\r\n\t\t\r\n\t\t\t\t\t\t/*if(document.getElementById('txtturn').value=='turn_page'||document.getElementById('txtpageno').value==document.getElementById('txtfirstpage').value||document.getElementById('txtpageno').value==document.getElementById('txtmaxpageno').value)\r\n\t\t\t\t\t\t{\r\n\t\r\n\t\t\t\t\t\t\tif(a.indexOf(\"ll.jpg\")>0)\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        -120;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\telse\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop-90;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV1').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        -130;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t*/\r\n\t\t\t\t\t\t\r\n//second
+        page of left side lik\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.top=document.getElementById('Main').offsetTop
+        + document.getElementById('Main1').offsetTop + document.getElementById('Main3').offsetTop
+        + document.getElementById('trmainimg').offsetTop  + document.getElementById('trimagemain4').offsetTop
+        +document.getElementById('ashish').offsetTop + which.offsetTop+256;\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+693;\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t//ADD CONDITIONJ FOR
+        ASHISH FOR ZOOM PAGE .This shift the left map right side image.\r\n\t\t\t\t\t\t\tif(a.indexOf(\"lll.jpg\")>0)\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t//\talert(\"nitin
+        lll\");\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+135;\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\telse
+        if(a.indexOf(\"ll.jpg\")>0) \r\n\t\t\t\t\t\t\t{\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.left=document.getElementById('Main').offsetLeft
+        + document.getElementById('Main1').offsetLeft + document.getElementById('Main3').offsetLeft
+        + document.getElementById('Main2').offsetLeft +document.getElementById('tdimagemain1').offsetLeft
+        \ + document.getElementById('tdimagemain4').offsetLeft +document.getElementById('ashish').offsetTop
+        + which.offsetLeft+133;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t//END
+        HERE //\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t//document.getElementById('oFilterDIV').style.left=eval(document.getElementById('oFilterDIV').style.left.replace('px',''))+eval(al);\r\n\t\t\t\t\t\t//document.getElementById('oFilterDIV').style.top=eval(document.getElementById('oFilterDIV').style.top.replace('px',''))+eval(at);\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.width=eval(ar)-eval(al);\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.height=eval(ab)-eval(at);\r\n\t\t\t\t\t\tdocument.getElementById('oFilterDIV').style.visibility=\"visible\";\r\n\t\t\t\t\t\tif(document.all)e
+        = event;\r\n\t\t\t\t\t\tvar st = Math.max(document.body.scrollTop,document.documentElement.scrollTop);\r\n\t\t\t\t\t\tif(navigator.userAgent.toLowerCase().indexOf('safari')>=0)st=0;
+        \r\n\t\t\t\t\t\tvar leftPos = e.clientX - 100;\r\n\t\t\t\t\t\tvar an;\r\n\t\t\t\t\t\tan
+        = document.getElementById('oFilterDIV').style.top;\r\n\t\t\t\t\t\tan=an.replace(\"px\",\"\")\r\n\t\r\n\t\t\t\t\t\t}\r\n\t\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t
+        \  {\r\n\t  \t   \t\tdocument.getElementById('oFilterDIV').style.visibility=\"hidden\";\r\n\t
+        \  \t\r\n\t\t }\r\n\t\r\n\t\t}\r\n\t\t}\t\r\n\t\t}\r\n\t\t}\r\n\t\r\n\t\r\n\t\t\t\r\n\t\t\tfunction
+        win_close()\r\n\t\t\t{\r\n\t\t\t\r\n\t\t\tdocument.all.dvSample.style.visibility=\"hidden\";\r\n\t\t\t\r\n\t\t\t}\r\n\t\t\tfunction
+        win_close_xml()\r\n\t\t\t{\r\n\t\t\tdocument.all.rssxml.style.visibility=\"hidden\";\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tfunction
+        win_close_pdf()\r\n\t\t\t{\r\n\t\t\tdocument.all.divrate.style.visibility=\"hidden\";\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tfunction
+        win_close_personalize()\r\n\t\t\t{\r\n\t\t\t\r\n\t\t\tdocument.all.personalize.style.visibility=\"hidden\";\r\n\t\t\t\r\n\t\t\t}\r\n\t\tfunction
+        mytest()\r\n\t\t{\r\n\t\talert(document.getElementById('txtedition').value);\r\n\t\talert(document.getElementById('txtdate').value);\r\n\t\talert(document.getElementById('myFrame').src);\r\n\t\t}\r\n\t\tfunction
+        Show()\r\n\t\t{\r\n        /* get the mouse left position */\r\n\t\t\t x =
+        event.clientX + document.body.scrollLeft;\r\n        /* get the mouse top
+        position  */\r\n\t\t\ty = event.clientY + document.body.scrollTop + 35;\r\n
+        \       /* display the pop-up */\r\n\t\t\tPopup.style.display=\"block\";\r\n
+        \       /* set the pop-up's left */\r\n\t\t\tPopup.style.left = x;\r\n        /*
+        set the pop-up's top */\r\n\t\t\tPopup.style.top = y;\r\n\t}\r\n    /* this
+        function hides the pop-up when\r\n     user moves the mouse out of the link
+        */\r\n\t\tfunction Hide()\r\n\t\t{\r\n        /* hide the pop-up */\r\n\t\t\t
+        Popup.style.display=\"none\";\r\n\t\t}\r\n\t\t\r\n\t\tfunction show_color(t)\r\n\t\t{\r\n\t\tthis.color='#231703';\r\n\t\t}\r\n\t\tfunction
+        show_subDIV(t,ll)\r\n\t\t{\r\n\t\t//alert(\"hi\");\r\n\t\t\tvar i;\r\n\t\t\tsub_dv.style.visibility=\"visible\";\r\n\t\t\tsub_dv_outer.style.visibility=\"visible\";\r\n\t\t\tsub_dv.style.top=dv.style.top;\r\n\t\t\tsub_dv_outer.style.top=dv.style.top;\r\n\t\t\tthis.color='#A8A8A8';\r\n\t\t\t\r\n\t\t\t//alert(this.color);\r\n\t\t\t//this.color='#671773'\r\n\t\t\tif
+        (document.all)\r\n\t\t\t{\r\n\t\t\tsub_dv.style.left=t.offsetLeft+parseInt('295');\r\n\t\t\tsub_dv_outer.style.left=t.offsetLeft+parseInt('282');\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\tsub_dv_outer.style.borderColor='maroon';\r\n\t\t\tsub_dv.style.left=t.offsetLeft+parseInt('295');\r\n\t\t\tsub_dv_outer.style.left=t.offsetLeft+parseInt('285');\r\n\t\t\t\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\t//sub_dv.style.top=mysub_div.offsetTop;\r\n\t\t\tsub_dv.innerHTML=ll;\r\n\t\t\tdocument.getElementById('sub_dv');\r\n\t\t\tdocument.getElementById('sub_dv_outer');\r\n\t\t}\r\n\t\t\r\n\t\tfunction
+        buildDimmerDiv()\r\n\t\t{\r\n\t\tdocument.write('<div id=\"dimmer\" class=\"dimmer\"
+        style=\"width:'+ window.screen.width + 'px; height:' + window.screen.height
+        +'px\"></div>');\r\n\t\t}\r\n\r\n\t\t\r\n\t\tfunction show_corner()\r\n\t\t{\r\n\t\tvar
+        a_page;\r\n\t\ta_page=document.getElementById('txtmaxpageno').value;\r\n\t\t//alert(a_page);\r\n\t\t\tif(document.getElementById('txtpg').value!=a_page)\r\n\t\t\t{\r\n\t\t\tdocument.getElementById('img_corrner').style.display=\"block\";\r\n\t\t\tdocument.getElementById('nxt_page_no').style.display=\"block\";\r\n\t\t\t}\r\n\t\t}\r\n\t\tfunction
+        hide_corner()\r\n\t\t{\r\n\t\t\tdocument.getElementById('img_corrner').style.display=\"none\";\r\n\t\t\tdocument.getElementById('nxt_page_no').style.display=\"none\";\r\n\t\t}\r\n\t\tfunction
+        show_left_corner()\r\n\t\t{\r\n\t\tvar a_page;\r\n\t\ta_page=document.getElementById('txtfirstpage').value;\r\n\t\t\tif(document.getElementById('txtpg').value!=1)\r\n\t\t\t{\r\n\t\t\tdocument.getElementById('left_corner').style.display=\"block\";\r\n\t\t\tdocument.getElementById('leftcon').style.display=\"block\";\r\n\t\t\t}\r\n\t\t}\r\n\t\tfunction
+        hide_left_corner()\r\n\t\t{\r\n\t\t\t//alert(document.getElementById('img_corrner').style.display);\r\n\t\t\tdocument.getElementById('left_corner').style.display=\"none\";\r\n\t\t\tdocument.getElementById('leftcon').style.display=\"none\";\r\n\t\t\t//document.getElementById('r_arrow_DV').style.visibility=\"visible\";\r\n\t\t}\r\n\t\t\r\n\t\t\t\tfunction
+        search123()\r\n\t\t\t\t{\r\n\t\t\t\t\tvar a\r\n\t\t\t\t\ta=document.getElementById('searchtxt').value;\r\n\t\t\t\t\tif(a!='')\r\n\t\t\t\t\t{\t\t\t\t\t\r\n\t\t\t\t\t\tdocument.all.d_search.style.visibility=\"visible\";\r\n\t\t\t\t\t\tdocument.getElementById('Iframe_search').src=\"desrch.aspx?search=\"
+        + a;\r\n\t\t\t\t\t\tdocument.getElementById('searchtxt').value='';\r\n\t\t\t\t\t\treturn
+        true;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\r\n\t\t\t\tfunction search()\r\n\t\t\t\t{\r\n\t\t\t\t\tvar
+        a\r\n\t\t\t\t\ta=document.getElementById('searchtxt').value;\r\n\t\t\t\t\t\tif(a!='')\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t//document.all.d_search.style.visibility=\"visible\";\r\n\t\t\t\t\t\t\t//document.getElementById('Iframe_search').src=\"desrch.aspx?search=\"
+        + a;\r\n\t\t\t\t\t\t\tvar x=window.open(\"desrch.aspx?search=\" + a,\"Search\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=100,left=100,width=600,height=600,titlebar=yes\");\t\r\n\t\t\t\t\t\t\t//var
+        x=window.open(\"desrch.aspx?search=\" + a,\"Search\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=0,left=0,width=600,height=600,titlebar=yes\");\t\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t//alert(bookmark.title);
+        \    \r\n\t\t\t\t\t\t\talert('Please enter the data for search.');\r\n\t\t\t\t\t\t\tdocument.frmepaper.searchtxt.focus();\r\n\t\t\t\t\t\t}\r\n\t\t\t\t}\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\tfunction
+        win_close_d_search()\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tdocument.all.d_search.style.visibility=\"hidden\";\r\n\t\t\t\t\t}\r\n\t\t\t\tfunction
+        Advanse()\r\n\t\t\t\t{\r\n\t\t\t\t\twindow.open(\"advansesearch.aspx\",\"AdvanseSearch\",\"
+        toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=100,left=100,width=550,height=560,titlebar=yes\");\r\n\t\t\t\t\t//document.all.a_search.style.visibility=\"visible\";\r\n\t\t\t\t\t//document.getElementById('Iframe_adsearch').src=\"advansesearch.aspx\";\r\n\t\t\t\t\t//window.open(\"advansesearch.aspx\",\"AdvanseSearch\",\"
+        toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=0,left=0,width=600,height=560,titlebar=yes\");\r\n\t\t\t\t}\r\n\t\t\t\tvar
+        down_pg;\r\n\t\tfunction downpagearrow()\r\n\t\t{\r\n\t\t\tvar a;\r\n\t\t\ta=document.getElementById('dw').src\r\n\t\t\t//alert(a);\r\n\t\t\tdocument.getElementById('dw').src='images/downup.jpg';\r\n\t\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t}\r\n\t\t\r\n\t\t\tfunction
+        win_close_search()\r\n\t\t\t{\r\n\t\t\t\tdocument.all.a_search.style.visibility=\"hidden\";\r\n\t\t\t}\r\n\t\t\tfunction
+        entervalidkey(field, event)\r\n\t\t\t{\r\n\t\t\t//alert(event.keyCode)\r\n\t\t\tif(event.keyCode!=13)\r\n\t\t\t{\r\n\t\t//alert('aaa')\r\n\t\t\tdocument.frmepaper.searchtxt.focus();\r\n\t\t\t//document.getElementById('searchtxt').focus();\r\n\t\t\treturn
+        ;\r\n\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\tsearch();\r\n\t\t\t\treturn
+        false;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tfunction entervalid(field, event)
+        {\r\n\t\t\t\r\n\t\t\t\t\t\tvar keyCode = event.keyCode ? event.keyCode : event.which
+        ? event.which : event.charCode;\r\n\t\t\tif (keyCode == 13 ) {\r\n//alert(keyCode)\r\n\t\t\tsearch();\r\n\t\t\treturn
+        false;\r\n}\r\nelse\r\n\treturn true;\r\n}\r\n\r\n\t\t\r\n\t\tfunction showrss()\r\n\t\t{\r\n\t\tvar
+        a=document.getElementById('txtdate').value;\r\n\t\t//document.all.rssxml.style.visibility=\"visible\";\r\n\t\t//document.getElementById('rssxml_Xml').src=\"StoryRss.aspx?rssdate=\"
+        + a;\r\n\t\twindow.open(\"StoryRss.aspx?rssdate=\" +a);\r\n\t\t}\r\n\t\t\t\t\r\n\t\tfunction
+        showaccount()\r\n\t\t{\r\n\t\twindow.open(\"myaccount.aspx\");\r\n\t\t}\r\n\t\tfunction
+        showprofile()\r\n\t\t{\r\n\t\t\twindow.open(\"myaccount.aspx\");\r\n\t\t}\r\n\t\tfunction
+        spagesup(ed,pgno,ixml)\r\n\t\t{\r\n\t\t//document.getElementById(\"txtbigwin\").value=\"\"\r\n\t\t//alert(\"heredddd\")\r\n\t\tdocument.getElementById('txtedition').value=ed;\r\n\t\tdocument.getElementById('txtpageno').value=1;\r\n\t\tdocument.getElementById('txtparentid').value=ixml;\r\n\t\tdocument.frmepaper.submit();\t\r\n\t\t}\r\n\t\tfunction
+        showclip()\r\n\t\t{\r\n\t\t\twindow.open(\"ShowClip.aspx\");\r\n\t\t}\r\n\t\t\t\t\t\t\t\t\r\n\t\tvar
+        bcontent=\"\";\r\n\t\tvar strContent=\"\";\r\n\t\tfunction spagesup_div()\r\n\t\t{\r\n\t\t\ta=document.getElementById('dw').src;\r\n\t\t\t//alert(a.indexOf(\"minus_btn\"));\r\n\t\t\tif(a.indexOf(\"minus_btn\")>0)\r\n\t\t\t{\r\n\t\t\t\tdocument.getElementById('dw').src='images/downup.jpg';\r\n\t\t\t\tdocument.getElementById('di').style.visibility=\"hidden\";\r\n\t\t\t\tbcontent=document.getElementById('hidecontent').innerHTML;\r\n\t\t\t\tdocument.getElementById('hidecontent').innerHTML=\"\";\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\t\tdocument.getElementById('pgtgl').src='images/down.jpg';\r\n\t\t\t\tdocument.getElementById('hidecontent').style.visibility=\"visible\";\r\n\t\t\t\tdocument.getElementById('hidecontent').innerHTML=bcontent;\r\n\t\t\t}\r\n\t\t\treturn
+        false;\r\n\t\t} \r\n\t\tfunction setBookmark(url,str){\r\nif(str=='')str=url;\r\nif
+        (document.all)window.external.AddFavorite(url,str);\r\nelse alert('Press CTRL
+        and D to add a bookmark to:\\n\"'+url+'\".');\r\n} \r\n\t\tfunction spagesup_latest()\r\n\t\t{\r\n\t\t\ta=document.getElementById('latest_image').src;\r\n\t\t\t//alert(a.indexOf(\"minus_btn\"));\r\n\t\t\tif(a.indexOf(\"minus_btn\")>0)\r\n\t\t\t{\r\n\t\t\t\tdocument.getElementById('latest_image').src='images/plus_btn.gif';\r\n\t\t\t\tdocument.getElementById('ltst').style.visibility=\"hidden\";\r\n\t\t\t\tstrContent=document.getElementById('ltst').innerHTML;\r\n\t\t\t\tdocument.getElementById('ltst').innerHTML=\"\";\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\t\tdocument.getElementById('latest_image').src='images/minus_btn.gif';\r\n\t\t\t\tdocument.getElementById('ltst').style.visibility=\"visible\";\r\n\t\t\t\tdocument.getElementById('ltst').innerHTML=strContent;\r\n\t\t\t}\r\n\t\t\treturn
+        false;\r\n\t\t} \r\n\t\tfunction set_page()\r\n\t\t{\r\n\t\t//alert(document.getElementById('imgpage').style.margin-top)\r\n\t\t\t//document.getElementById('imgpage').style.margin.left=0;\r\n\t\t}\r\n
+        \   </script>\r\n\r\n    <script>\r\n\r\n        var ie4 = document.all\r\n
+        \       var ns6 = document.getElementById && !document.all\r\n        var
+        menuwidth = '100px' //default menu width\r\n        var menubgcolor = '#f2f2f2'
+        \ //menu bgcolor\r\n        var disappeardelay = 250  //menu disappear speed
+        onMouseout (in miliseconds)\r\n        var hidemenu_onclick = \"yes\"\r\n
+        \       if (ie4 || ns6)\r\n            document.write('<div id=\"dropmenudiv\"
+        style=\"Z-INDEX: 999;visibility:hidden;width:' + menuwidth + ';background-color:'
+        + menubgcolor + ';font-family:Arial;font-weight:normal; padding:0px; padding-left:0px;
+        font-size:8pt; cursor:hand\" onMouseover=\"clearhidemenu()\" onMouseout=\"dynamichide(event)\"></div>')\r\n
+        \       function clearhidemenu() {\r\n            if (typeof delayhide !=
+        \"undefined\")\r\n                clearTimeout(delayhide)\r\n        }\r\n\r\n
+        \       function dynamichide(e) {\r\n            if (ie4 && !dropmenuobj.contains(e.toElement))\r\n
+        \               delayhidemenu()\r\n            else if (ns6 && e.currentTarget
+        != e.relatedTarget && !contains_ns6(e.currentTarget, e.relatedTarget))\r\n
+        \               delayhidemenu()\r\n        }\r\n\r\n        function clickreturnvalue()
+        {\r\n            if (ie4 || ns6) return false\r\n            else return true\r\n
+        \       }\r\n        function populatemenu(what) {\r\n            if (ie4
+        || ns6)\r\n                dropmenuobj.innerHTML = what.join(\"\")\r\n        }\r\n
+        \       function showhide(obj, e, visible, hidden, menuwidth) {\r\n            if
+        (ie4 || ns6)\r\n                dropmenuobj.style.left = dropmenuobj.style.top
+        = -500\r\n            if (menuwidth != \"\") {\r\n                dropmenuobj.widthobj
+        = dropmenuobj.style\r\n                dropmenuobj.widthobj.width = menuwidth\r\n
+        \           }\r\n            if (e.type == \"click\" && obj.visibility ==
+        hidden || e.type == \"mouseover\")\r\n                obj.visibility = visible\r\n
+        \           else if (e.type == \"click\")\r\n                obj.visibility
+        = hidden\r\n        }\r\n\r\n\r\n        function getposOffset(what, offsettype)
+        {\r\n            var totaloffset = (offsettype == \"left\") ? what.offsetLeft
+        : what.offsetTop;\r\n            var parentEl = what.offsetParent;\r\n            while
+        (parentEl != null) {\r\n                totaloffset = (offsettype == \"left\")
+        ? totaloffset + parentEl.offsetLeft : totaloffset + parentEl.offsetTop;\r\n
+        \               parentEl = parentEl.offsetParent;\r\n            }\r\n            return
+        totaloffset;\r\n        }\r\n        function hidemenu(e) {\r\n            if
+        (typeof dropmenuobj != \"undefined\") {\r\n                if (ie4 || ns6)\r\n
+        \                   dropmenuobj.style.visibility = \"hidden\";\r\n                if
+        (document.getElementById('small') != null) {\r\n                    document.getElementById('small').style.visibility
+        = 'hidden';\r\n                    document.getElementById('med').style.visibility
+        = 'hidden';\r\n                    document.getElementById('larg').style.visibility
+        = 'hidden';\r\n                }\r\n            }\r\n        }\r\n\r\n        function
+        delayhidemenu() {\r\n            if (ie4 || ns6)\r\n                delayhide
+        = setTimeout(\"hidemenu()\", disappeardelay)\r\n\r\n        }\r\n        function
+        iecompattest() {\r\n            return (document.compatMode && document.compatMode
+        != \"BackCompat\") ? document.documentElement : document.body\r\n        }\r\n
+        \       function clearbrowseredge(obj, whichedge) {\r\n            var edgeoffset
+        = 0\r\n            if (whichedge == \"rightedge\") {\r\n                var
+        windowedge = ie4 && !window.opera ? iecompattest().scrollLeft + iecompattest().clientWidth
+        - 15 : window.pageXOffset + window.innerWidth - 15\r\n                dropmenuobj.contentmeasure
+        = dropmenuobj.offsetWidth\r\n                if (windowedge - dropmenuobj.x
+        < dropmenuobj.contentmeasure)\r\n                    edgeoffset = dropmenuobj.contentmeasure
+        - obj.offsetWidth\r\n            }\r\n            else {\r\n                var
+        topedge = ie4 && !window.opera ? iecompattest().scrollTop : window.pageYOffset\r\n
+        \               var windowedge = ie4 && !window.opera ? iecompattest().scrollTop
+        + iecompattest().clientHeight - 15 : window.pageYOffset + window.innerHeight
+        - 18\r\n                dropmenuobj.contentmeasure = dropmenuobj.offsetHeight\r\n
+        \               if (windowedge - dropmenuobj.y < dropmenuobj.contentmeasure)
+        { //move up?\r\n                    edgeoffset = dropmenuobj.contentmeasure
+        + obj.offsetHeight\r\n                    if ((dropmenuobj.y - topedge) <
+        dropmenuobj.contentmeasure) //up no good either?\r\n                        edgeoffset
+        = dropmenuobj.y + obj.offsetHeight - topedge\r\n                }\r\n            }\r\n
+        \           return edgeoffset\r\n        }\r\n\r\n        function dropdownmenu(obj,
+        e, menucontents, menuwidth) {\r\n            //alert(obj);\r\n            if
+        (navigator.userAgent.toLowerCase().indexOf('mozilla') > 0 || navigator.userAgent.indexOf('Firefox')
+        > 0 || navigator.userAgent.indexOf('Mozilla') || navigator.userAgent.indexOf('3.0.1')
+        > 0) {\r\n                menuwidth = \"98px\"\r\n            }\r\n            else
+        {\r\n\r\n            }\r\n\r\n            if (window.event) event.cancelBubble
+        = true\r\n            else if (e.stopPropagation) e.stopPropagation()\r\n
+        \           clearhidemenu()\r\n            dropmenuobj = document.getElementById
+        ? document.getElementById(\"dropmenudiv\") : dropmenudiv\r\n            populatemenu(menucontents)\r\n\r\n
+        \           if (ie4 || ns6) {\r\n                showhide(dropmenuobj.style,
+        e, \"visible\", \"hidden\", menuwidth)\r\n                dropmenuobj.x =
+        getposOffset(obj, \"left\")\r\n                dropmenuobj.y = getposOffset(obj,
+        \"top\")\r\n                dropmenuobj.style.left = dropmenuobj.x - clearbrowseredge(obj,
+        \"rightedge\") + \"px\"\r\n                dropmenuobj.style.top = dropmenuobj.y
+        - clearbrowseredge(obj, \"bottomedge\") + obj.offsetHeight + \"px\"\r\n            }\r\n
+        \           if (document.getElementById('small') != null) {\r\n                if
+        (document.getElementById('checkmenu').value == \"small\") {\r\n                    document.getElementById('small').style.visibility
+        = 'visible';\r\n\r\n                    document.getElementById('med').style.visibility
+        = 'hidden';\r\n                }\r\n            }\r\n\r\n            if (document.getElementById('med')
+        != null) {\r\n                if (document.getElementById('checkmenu').value
+        == \"normal\") {\r\n\r\n                    document.getElementById('med').style.visibility
+        = 'visible';\r\n                    //alert(document.getElementById('small').style.visibility)\r\n
+        \               }\r\n            }\r\n            if (document.getElementById('larg')
+        != null) {\r\n                if (document.getElementById('checkmenu').value
+        == \"large\") {\r\n\r\n                    document.getElementById('larg').style.visibility
+        = 'visible';\r\n                    document.getElementById('med').style.visibility
+        = 'hidden';\r\n                }\r\n            }\r\n            return clickreturnvalue()\r\n\r\n
+        \       }\r\n\r\n        function pdftest() {\r\n            var ank\r\n            var
+        ank1\r\n            ank1 = \"http://203.200.89.48/NaiDunia/epaperpdf/\"\r\n
+        \           ank = document.getElementById('pdffull').value\r\n            window.open(ank1
+        + ank + \".zip\")\r\n        }\r\n        /*function feedback()\r\n        {\r\n
+        \       if(data!=\"\")\r\n        {\r\n        window.open(\"Comment.aspx\",\"FeedBack\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=100,left=100,width=600,height=600,titlebar=yes\");\t\r\n
+        \       }\r\n        else\r\n        {\r\n        alert(\"Please login first!\");\r\n
+        \       }\r\n        }*/\r\n\r\n        function feedback() {\r\n\r\n            //window.open(\"Comment.aspx\",\"FeedBack\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=100,left=100,width=600,height=600,titlebar=yes\");\t\r\n
+        \           window.open(\"feedback.aspx\", \"Feedback\", \"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,top=20,left=50,width=550,height=500,titlebar=yes\");\r\n
+        \       }\r\n        function opencontact() {\r\n            //window.open(\"http://192.168.11.73/nn/Contacts.htm\",\"Contacts\",\"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,top=100,left=100,width=800,height=700,titlebar=yes\");\t\r\n
+        \           window.open(\"http://65.175.77.35/kannad-new/Contacts.htm\", \"Contacts\",
+        \"toolbar=no,location=0,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,top=100,left=100,width=800,height=700,titlebar=yes\");\r\n
+        \       }\r\n        function openabout() {\r\n            //window.open(\"http://192.168.11.73/nn/About-Us.pdf\");\r\n
+        \           window.open(\"http://65.175.77.35/kannad-new/About-Us.pdf\");\r\n
+        \       }\r\n        function openadd() {\r\n            //window.open(\"http://192.168.11.73/nn/images/Naidunia-Ad-Tariff.pdf\");\r\n
+        \           window.open(\"http://65.175.77.35/kannad-new/images/Naidunia-Ad-Tariff.pdf\")\r\n
+        \       }\r\n        function Sundayopenadd() {\r\n            //window.open(\"http://192.168.11.73/nn/images/Sunday-NaiDunia-Ad-Tariff.pdf\");\r\n
+        \           window.open(\"http://65.175.77.35/kannad-new/images/Sunday-NaiDunia-Ad-Tariff.pdf\")\r\n
+        \       }\r\n\r\n        function abc() {\r\n            document.getElementById('frmimg').src
+        = \"epapermain1.aspx?pageno1=\" + document.getElementById('txtpageno').value
+        + \"\";\r\n        }\r\n    </script>\r\n\r\n</head>\r\n\r\n<body style=\"margin:
+        0px\" class=\"main-body\" onload=\"load_function()\">\r\n    <form name=\"frmepaper\"
+        method=\"post\" action=\"epapermain.aspx?queryed=9&amp;eddate=6%2f6%2f2014\"
+        id=\"frmepaper\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"
+        value=\"/wEPDwULLTIwODA1MTk1NzMPZBYCAgEPZBYuAhAPDxYCHgRUZXh0BQE5ZGQCHA8PFgIfAAWJBjxzY3JpcHQ+IHZhciBtZW51MT1uZXcgQXJyYXkoKTttZW51MVsyXT0nPGEgaHJlZj0iZXBhcGVybWFpbi5hc3B4P3F1ZXJ5ZWQ9OSZlZGRhdGU9Ni81LzIwMTQiIHRhcmdldD1fYmxhbms+Jm5ic3A7Jm5ic3A7SnVuIDA1LCAyMDE0LFRodTwvYT4nO21lbnUxWzNdPSc8YSBocmVmPSJlcGFwZXJtYWluLmFzcHg/cXVlcnllZD05JmVkZGF0ZT02LzQvMjAxNCIgdGFyZ2V0PV9ibGFuaz4mbmJzcDsmbmJzcDtKdW4gMDQsIDIwMTQsV2VkPC9hPic7bWVudTFbNF09JzxhIGhyZWY9ImVwYXBlcm1haW4uYXNweD9xdWVyeWVkPTkmZWRkYXRlPTYvMy8yMDE0IiB0YXJnZXQ9X2JsYW5rPiZuYnNwOyZuYnNwO0p1biAwMywgMjAxNCxUdWU8L2E+JzttZW51MVs1XT0nPGEgaHJlZj0iZXBhcGVybWFpbi5hc3B4P3F1ZXJ5ZWQ9OSZlZGRhdGU9Ni8yLzIwMTQiIHRhcmdldD1fYmxhbms+Jm5ic3A7Jm5ic3A7SnVuIDAyLCAyMDE0LE1vbjwvYT4nO21lbnUxWzZdPSc8YSBocmVmPSJlcGFwZXJtYWluLmFzcHg/cXVlcnllZD05JmVkZGF0ZT02LzEvMjAxNCIgdGFyZ2V0PV9ibGFuaz4mbmJzcDsmbmJzcDtKdW4gMDEsIDIwMTQsU3VuPC9hPic7bWVudTFbN109JzxhIGhyZWY9ImVwYXBlcm1haW4uYXNweD9xdWVyeWVkPTkmZWRkYXRlPTUvMzEvMjAxNCIgdGFyZ2V0PV9ibGFuaz4mbmJzcDsmbmJzcDtNYXkgMzEsIDIwMTQsU2F0PC9hPic7bWVudTFbOF09JzxhIGhyZWY9IiMiIG9uY2xpY2s9ImFyY2hpdmVzMTEoKSI+Jm5ic3A7Jm5ic3A7TW9yZSBBcmNoaXZlczwvYT4nOzwvc2NyaXB0PmRkAiQPDxYCHwAFATFkZAI6Dw9kFgIeCm9uS2V5UHJlc3MFJXJldHVybiBudW1tZXJpY3ZhbGlkYXRlcjIodGhpcyxldmVudClkAjwPZBYCZg8PFgIfAAUBMmRkAj4PZBYCZg8PFgIfAAUBMGRkAkUPFgIeCWlubmVyaHRtbGRkAkYPFgIfAgUUSnVuZSAwNiwgMjAxNCxGcmlkYXlkAkcPFgIfAgWnAjxkaXYgaWQ9J0RhdGUnICBzdHlsZT0ncG9zaXRpb246cmVsYXRpdmU7Y3Vyc29yOmhhbmQ7d2lkdGg6MTUwcHg7JyBvbkNsaWNrPSJyZXR1cm4gY2xpY2tyZXR1cm52YWx1ZSgpIiBvbk1vdXNlb3Zlcj0iZHJvcGRvd25tZW51KHRoaXMsIGV2ZW50LCBtZW51MSwgJzExNXB4JykiIG9uTW91c2VvdXQ9ImRlbGF5aGlkZW1lbnUoKSI+PHNwYW4gY2xhc3M9J2ZvbnRIaWdobGlnaHQnPkFyY2hpdmVzJm5ic3A7PGltZyB2YWxpZ249J2Fic21pZGRsZScgIHNyYz0naW1hZ2VzL2Rvd25hcnJvdy5qcGcnPjwvc3Bhbj48L2Rpdj5kAksPFgIfAmVkAk0PFgIfAgVvPEEgY2xhc3M9J2xiT24gdXNyJyBzdHlsZT0nRk9OVC1TSVpFOiAxMnB4OyBDT0xPUjogYmxhY2s7IEZPTlQtRkFNSUxZOiB2ZXJkYW5hJyBocmVmPSdsb2dpbmZvcm0uYXNweCc+TG9naW48L0E+ZAJSDxBkZBYAZAJTDw9kFgIeB09uQ2xpY2sFImphdmFzY3JpcHQ6cmV0dXJuIHNldGJvdHRvbWJhcnMoKTtkAlQPD2QWAh8DBSFqYXZhc2NyaXB0OnJldHVybiBzZXRib3R0b21iYXIoKTtkAlUPD2QWAh8DBSBqYXZhc2NyaXB0OnJldHVybiBsX3BhZ2VfdHVybigpO2QCVg8WAh8DBSRqYXZhc2NyaXB0OnJldHVybiBnZXRpbWducHJlKDEsMTIzKTtkAlcPFgIfAgWnCTxzcGFuIGlkPSJzcGFuTnVtYmVyMSIgb25jbGljaz0iZ2V0aW1nKCcxJywnNDEyJyk7Ij4xPC9zcGFuPjxzcGFuICBpZD0ic3Bhbk51bWJlcjIiIG9uY2xpY2s9ImdldGltZygnMicsJzQyMycpOyI+Mjwvc3Bhbj48c3BhbiAgaWQ9InNwYW5OdW1iZXIzIiBvbmNsaWNrPSJnZXRpbWcoJzMnLCc0MjUnKTsiPjM8L3NwYW4+PHNwYW4gIGlkPSJzcGFuTnVtYmVyNCIgb25jbGljaz0iZ2V0aW1nKCc0JywnNDI2Jyk7Ij40PC9zcGFuPjxzcGFuICBpZD0ic3Bhbk51bWJlcjUiIG9uY2xpY2s9ImdldGltZygnNScsJzQyNycpOyI+NTwvc3Bhbj48c3BhbiAgaWQ9InNwYW5OdW1iZXI2IiBvbmNsaWNrPSJnZXRpbWcoJzYnLCc0MjgnKTsiPjY8L3NwYW4+PHNwYW4gIGlkPSJzcGFuTnVtYmVyNyIgb25jbGljaz0iZ2V0aW1nKCc3JywnNDI5Jyk7Ij43PC9zcGFuPjxzcGFuICBpZD0ic3Bhbk51bWJlcjgiIG9uY2xpY2s9ImdldGltZygnOCcsJzQzMCcpOyI+ODwvc3Bhbj48c3BhbiAgaWQ9InNwYW5OdW1iZXIxMCIgb25jbGljaz0iZ2V0aW1nKCcxMCcsJzQxMycpOyI+MTA8L3NwYW4+PHNwYW4gIGlkPSJzcGFuTnVtYmVyMTEiIG9uY2xpY2s9ImdldGltZygnMTEnLCc0MTQnKTsiPjExPC9zcGFuPjxzcGFuICBpZD0ic3Bhbk51bWJlcjEyIiBvbmNsaWNrPSJnZXRpbWcoJzEyJywnNDE1Jyk7Ij4xMjwvc3Bhbj48c3BhbiAgaWQ9InNwYW5OdW1iZXIxMyIgb25jbGljaz0iZ2V0aW1nKCcxMycsJzQxNicpOyI+MTM8L3NwYW4+PHNwYW4gIGlkPSJzcGFuTnVtYmVyMTQiIG9uY2xpY2s9ImdldGltZygnMTQnLCc0MTcnKTsiPjE0PC9zcGFuPjxzcGFuICBpZD0ic3Bhbk51bWJlcjE1IiBvbmNsaWNrPSJnZXRpbWcoJzE1JywnNDE4Jyk7Ij4xNTwvc3Bhbj48c3BhbiAgaWQ9InNwYW5OdW1iZXIxNiIgb25jbGljaz0iZ2V0aW1nKCcxNicsJzQxOScpOyI+MTY8L3NwYW4+PHNwYW4gIGlkPSJzcGFuTnVtYmVyMTciIG9uY2xpY2s9ImdldGltZygnMTcnLCc0MjAnKTsiPjE3PC9zcGFuPjxzcGFuICBpZD0ic3Bhbk51bWJlcjE4IiBvbmNsaWNrPSJnZXRpbWcoJzE4JywnNDIxJyk7Ij4xODwvc3Bhbj48c3BhbiAgaWQ9InNwYW5OdW1iZXIxOSIgb25jbGljaz0iZ2V0aW1nKCcxOScsJzQyMicpOyI+MTk8L3NwYW4+PHNwYW4gIGlkPSJzcGFuTnVtYmVyMjAiIG9uY2xpY2s9ImdldGltZygnMjAnLCc0MjQnKTsiPjIwPC9zcGFuPmQCWA8PZBYCHwMFIGphdmFzY3JpcHQ6cmV0dXJuIGdldGltZygxLDEyMyk7ZAJZDxYCHwMFJGphdmFzY3JpcHQ6cmV0dXJuIGdldGltZ25leHQoMSwxMjMpO2QCWg9kFgICAw8WAh8CBbAbPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0wMTwvc3Bhbj48c3BhbiAgPjxpbWcgb25jbGljaz0iZ2V0aW1nKCcxJywnNDEyJyk7IiBpZD0ic3BhbnRodW1iTnVtYmVyMSIgY2xhc3M9InNlbGVjdGVkIiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItMXNzLmpwZyA+IDwvc3Bhbj48c3BhbiBjbGFzcz0icGFnZWRlc2VsZWN0Ij5QYWdlLTAyPC9zcGFuPjxzcGFuPjxpbWcgY2xhc3M9Im5vdHNlbGVjdGVkIiBvbmNsaWNrPSJnZXRpbWcoJzInLCc0MjMnKTsiIGlkPSJzcGFudGh1bWJOdW1iZXIyIiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItMnNzLmpwZyA+IDwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJwYWdlZGVzZWxlY3QiPlBhZ2UtMDM8L3NwYW4+PHNwYW4+PGltZyBjbGFzcz0ibm90c2VsZWN0ZWQiIG9uY2xpY2s9ImdldGltZygnMycsJzQyNScpOyIgaWQ9InNwYW50aHVtYk51bWJlcjMiIHNyYz1FcGFwZXJJbWFnZXMvNjYyMDE0LzY2MjAxNC1tZC1oci0zc3MuanBnID4gPC9zcGFuPjxicj4gPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0wNDwvc3Bhbj48c3Bhbj48aW1nIGNsYXNzPSJub3RzZWxlY3RlZCIgb25jbGljaz0iZ2V0aW1nKCc0JywnNDI2Jyk7IiBpZD0ic3BhbnRodW1iTnVtYmVyNCIgc3JjPUVwYXBlckltYWdlcy82NjIwMTQvNjYyMDE0LW1kLWhyLTRzcy5qcGcgPiA8L3NwYW4+PGJyPiA8c3BhbiBjbGFzcz0icGFnZWRlc2VsZWN0Ij5QYWdlLTA1PC9zcGFuPjxzcGFuPjxpbWcgY2xhc3M9Im5vdHNlbGVjdGVkIiBvbmNsaWNrPSJnZXRpbWcoJzUnLCc0MjcnKTsiIGlkPSJzcGFudGh1bWJOdW1iZXI1IiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItNXNzLmpwZyA+IDwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJwYWdlZGVzZWxlY3QiPlBhZ2UtMDY8L3NwYW4+PHNwYW4+PGltZyBjbGFzcz0ibm90c2VsZWN0ZWQiIG9uY2xpY2s9ImdldGltZygnNicsJzQyOCcpOyIgaWQ9InNwYW50aHVtYk51bWJlcjYiIHNyYz1FcGFwZXJJbWFnZXMvNjYyMDE0LzY2MjAxNC1tZC1oci02c3MuanBnID4gPC9zcGFuPjxicj4gPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0wNzwvc3Bhbj48c3Bhbj48aW1nIGNsYXNzPSJub3RzZWxlY3RlZCIgb25jbGljaz0iZ2V0aW1nKCc3JywnNDI5Jyk7IiBpZD0ic3BhbnRodW1iTnVtYmVyNyIgc3JjPUVwYXBlckltYWdlcy82NjIwMTQvNjYyMDE0LW1kLWhyLTdzcy5qcGcgPiA8L3NwYW4+PGJyPiA8c3BhbiBjbGFzcz0icGFnZWRlc2VsZWN0Ij5QYWdlLTA4PC9zcGFuPjxzcGFuPjxpbWcgY2xhc3M9Im5vdHNlbGVjdGVkIiBvbmNsaWNrPSJnZXRpbWcoJzgnLCc0MzAnKTsiIGlkPSJzcGFudGh1bWJOdW1iZXI4IiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItOHNzLmpwZyA+IDwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJwYWdlZGVzZWxlY3QiPlBhZ2UtMTA8L3NwYW4+PHNwYW4+PGltZyBjbGFzcz0ibm90c2VsZWN0ZWQiIG9uY2xpY2s9ImdldGltZygnMTAnLCc0MTMnKTsiIGlkPSJzcGFudGh1bWJOdW1iZXIxMCIgc3JjPUVwYXBlckltYWdlcy82NjIwMTQvNjYyMDE0LW1kLWhyLTEwc3MuanBnID4gPC9zcGFuPjxicj4gPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0xMTwvc3Bhbj48c3Bhbj48aW1nIGNsYXNzPSJub3RzZWxlY3RlZCIgb25jbGljaz0iZ2V0aW1nKCcxMScsJzQxNCcpOyIgaWQ9InNwYW50aHVtYk51bWJlcjExIiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItMTFzcy5qcGcgPiA8L3NwYW4+PGJyPiA8c3BhbiBjbGFzcz0icGFnZWRlc2VsZWN0Ij5QYWdlLTEyPC9zcGFuPjxzcGFuPjxpbWcgY2xhc3M9Im5vdHNlbGVjdGVkIiBvbmNsaWNrPSJnZXRpbWcoJzEyJywnNDE1Jyk7IiBpZD0ic3BhbnRodW1iTnVtYmVyMTIiIHNyYz1FcGFwZXJJbWFnZXMvNjYyMDE0LzY2MjAxNC1tZC1oci0xMnNzLmpwZyA+IDwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJwYWdlZGVzZWxlY3QiPlBhZ2UtMTM8L3NwYW4+PHNwYW4+PGltZyBjbGFzcz0ibm90c2VsZWN0ZWQiIG9uY2xpY2s9ImdldGltZygnMTMnLCc0MTYnKTsiIGlkPSJzcGFudGh1bWJOdW1iZXIxMyIgc3JjPUVwYXBlckltYWdlcy82NjIwMTQvNjYyMDE0LW1kLWhyLTEzc3MuanBnID4gPC9zcGFuPjxicj4gPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0xNDwvc3Bhbj48c3Bhbj48aW1nIGNsYXNzPSJub3RzZWxlY3RlZCIgb25jbGljaz0iZ2V0aW1nKCcxNCcsJzQxNycpOyIgaWQ9InNwYW50aHVtYk51bWJlcjE0IiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItMTRzcy5qcGcgPiA8L3NwYW4+PGJyPiA8c3BhbiBjbGFzcz0icGFnZWRlc2VsZWN0Ij5QYWdlLTE1PC9zcGFuPjxzcGFuPjxpbWcgY2xhc3M9Im5vdHNlbGVjdGVkIiBvbmNsaWNrPSJnZXRpbWcoJzE1JywnNDE4Jyk7IiBpZD0ic3BhbnRodW1iTnVtYmVyMTUiIHNyYz1FcGFwZXJJbWFnZXMvNjYyMDE0LzY2MjAxNC1tZC1oci0xNXNzLmpwZyA+IDwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJwYWdlZGVzZWxlY3QiPlBhZ2UtMTY8L3NwYW4+PHNwYW4+PGltZyBjbGFzcz0ibm90c2VsZWN0ZWQiIG9uY2xpY2s9ImdldGltZygnMTYnLCc0MTknKTsiIGlkPSJzcGFudGh1bWJOdW1iZXIxNiIgc3JjPUVwYXBlckltYWdlcy82NjIwMTQvNjYyMDE0LW1kLWhyLTE2c3MuanBnID4gPC9zcGFuPjxicj4gPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0xNzwvc3Bhbj48c3Bhbj48aW1nIGNsYXNzPSJub3RzZWxlY3RlZCIgb25jbGljaz0iZ2V0aW1nKCcxNycsJzQyMCcpOyIgaWQ9InNwYW50aHVtYk51bWJlcjE3IiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItMTdzcy5qcGcgPiA8L3NwYW4+PGJyPiA8c3BhbiBjbGFzcz0icGFnZWRlc2VsZWN0Ij5QYWdlLTE4PC9zcGFuPjxzcGFuPjxpbWcgY2xhc3M9Im5vdHNlbGVjdGVkIiBvbmNsaWNrPSJnZXRpbWcoJzE4JywnNDIxJyk7IiBpZD0ic3BhbnRodW1iTnVtYmVyMTgiIHNyYz1FcGFwZXJJbWFnZXMvNjYyMDE0LzY2MjAxNC1tZC1oci0xOHNzLmpwZyA+IDwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJwYWdlZGVzZWxlY3QiPlBhZ2UtMTk8L3NwYW4+PHNwYW4+PGltZyBjbGFzcz0ibm90c2VsZWN0ZWQiIG9uY2xpY2s9ImdldGltZygnMTknLCc0MjInKTsiIGlkPSJzcGFudGh1bWJOdW1iZXIxOSIgc3JjPUVwYXBlckltYWdlcy82NjIwMTQvNjYyMDE0LW1kLWhyLTE5c3MuanBnID4gPC9zcGFuPjxicj4gPHNwYW4gY2xhc3M9InBhZ2VkZXNlbGVjdCI+UGFnZS0yMDwvc3Bhbj48c3Bhbj48aW1nIGNsYXNzPSJub3RzZWxlY3RlZCIgaWQ9InNwYW50aHVtYk51bWJlcjIwIiAgb25jbGljaz0iZ2V0aW1nKCcyMCcsJzQyNCcpOyIgaWQ9InNwYW50aHVtYk51bWJlcjIwIiBzcmM9RXBhcGVySW1hZ2VzLzY2MjAxNC82NjIwMTQtbWQtaHItMjBzcy5qcGcgPiA8L3NwYW4+ZAJeDw8WAh4HVmlzaWJsZWhkZAJhD2QWBAIBDw9kFgIfAwUgamF2YXNjcmlwdDpyZXR1cm4gUl9wYWdlX3R1cm4oKTtkAgMPD2QWAh8DBSBqYXZhc2NyaXB0OnJldHVybiBsX3BhZ2VfdHVybigpO2QCYg9kFgICAQ8PFgIfBGhkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WCgURcmlnaHRfdHVybl9ib3R0b20FEGxlZnRfdHVybl9ib3R0b20FC2ltZ19jb3JybmVyBQtsZWZ0X2Nvcm5lcgUDc3BnBQNkcGcFCWxlZnRfdHVybgUKcmlnaHRfdHVybgUGYnRucHJlBQdidG5uZXh0f0ynzfErlDBzG/ZImt7X7fZYKtg=\"
+        />\r\n\r\n<script type=\"text/javascript\" src=\"/ajax/common.ashx\"></script><script
+        type=\"text/javascript\" src=\"/ajax/naidunia.epapermain,App_Web_epapermain.aspx.cdcab7d2.uxpfo3t1.ashx\"></script>\r\n<input
+        type=\"hidden\" name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEWPAK34qeOCgKLgbjIBgKjwK+3BQKYxsalBwLYl7jNDAKE56D7BALG1KDEBQK3lL2OAwLu1ur1BQLWwPDMDwLOgIOwCgLfkoXrCALEhKj+DQLFmumQCwKS45CPDQKy2tyJDgKY1u7UCQKqw7zUAgLliarnBgKG85XiDwKco8KpBQK5p9mqAQKO/571BQLm1/nJDwKPxpaMAQL+lcKuCQK41sT9BgLT8ZjHAQK1lpTSBgKM0rLrBgKM0vbZDAKM0oq1BQKM0u58AozSgtgJAozSxsYPAozS2qEIAozS/rYIAozSkpIBAond7OEDAord7OEDAp+J2eEFAoX74pUDAsjF3o8IAoiAsq8PAo37yrkHAtquy+ECAqGK4KQGAqmsnqEGAr/Y/I8BApTVxtUKAoPVxtUKAo+s1vwKAszivJ8FAoiw5JECArTx/q4FAvaS2YANArXh84kKAraKyYYJAvuk+YUHAu/2vmcQN5HOxUbj/r/ycXSQ+PQSr/AEjQ==\"
+        />\r\n    <div id=\"bottomnaidunia\" align=\"center\">\r\n    </div>\r\n    <!--<div
+        class=\"dynamicDIV\" id=\"dvold\" onmouseover=\"adiv=true;\" style=\"VISIBILITY:
+        hidden; BACKGROUND-COLOR: #f2f2f2\"\r\n\t\t\t\tonmouseout=\"adiv=false;setTimeout('hideDIV()',500);\"></div>\r\n\t\t\t<div
+        class=\"manage1\" id=\"sub_dv_outerold\" style=\"VISIBILITY: hidden; BACKGROUND-COLOR:
+        #f2f2f2\"></div>\r\n\t\t\t<div class=\"manage\" id=\"sub_dvold\" style=\"VISIBILITY:
+        hidden; BACKGROUND-COLOR: #f2f2f2\"></div>\r\n\t\t\t<div id=\"arrow_dvold\"
+        style=\"VISIBILITY: hidden; POSITION: absolute\"><IMG src=\"images/mainarrow.gif\"></div>-->\r\n
+        \   <!--<div id=\"rightturn\" title=\"Go To Next Page\" style=\"LEFT: 752px;
+        VISIBILITY: visible; POSITION: absolute; TOP: 185px\"></asp:imagebutton></div>-->\r\n
+        \   <!--<div id=\"leftturn\" title=\"Go To Previous Page\" style=\"LEFT: 260px;
+        VISIBILITY: visible; POSITION: absolute; TOP: 185px; BACKGROUND-COLOR: white\"></div>-->\r\n
+        \   <!--<div id=\"rightturnbottom\" title=\"Go To Next Page\" style=\"LEFT:
+        752px; VISIBILITY: visible; POSITION: absolute; TOP: 772px\"><input type=\"image\"
+        name=\"right_turn_bottom\" id=\"right_turn_bottom\" src=\"images/r_turn.jpg\"
+        alt=\"Go To Next Page\" border=\"0\" style=\"CURSOR: pointer\" /></div>-->\r\n
+        \   <!--\t<div id=\"leftturnbottom\" title=\"Go To Previous Page\" style=\"LEFT:
+        260px; VISIBILITY: visible; POSITION: absolute; TOP: 772px; BACKGROUND-COLOR:
+        white\"><input type=\"image\" name=\"left_turn_bottom\" id=\"left_turn_bottom\"
+        src=\"images/l_turn.jpg\" alt=\"Go To Previous Page\" border=\"0\" style=\"CURSOR:
+        pointer\" /></div>-->\r\n    <div id=\"googleadd12\" style=\"left: 840px;
+        position: absolute; top: 180px; background-color: white;\r\n        dispaly:
+        block\">\r\n    </div>\r\n    <!-- filter div -->\r\n    <div id=\"oFilterDIV\"
+        style=\"border-right: #990783 4px solid; border-top: #990783 4px solid;\r\n
+        \       background: none transparent scroll repeat 0% 0%; filter: alpha(Opacity=20,
+        FinishOpacity=90, Style=0, StartX=0, FinishX=100, StartY=0, FinishY=100) Glow(color=#671773,strength=700);\r\n
+        \       left: 10px; visibility: hidden; border-left: #990783 4px solid; cursor:
+        pointer;\r\n        border-bottom: #990783 4px ridge; scrollbar-base-color:
+        hotpink; position: absolute;\r\n        top: 83px; progid: DXImageTransform.Microsoft.Alpha(Opacity=0)\">\r\n
+        \   </div>\r\n    <div id=\"oFilterDIV1\" style=\"border-right: #990783 4px
+        solid; border-top: #990783 4px solid;\r\n        background: none transparent
+        scroll repeat 0% 0%; filter: alpha(Opacity=20, FinishOpacity=90, Style=0,
+        StartX=0, FinishX=100, StartY=0, FinishY=100) Glow(color=#671773,strength=700);\r\n
+        \       left: 10px; visibility: hidden; border-left: #990783 4px solid; cursor:
+        pointer;\r\n        border-bottom: #990783 4px ridge; scrollbar-base-color:
+        hotpink; position: absolute;\r\n        top: 83px; progid: DXImageTransform.Microsoft.Alpha(Opacity=0)\">\r\n
+        \   </div>\r\n    <div id=\"oFilterDIV11\" style=\"border-right: #990783 0px
+        solid; border-top: #990783 0px solid;\r\n        left: 10px; visibility: hidden;
+        border-left: #990783 0px solid; cursor: pointer;\r\n        border-bottom:
+        #990783 0px ridge; position: absolute; top: 83px\">\r\n    </div>\r\n    <div
+        id=\"oFilterDIVtest\" style=\"background: none transparent scroll repeat 0%
+        0%;\r\n        filter: alpha(Opacity=20, FinishOpacity=0, Style=0, StartX=0,
+        FinishX=0, StartY=0, FinishY=0) Glow(color=#000000,strength=00);\r\n        left:
+        0px; visibility: hidden; border-left: black 0px ridge; border-bottom: black
+        0px ridge;\r\n        scrollbar-base-color: hotpink; position: absolute; top:
+        0px; progid: DXImageTransform.Microsoft.Alpha(Opacity=0)\">\r\n    </div>\r\n
+        \   <!--- this is hidden file --->\r\n    <input name=\"txttodaylive\" type=\"text\"
+        id=\"txttodaylive\" style=\"display: none\" /><input name=\"txteditionname\"
+        type=\"text\" value=\"Main Edition\" id=\"txteditionname\" style=\"display:
+        none\" /><input name=\"txtthumlist\" type=\"text\" value=\"thumb\" id=\"txtthumlist\"
+        style=\"display: none\" /><input name=\"txttodaycheck\" type=\"text\" id=\"txttodaycheck\"
+        style=\"display: none\" /><input name=\"Texsub\" type=\"text\" value=\"0\"
+        id=\"Texsub\" style=\"display: none\" /><input name=\"Txtsubeditionname\"
+        type=\"text\" id=\"Txtsubeditionname\" style=\"display: none\" /><input name=\"txtsubeditiion\"
+        type=\"text\" id=\"txtsubeditiion\" style=\"display: none\" /><input name=\"txtsubeditiionload\"
+        type=\"text\" id=\"txtsubeditiionload\" style=\"display: none\" /><input name=\"txtturn\"
+        type=\"text\" value=\"turn_page\" id=\"txtturn\" style=\"display: none\" /><input
+        name=\"txtdate\" type=\"text\" value=\"6/6/2014\" id=\"txtdate\" style=\"display:
+        none\" /><input name=\"txtedition\" type=\"text\" value=\"9\" id=\"txtedition\"
+        style=\"display: none\" /><input name=\"txtcheckuserlogin\" type=\"text\"
+        value=\"0\" id=\"txtcheckuserlogin\" style=\"display: none\" /><input name=\"selectuserpage\"
+        type=\"text\" value=\"none\" id=\"selectuserpage\" style=\"display: none\"
+        /><input name=\"txtparentid\" type=\"text\" value=\"412\" id=\"txtparentid\"
+        style=\"display: none\" /><input name=\"txtfulpage\" type=\"text\" value=\"False\"
+        id=\"txtfulpage\" style=\"display: none\" /><input name=\"txtarticle\" type=\"text\"
+        value=\"True\" id=\"txtarticle\" style=\"display: none\" /><input name=\"txtboxid\"
+        type=\"text\" id=\"txtboxid\" style=\"display: none\" /><input name=\"Txtgrid\"
+        type=\"text\" id=\"Txtgrid\" style=\"display: none\" /><input name=\"txtmaxpageno\"
+        type=\"text\" value=\"20\" id=\"txtmaxpageno\" style=\"display: none\" /><span
+        id=\"Label2\" style=\"display:inline-block;display: none\"></span><span id=\"Label3\"
+        style=\"display:inline-block;display: none\"></span><span id=\"Label4\" style=\"display:inline-block;display:
+        none\"></span><span id=\"lbldiv\" style=\"display:inline-block;display: none\"><script>
+        var menu1=new Array();menu1[2]='<a href=\"epapermain.aspx?queryed=9&eddate=6/5/2014\"
+        target=_blank>&nbsp;&nbsp;Jun 05, 2014,Thu</a>';menu1[3]='<a href=\"epapermain.aspx?queryed=9&eddate=6/4/2014\"
+        target=_blank>&nbsp;&nbsp;Jun 04, 2014,Wed</a>';menu1[4]='<a href=\"epapermain.aspx?queryed=9&eddate=6/3/2014\"
+        target=_blank>&nbsp;&nbsp;Jun 03, 2014,Tue</a>';menu1[5]='<a href=\"epapermain.aspx?queryed=9&eddate=6/2/2014\"
+        target=_blank>&nbsp;&nbsp;Jun 02, 2014,Mon</a>';menu1[6]='<a href=\"epapermain.aspx?queryed=9&eddate=6/1/2014\"
+        target=_blank>&nbsp;&nbsp;Jun 01, 2014,Sun</a>';menu1[7]='<a href=\"epapermain.aspx?queryed=9&eddate=5/31/2014\"
+        target=_blank>&nbsp;&nbsp;May 31, 2014,Sat</a>';menu1[8]='<a href=\"#\" onclick=\"archives11()\">&nbsp;&nbsp;More
+        Archives</a>';</script></span><input name=\"txtmainorsupp\" type=\"text\"
+        id=\"txtmainorsupp\" style=\"display: none\" /><input name=\"txtimagesize\"
+        type=\"text\" value=\"2\" id=\"txtimagesize\" style=\"display: none\" /><span
+        id=\"lblmsg\" style=\"display:inline-block;display: none\"></span><input name=\"txtbackedition\"
+        type=\"text\" value=\"0\" id=\"txtbackedition\" style=\"display: none\" /><input
+        name=\"txtfirstpage\" type=\"text\" value=\"1\" id=\"txtfirstpage\" style=\"display:
+        none\" /><input name=\"Txtparentid1\" type=\"text\" value=\"1\" id=\"Txtparentid1\"
+        style=\"display: none\" /><input name=\"txtnextedition\" type=\"text\" value=\"0\"
+        id=\"txtnextedition\" style=\"display: none\" /><input name=\"txtpageno\"
+        type=\"text\" value=\"1\" id=\"txtpageno\" style=\"display: none\" />\r\n
+        \   <input name=\"Textbox1\" type=\"text\" id=\"Textbox1\" style=\"display:
+        none\" /><input name=\"Textbox2\" type=\"text\" id=\"Textbox2\" style=\"display:
+        none\" /><input name=\"Textbox3\" type=\"text\" id=\"Textbox3\" style=\"display:
+        none\" /><input name=\"Textbox4\" type=\"text\" id=\"Textbox4\" style=\"display:
+        none\" /><input name=\"Textbox5\" type=\"text\" id=\"Textbox5\" style=\"display:
+        none\" /><input name=\"Textbox6\" type=\"text\" id=\"Textbox6\" style=\"display:
+        none\" /><span id=\"Label1\" style=\"display: none\"></span><span id=\"Label9\"
+        style=\"display: block\"></span><span id=\"Label5\" style=\"display: none\"></span><span
+        id=\"Label6\" style=\"display: none\"></span><span id=\"Label7\" style=\"display:
+        none\"></span><input name=\"Textbox7\" type=\"text\" id=\"Textbox7\" style=\"display:
+        none\" /><input name=\"Textbox8\" type=\"text\" id=\"Textbox8\" style=\"display:
+        none\" /><span id=\"Label8\" style=\"display: none\"></span><input name=\"Textbox9\"
+        type=\"text\" id=\"Textbox9\" style=\"display: none\" />\r\n    <input name=\"Textbox10\"
+        type=\"text\" id=\"Textbox10\" style=\"display: none\" /><input name=\"Textbox11\"
+        type=\"text\" id=\"Textbox11\" style=\"display: none\" /><input name=\"pdffull\"
+        type=\"text\" id=\"pdffull\" style=\"display: none\" /><input name=\"txtvol\"
+        type=\"text\" id=\"txtvol\" style=\"display: none\" /><input name=\"txtthumbnail\"
+        type=\"text\" id=\"txtthumbnail\" style=\"display: none\" />\r\n    <!----------End
+        hidden section here----------------->\r\n    <input name=\"txtdouble\" type=\"text\"
+        id=\"txtdouble\" style=\"display: none\" /><input name=\"txtpg\" type=\"text\"
+        value=\"1\" id=\"txtpg\" class=\"toptext\" onKeyPress=\"return nummericvalidater2(this,event)\"
+        style=\"display: none\" /></TD>\r\n    <!--<div id=\"r_arrow_DV\" onmouseover=\"show_corner();\"
+        class=\"FinishOpacityZila\" onmouseout=\"hide_corner();\"><input type=\"image\"
+        name=\"img_corrner\" id=\"img_corrner\" class=\"CURSOR: hand;\" src=\"images/rightCorner.gif\"
+        border=\"0\" style=\"DISPLAY: none\" /></div>\r\n\t\t\t<div id=\"r_arrow_DV_1\"
+        onmouseover=\"show_corner();\" class=\"corner_page_no_right\" onmouseout=\"hide_corner();\"><input
+        name=\"nxt_page_no\" type=\"text\" value=\"2\" readonly=\"readonly\" id=\"nxt_page_no\"
+        class=\"corner_page_no_right\" style=\"DISPLAY: none\" /></div>\r\n\t\t\t<div
+        id=\"r_arrow_DV_left\" onmouseover=\"show_left_corner();\" style=\"FILTER:
+        alpha(Opacity=30,FinishOpacity=60); LEFT: 220px; VISIBILITY: hidden; WIDTH:
+        50px; POSITION: absolute; TOP: 103px; HEIGHT: 40px; BACKGROUND-COLOR: white\"
+        onmouseout=\"hide_left_corner();\"><input type=\"image\" name=\"left_corner\"
+        id=\"left_corner\" class=\"CURSOR: hand;\" src=\"images/leftCorner.gif\" border=\"0\"
+        style=\"DISPLAY: none\" /></div>\r\n\t\t\t<div id=\"r_arrow_DV_2\" onmouseover=\"show_left_corner();\"
+        style=\"FILTER: alpha(Opacity=80); LEFT: 222px; VISIBILITY: hidden; WIDTH:
+        16px; POSITION: absolute; TOP: 104px; HEIGHT: 16px; BACKGROUND-COLOR: white\"
+        onmouseout=\"hide_left_corner();\"><input name=\"leftcon\" type=\"text\" value=\"0\"
+        readonly=\"readonly\" id=\"leftcon\" class=\"corner_page_no\" style=\"DISPLAY:
+        none\" /></div>-->\r\n    <div id=\"Div5\" style=\"left: 684px; visibility:
+        visible; width: 600px; position: absolute;\r\n        display: none; top:
+        10px\">\r\n        <table>\r\n            <tr>\r\n                <td class=\"top-bg12\"
+        style=\"border-right: #9f9b9a 0px solid; border-top: #9f9b9a 0px solid;\r\n
+        \                   border-left: #9f9b9a 0px solid; border-bottom: #000000
+        0px solid; display: none;\"\r\n                    valign=\"top\" align=\"right\">\r\n
+        \                   <input class=\"frm-tf-search\" onkeypress=\"return entervalid(this,event)\"
+        id=\"searchtxt\"\r\n                        onkeydown=\"return entervalidkey(this,event)\"
+        type=\"text\" size=\"70\" name=\"textfield\">&nbsp;\r\n                </td>\r\n
+        \               <td class=\"top-bg12\" style=\"border-right: #9f9b9a 0px solid;
+        border-top: #9f9b9a 0px solid;\r\n                    border-left: #9f9b9a
+        0px solid; border-bottom: #000000 0px solid; display: none;\">\r\n                    <table
+        cellspacing=\"0\" cellpadding=\"0\">\r\n                        <tr>\r\n                            <td>\r\n
+        \                               <img style=\"margin-top: 2px; cursor: pointer\"
+        onclick=\"search();\" alt=\"search\" src=\"images/search.gif\">\r\n                            </td>\r\n
+        \                       </tr>\r\n                    </table>\r\n                </td>\r\n
+        \           </tr>\r\n        </table>\r\n    </div>\r\n    <!--<div id=\"Div4\"
+        style=\"LEFT: 205px;top:117px;VISIBILITY: visible; POSITION: absolute;\">\r\n\t\t\t\t<table
+        cellSpacing=\"0\" cellPadding=\"0\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t<div><IMG
+        src=\"images/topnews.jpg\"></div>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t<marquee
+        id=\"Marq\" class=\"top-striptxt1\" onmouseover=\"stop();\" onmouseout=\"start();\"
+        scrollAmount=\"2\" scrollDelay=\"15\" width=\"500\" height=\"25\"></marquee>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>-->\r\n
+        \   <!--<div id=\"Div6\" style=\" LEFT: 875px; VISIBILITY: visible; WIDTH:
+        92px; POSITION: absolute; TOP: 50px\"><font class=\"topNaiDuniasearch\" style=\"cursor:pointer\"
+        >Recent Issues</font></div>-->\r\n    <!--<div id=\"Div3\" style=\"Z-INDEX:
+        999; LEFT: 330px; VISIBILITY: visible; WIDTH: 220px; POSITION: absolute; TOP:
+        28px\"><span id=\"popupmnu\" style=\"Z-INDEX: 999\"></span></div>-->\r\n    <div
+        id=\"Div2\" style=\"left: 822px; visibility: hidden; position: absolute; top:
+        55px\">\r\n        <font class=\"userlogin\">Welcome Guest | Sign In</font>\r\n
+        \   </div>\r\n    <table id=\"Main\" cellspacing=\"0\" cellpadding=\"0\" width=\"1000px\"
+        align=\"center\" style=\"background-color: #fff;\">\r\n        <!-- Copy code
+        in old sahara -->\r\n        <tr>\r\n            <td width=\"1000px\">\r\n
+        \               <table id=\"Main2\" height=\"41\" cellspacing=\"0\" cellpadding=\"0\"
+        width=\"100%\" align=\"center\"\r\n                    border=\"0\">\r\n                    <!--<tr
+        style=\"BACKGROUND-IMAGE: url(images/mostview_bg.jpg)\">\r\n\t\t\t\t\t\t\t\t<td
+        align=\"center\" width=\"715\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"top-striptxt1\"></div>\r\n\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t<td
+        style=\"PADDING-RIGHT: 5px\" vAlign=\"top\">\r\n\t\t\t\t\t\t\t\t<td style=\"PADDING-RIGHT:
+        5px\" vAlign=\"top\">\r\n\t\t\t\t\t\t\t\t<td align=\"left\" width=\"137\"
+        colSpan=\"0\" rowSpan=\"0\"></td>\r\n\t\t\t\t\t\t\t\t<td vAlign=\"top\" align=\"left\"
+        width=\"18\"></td>\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<td style=\"PADDING-RIGHT:
+        5px\" vAlign=\"top\"><A href=\"epapermain.aspx\" border=\"0\"></A></td>\r\n\t\t\t\t\t\t\t\t<td
+        style=\"padding-right: 15px;\"></td>\r\n\t\t\t\t\t\t\t\t<td style=\"PADDING-RIGHT:
+        110px\" vAlign=\"top\">\r\n\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<td
+        style=\"PADDING-RIGHT: 5px\" vAlign=\"top\"><IMG title=\"Feedback\" alt=\"Feedback\"
+        src=\"images/adicon.jpg\" onclick=\"feedback('=Session(\"username\")%>');\"
+        \ border=\"0\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td valign=\"top\"><A
+        href=\"epapermain.aspx\"><IMG title=\"Home\" alt=\"Home\" src=\"images/homeicon.jpg\"
+        border=\"0\"></A></td>\r\n\t\t\t\t\t\t\t\t<td style=\"PADDING-LEFT: 0px\"
+        vAlign=\"top\"><A href=\"#\"><IMG title=\"Page Gallery\" onclick=\"pagegalery()\"
+        alt=\"Photo Gallery\" src=\"images/camraicon.jpg\"\r\n\t\t\t\t\t\t\t\t\t\t\tborder=\"0\"></A></td>\r\n\t\t\t\t\t\t\t\t<td
+        style=\"PADDING-RIGHT: 1px\" vAlign=\"top\"><A href=\"#\"><IMG title=\"Page
+        Gallery\" onclick=\"pagethumbnails()\" alt=\"Page Gallery\" src=\"images/pageicon.jpg\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tborder=\"0\"></A></td>\r\n\t\t\t\t\t\t\t\t<td
+        style=\"PADDING-RIGHT: 5px\" vAlign=\"top\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<A
+        href=\"loginform.aspx\" class=\"lbOn\"><IMG title=\"My Account\" alt=\"My
+        Account\" src=\"images/ico-account.jpg\"\tborder=\"0\"></A>\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\r\n\t\t\t\t\t\t\t</tr>-->\r\n
+        \                   <tr>\r\n                        <td id=\"tdimagemain1\"
+        align=\"left\" colspan=\"13\" rowspan=\"0\">\r\n                            <table
+        id=\"Main3\" cellspacing=\"0\" cellpadding=\"0\" width=\"996px\" border=\"0\"
+        style=\"border-left: 0px solid #d0d0d0;\r\n                                border-right:
+        0px solid #d0d0d0;\">\r\n                                <tr>\r\n                                    <td
+        width=\"200\" colspan=\"0\" rowspan=\"0\">\r\n                                        <img
+        title=\"The Himalayan Times\" style=\"cursor: pointer; padding-left: 39px;\"
+        onclick=\"javascript:window.location.href='epapermain.aspx';\"\r\n                                            alt=\"The
+        Himalayan Times\" src=\"images/logo.jpg\">\r\n                                    </td>\r\n
+        \                                   <td style=\"padding: 0px 0px; text-align:
+        right; background-color: white; font-family: Verdana;\r\n                                        padding-top:
+        0px; font-size: 21px;\" colspan=\"1\" rowspan=\"1\">\r\n                                        <div
+        align=\"right\" name=\"ad5250\" id=\"ad5250\">\r\n                                            \r\n
+        \                                                       <script type=\"text/javascript\"><!--\r\n
+        \                                                           google_ad_client
+        = \"pub-9581515182700674\";\r\n                                                            /*
+        728x90, created 1/23/09 */\r\n                                                            google_ad_slot
+        = \"6901443926\";\r\n                                                            google_ad_width
+        = 728;\r\n                                                            google_ad_height
+        = 90;\r\n            //-->\r\n                                            </script>\r\n\r\n
+        \                                           <script type=\"text/javascript\"
+        src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\r\n                                            </script>\r\n\r\n
+        \                                       </div>\r\n                                    </td>\r\n
+        \                               </tr>\r\n                            </table>\r\n
+        \                       </td>\r\n                    </tr>\r\n                </table>\r\n
+        \               <!--<table style=\"BACKGROUND-IMAGE: url(images/edition_bg.jpg)\"
+        borderColor=\"blue\" height=\"36\"\tcellSpacing=\"0\" cellPadding=\"0\" width=\"1000px\"
+        align=\"center\" border=\"0\">\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<td
+        id=\"editionsetup\" valign=\"bottom\" align=\"right\" width=\"950\" colspan=\"0\"></td>\r\n\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t</table>-->\r\n
+        \               <!--<table style=\"BACKGROUND-COLOR: #000000\" borderColor=\"blue\"
+        height=\"36\" align=\"center\" cellSpacing=\"0\"\r\n\t\t\t\t\t\t\tcellPadding=\"0\"
+        width=\"1000px\" border=\"0\">\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t!--<td
+        style=\"PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #ffffff;
+        FONT-FAMILY: Mangal; TEXT-DECORATION: none\"\r\n\t\t\t\t\t\t\t\t\tvAlign=\"middle\"
+        align=\"left\" width=\"480\">\r\n\t\t\t\t\t\t\t\t\t</td>--\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<td
+        id=\"supplement\" valign=\"middle\" align=\"right\" width=\"600\" colspan=\"0\"></td>\r\n\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t</table>-->\r\n
+        \               <table style=\"background-color: #08AFE6; margin: 0px 0px
+        0px 40px;\" height=\"26\" cellspacing=\"0\"\r\n                    cellpadding=\"0\"
+        width=\"996px\" border=\"0\">\r\n                    <tr style=\"border: solid
+        1px #C6C7C9;\">\r\n                        \r\n                        <td
+        id=\"popup1\" class=\"date_class\" style=\"margin-left: 10px;\" width=\"360\"
+        colspan=\"0\">June 06, 2014,Friday</td>\r\n\r\n                        <td
+        id=\"popupmnu11\" style=\"width: 150px\" class=\"login_user\"><div id='Date'
+        \ style='position:relative;cursor:hand;width:150px;' onClick=\"return clickreturnvalue()\"
+        onMouseover=\"dropdownmenu(this, event, menu1, '115px')\" onMouseout=\"delayhidemenu()\"><span
+        class='fontHighlight'>Archives&nbsp;<img valign='absmiddle'  src='images/downarrow.jpg'></span></div></td>\r\n\r\n
+        \                       <td id=\"Td4\" class=\"date_class\" width=\"10\">\r\n
+        \                           <a style=\"color: #000; font-family: Verdana;
+        text-decoration: none\" href=\"#\" target=\"_blank\">\r\n                                <b></b></a>\r\n
+        \                       </td>\r\n\r\n                        <td id=\"Td1\"
+        class=\"date_class\" width=\"10\">\r\n                            <a style=\"color:
+        #000; font-family: Verdana; text-decoration: none\" href=\"#\" target=\"_blank\">\r\n
+        \                               <b></b></a>\r\n                        </td>\r\n\r\n
+        \                       <td id=\"Td2\" class=\"date_class\" width=\"18\">\r\n
+        \                           <a style=\"color: #000; font-family: Verdana;
+        text-decoration: none\" href=\"#\" target=\"_blank\">\r\n                                <b></b></a>\r\n
+        \                       </td>\r\n\r\n                        <td id=\"welcom_guest\"
+        class=\"wel_user\" style=\"text-align: right\" width=\"200\"></td>\r\n\r\n
+        \                       <td id=\"tddivider\" valign=\"top\" align=\"center\"
+        width=\"10\" style=\"padding-right: 3px;\" class=\"date_class\">\r\n                        </td>\r\n\r\n
+        \                       <td id=\"tdlogin\" class=\"login_user\" style=\"display:
+        none;\" width=\"40\"><A class='lbOn usr' style='FONT-SIZE: 12px; COLOR: black;
+        FONT-FAMILY: verdana' href='loginform.aspx'>Login</A></td>\r\n\r\n                        <td
+        id=\"tddivi\" valign=\"top\" align=\"center\" style=\"padding-right: 3px;
+        display: none;\" class=\"date_class\" width=\"10\">\r\n                            <img
+        src=\"images/login_divider1.jpg\">\r\n                        </td>\r\n\r\n
+        \                       <td id=\"tdregister\" class=\"login_user\" width=\"65\">\r\n
+        \                           <a class=\"lbOn usr\" style=\"font-size: 12px;
+        display: none; color: black; font-family: verdana\"\r\n                                href=\"registration.aspx?check=newuser\">Register</a>\r\n
+        \                       </td>\r\n\r\n                        <td id=\"Td5\"
+        valign=\"top\" class=\"date_class\" align=\"center\" width=\"10\">\r\n                            \r\n
+        \                       </td>\r\n\r\n                        <!--<td class=\"login_user\"
+        width=\"94px\" valign=middle class=\"date_class\"><a href=\"#\" ><font style=\"FONT-SIZE:
+        12px; COLOR: black; FONT-FAMILY: verdana\"><b>Archives&nbsp;</b></font><img
+        onclick=\"archives11();\" align=absmiddle src=\"images/icn-date.gif\" border=\"0\"
+        /></a></td>-->\r\n                        <!--<td class=\"facebook_twitter\">\r\n\t\t\t\t\t\t\t\t\t<div
+        style=\"FLOAT: right\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"saharatimes\"><a
+        href=\"http://www.saharatime.com\" target=\"_blank\"><img src=\"image/saharatimes.jpg\"
+        alt=\"Sahara Times E-magzine\" title=\"Sahara Times E-magzine\" border=\"0\"></a></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"innerfacebook\"><a href=\"#\" onclick=\"facebookclick();\" target=\"_blank\"><img
+        src=\"image/facebooke.jpg\" width=\"28\" height=\"28\" alt=\"Facebook\" title=\"Facebook\"
+        border=\"0\"></a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"innerfacebook\" ><a href=\"#\" onclick=\"twitterclick()\" target=\"_blank\"><img
+        src=\"image/twitterr.jpg\" width=\"28\" height=\"28\" alt=\"twitter\" title=\"twitter\"
+        border=\"0\"></a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div></div>\r\n\t\t\t\t\t\t\t\t</td>-->\r\n
+        \                       \r\n                    </tr>\r\n                    <!--<tr>\r\n\t\t\t\t\t\t\t\t<td
+        height=\"15\" colspan=8></td>\r\n\t\t\t\t\t\t\t</tr>-->\r\n                </table>\r\n
+        \           </td>\r\n        </tr>\r\n        <!--------end  copy pase from
+        old sahara---------->\r\n        <tr>\r\n            <td>\r\n                <table
+        id=\"Main1\" bordercolor=\"red\" cellspacing=\"0\" cellpadding=\"0\" width=\"1000px\"\r\n
+        \                   border=\"0\">\r\n                    <!--<tr>\r\n\t\t\t\t\t\t\t\t<td
+        colSpan=\"9\">\r\n\t\t\t\t\t\t\t\t\t<table id=\"xc\" borderColor=\"green\"
+        height=\"75\" cellSpacing=\"0\" cellPadding=\"0\" align=\"left\"\r\n\t\t\t\t\t\t\t\t\t\tborder=\"1\"
+        width=\"100%\">\r\n\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<td
+        id=\"tdimagemain1\" vAlign=\"top\" class=\"top-bg-new\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<table
+        id=\"Main3\" cellSpacing=\"0\" cellPadding=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t</tr>-->\r\n
+        \                   <!--<tr>\r\n\t\t\t\t\t\t\t\t<td style=\"BORDER-RIGHT:
+        #9f9b9a 0px solid; BORDER-TOP: #ffffff 0px solid; MARGIN-TOP: 0px; MARGIN-LEFT:
+        15px; BORDER-LEFT: #9f9b9a 0px solid; WIDTH: 1000px; BORDER-BOTTOM: #9f9b9a
+        0px solid\"\r\n\t\t\t\t\t\t\t\t\tcolSpan=\"9\"><font class=\"chooseedition\">SELECT
+        EDITION | MAGAZINE</font></td>\r\n\t\t\t\t\t\t\t</tr>-->\r\n                    <!--<tr>\r\n\t\t\t\t\t\t\t\t<td
+        id=\"editionpages\" style=\"BORDER-RIGHT: #9f9b9a 0px solid; BORDER-TOP: #ffffff
+        0px solid; MARGIN-TOP: 0px; MARGIN-LEFT: 15px; BORDER-LEFT: #9f9b9a 0px solid;
+        WIDTH: 1000px; BORDER-BOTTOM: #9f9b9a 0px solid; HEIGHT: 35px\" colspan=\"9\"></td>\r\n\r\n\t\t\t\t\t\t\t</tr>-->\r\n
+        \                   <tr>\r\n                        <td class=\"edbg\">\r\n
+        \                           <table bordercolor=\"#ffcc00\" border=\"0\" cellpadding=\"0\"
+        cellspacing=\"0\" align=\"center\">\r\n                                <tr>\r\n
+        \                                   <td style=\"border-right: #cfcfcf 0px
+        solid; border-top: #cfcfcf 0px solid; border-left: #cfcfcf 0px solid;\r\n
+        \                                       border-bottom: #cfcfcf 0px solid\"
+        bgcolor=\"#f7f7f7\">\r\n                                        <div style=\"display:
+        none; margin-bottom: 0px; margin-left: 8px\">\r\n                                            <select
+        name=\"Dropsubedition\" id=\"Dropsubedition\" class=\"edition-tab-on\">\r\n\r\n</select>\r\n
+        \                                       </div>\r\n                                    </td>\r\n
+        \                               </tr>\r\n                            </table>\r\n
+        \                       </td>\r\n                    </tr>\r\n                </table>\r\n
+        \           </td>\r\n        </tr>\r\n        </TD></TR>\r\n        <tr id=\"main1tr\">\r\n
+        \           <td id=\"main1td\" valign=\"top\" colspan=\"4\" style=\"border:
+        solid 0px red;\">\r\n                <table id=\"ashish\" style=\"width: 1000px;\"
+        bgcolor=\"#ffffff\" align=\"center\" bordercolor=\"green\"\r\n                    cellspacing=\"0\"
+        cellpadding=\"0\" border=\"0\">\r\n                    <tr id=\"trmainimg\">\r\n
+        \                       <td valign=\"top\">\r\n                            <table
+        bordercolor=\"black\" cellspacing=\"0\" cellpadding=\"0\" width=\"845\" border=\"0\">\r\n
+        \                               <tr>\r\n                                    <td
+        id=\"trimagemain4\">\r\n                                        <div style=\"float:
+        left; border: solid 1px gray; height: 28px; margin-top: 0px; background-image:
+        url(./images/head-left.jpg);\">\r\n                                            \r\n
+        \                                           <table style=\"margin-left: 5px;
+        position: relative;\" bordercolor=\"red\" cellspacing=\"0\"\r\n                                                cellpadding=\"0\"
+        width=\"989px\" border=\"0\">\r\n                                                <tr>\r\n
+        \                                                   \r\n                                                    <td
+        align=\"left\">\r\n                                                        <table>\r\n
+        \                                                           <tr>\r\n                                                                <td
+        title=\"Feedback\" align=\"center\" style=\"float: left; vertical-align: text-top;\r\n
+        \                                                                   margin-right:
+        10px;\">\r\n                                                                    <img
+        style=\"float: left; cursor: pointer\" onclick=\"feedback('');\"\r\n                                                                        src=\"images/commont.jpg\">\r\n
+        \                                                               </td>\r\n
+        \                                                               <td title=\"Print\"
+        style=\"float: left; vertical-align: text-top; margin-right: 10px;\">\r\n
+        \                                                                   <img style=\"cursor:
+        pointer\" onclick=\"page_print('');\" src=\"images/icn-print.jpg\">\r\n                                                                </td>\r\n
+        \                                                               <td style=\"float:
+        left; vertical-align: text-top; margin-right: 10px;\">\r\n                                                                    <img
+        title=\"E-Mail\" style=\"cursor: pointer\" onclick=\"mail_page('');\"\r\n
+        \                                                                       src=\"images/icn-email.jpg\">\r\n
+        \                                                               </td>\r\n
+        \                                                           </tr>\r\n                                                        </table>\r\n
+        \                                                   </td>\r\n                                                    <!--
+        <td style=\"float: left; vertical-align: text-top; margin-right: 10px;\" title=\"Single
+        Page View\">\r\n                                                        <input
+        type=\"image\" name=\"spg\" id=\"spg\" src=\"images/spage.jpg\" alt=\"Single
+        Page View\" onclick=\"javascript:return setbottombars();\" border=\"0\" />&nbsp;&nbsp;\r\n
+        \                                                   </td>-->\r\n                                                    <td
+        style=\"padding-right: 40px; display: none; padding-left: 0px; padding-bottom:
+        0px;\r\n                                                        padding-top:
+        0px\" title=\"Double Page View\">\r\n                                                        <!--<input
+        type=\"image\" name=\"dpg\" id=\"dpg\" src=\"images/dpage.jpg\" alt=\"Double
+        Page View\" onclick=\"javascript:return setbottombar();\" border=\"0\" />--->\r\n
+        \                                                       &nbsp;&nbsp;\r\n                                                    </td>\r\n
+        \                                                   <!--<td align=\"right\"><input
+        type=\"image\" name=\"left_turn\" id=\"left_turn\" src=\"images/next.jpg\"
+        alt=\"Go To Next Page\" align=\"right\" onclick=\"javascript:return l_page_turn();\"
+        border=\"0\" style=\"CURSOR: pointer\" />&nbsp;</td>-->\r\n                                                    <td
+        style=\"width: 110px; text-align: right;\">\r\n                                                        <input
+        name=\"btnpre111\" type=\"button\" id=\"btnpre111\" value=\"Previous\" style=\"margin-top:
+        0px;\" OnClick=\"javascript:return getimgnpre(1,123);\" />\r\n                                                    </td>\r\n
+        \                                                   <td id=\"td56\" align=\"center\"><span
+        id=\"spanNumber1\" onclick=\"getimg('1','412');\">1</span><span  id=\"spanNumber2\"
+        onclick=\"getimg('2','423');\">2</span><span  id=\"spanNumber3\" onclick=\"getimg('3','425');\">3</span><span
+        \ id=\"spanNumber4\" onclick=\"getimg('4','426');\">4</span><span  id=\"spanNumber5\"
+        onclick=\"getimg('5','427');\">5</span><span  id=\"spanNumber6\" onclick=\"getimg('6','428');\">6</span><span
+        \ id=\"spanNumber7\" onclick=\"getimg('7','429');\">7</span><span  id=\"spanNumber8\"
+        onclick=\"getimg('8','430');\">8</span><span  id=\"spanNumber10\" onclick=\"getimg('10','413');\">10</span><span
+        \ id=\"spanNumber11\" onclick=\"getimg('11','414');\">11</span><span  id=\"spanNumber12\"
+        onclick=\"getimg('12','415');\">12</span><span  id=\"spanNumber13\" onclick=\"getimg('13','416');\">13</span><span
+        \ id=\"spanNumber14\" onclick=\"getimg('14','417');\">14</span><span  id=\"spanNumber15\"
+        onclick=\"getimg('15','418');\">15</span><span  id=\"spanNumber16\" onclick=\"getimg('16','419');\">16</span><span
+        \ id=\"spanNumber17\" onclick=\"getimg('17','420');\">17</span><span  id=\"spanNumber18\"
+        onclick=\"getimg('18','421');\">18</span><span  id=\"spanNumber19\" onclick=\"getimg('19','422');\">19</span><span
+        \ id=\"spanNumber20\" onclick=\"getimg('20','424');\">20</span></td>\r\n\r\n
+        \                                                   <!--<td align=\"left\"><input
+        type=\"image\" name=\"right_turn\" id=\"right_turn\" src=\"images/back.jpg\"
+        alt=\"Go To Previous Page\" onclick=\"javascript:return getimg(1,123);\" border=\"0\"
+        style=\"CURSOR: pointer\" /></td>-->\r\n                                                    <td
+        style=\"width: 90px; text-align: center;\">\r\n                                                        <input
+        name=\"btnnext11\" type=\"button\" id=\"btnnext11\" value=\"Next\" style=\"margin-top:
+        0px;\" OnClick=\"javascript:return getimgnext(1,123);\" />\r\n                                                    </td>\r\n
+        \                                                   <td align=\"right\">\r\n
+        \                                                       <table>\r\n                                                            <tr>\r\n
+        \                                                               <td title=\"Zoom
+        In (+)\" align=\"right\" style=\"padding-left: 20px;\">\r\n                                                                    <img
+        style=\"cursor: pointer\" onclick=\"aPlus();\" alt=\"Zoom In (+)\" src=\"images/icn-plus.jpg\">\r\n
+        \                                                               </td>\r\n
+        \                                                               <td title=\"Zoom
+        Out (-)\" align=\"right\" style=\"margin: 0px 5px;\">\r\n                                                                    <img
+        style=\"cursor: pointer\" onclick=\"aMinus();\" alt=\"Zoom Out (-)\" src=\"images/icn-minus.jpg\">\r\n
+        \                                                               </td>\r\n
+        \                                                               <td title=\"Download
+        Pdf\">\r\n                                                                    <img
+        style=\"cursor: pointer\" onclick=\"showpdf('');\" alt=\"Download Pdf\"\r\n
+        \                                                                       src=\"images/icn-pdf.jpg\">\r\n
+        \                                                               </td>\r\n
+        \                                                           </tr>\r\n                                                        </table>\r\n
+        \                                                   </td>\r\n                                                    \r\n
+        \                                               </tr>\r\n                                            </table>\r\n
+        \                                       </div>\r\n                                    </td>\r\n
+        \                               </tr>\r\n                                <tr>\r\n
+        \                                   <td>\r\n                                        <table
+        cellspacing=\"0\" width=\"996px;\" style=\"margin-left: 0px; border: 1px solid
+        #989898;\"\r\n                                            cellpadding=\"0\"
+        border=\"0\" align=\"center\" bordercolor=\"red\">\r\n                                            \r\n
+        \                                           <tr>\r\n                                                <!--<td
+        id=\"\" style=\"WIDTH: 160px; BORDER: black 1px solid\"></td>-->\r\n                                                <td
+        id=\"leftbar\" width=\"266px\" valign=\"top\">\r\n                                                    <!--<div
+        id=\"page_scrollnnn\" class=\"newleftmenu\">-->\r\n                                                    <div
+        id=\"subedtns\" style=\"float: left; display: none; width: 100%;\r\n                                                        padding-bottom:
+        5px; border-bottom: solid 1px #F2F2F2;\">\r\n                                                    </div>\r\n
+        \                                                   <div style=\"overflow-y:
+        scroll; scrollbar-face-color: #e7e7e7; width: 160px; scrollbar-3dlight-color:
+        #a0a0a0;\r\n                                                        scrollbar-arrow-color:
+        blue; scrollbar-darkshadow-color: #888888; height: 700px;\"\r\n                                                        id=\"page_scroll\">\r\n
+        \                                                       <table cellspacing=\"0\"
+        cellpadding=\"0\">\r\n                                                            <tr>\r\n
+        \                                                               <td id=\"pages\"
+        valign=\"top\" style=\"margin-top: 10px;\"><span class=\"pagedeselect\">Page-01</span><span
+        \ ><img onclick=\"getimg('1','412');\" id=\"spanthumbNumber1\" class=\"selected\"
+        src=EpaperImages/662014/662014-md-hr-1ss.jpg > </span><span class=\"pagedeselect\">Page-02</span><span><img
+        class=\"notselected\" onclick=\"getimg('2','423');\" id=\"spanthumbNumber2\"
+        src=EpaperImages/662014/662014-md-hr-2ss.jpg > </span><br> <span class=\"pagedeselect\">Page-03</span><span><img
+        class=\"notselected\" onclick=\"getimg('3','425');\" id=\"spanthumbNumber3\"
+        src=EpaperImages/662014/662014-md-hr-3ss.jpg > </span><br> <span class=\"pagedeselect\">Page-04</span><span><img
+        class=\"notselected\" onclick=\"getimg('4','426');\" id=\"spanthumbNumber4\"
+        src=EpaperImages/662014/662014-md-hr-4ss.jpg > </span><br> <span class=\"pagedeselect\">Page-05</span><span><img
+        class=\"notselected\" onclick=\"getimg('5','427');\" id=\"spanthumbNumber5\"
+        src=EpaperImages/662014/662014-md-hr-5ss.jpg > </span><br> <span class=\"pagedeselect\">Page-06</span><span><img
+        class=\"notselected\" onclick=\"getimg('6','428');\" id=\"spanthumbNumber6\"
+        src=EpaperImages/662014/662014-md-hr-6ss.jpg > </span><br> <span class=\"pagedeselect\">Page-07</span><span><img
+        class=\"notselected\" onclick=\"getimg('7','429');\" id=\"spanthumbNumber7\"
+        src=EpaperImages/662014/662014-md-hr-7ss.jpg > </span><br> <span class=\"pagedeselect\">Page-08</span><span><img
+        class=\"notselected\" onclick=\"getimg('8','430');\" id=\"spanthumbNumber8\"
+        src=EpaperImages/662014/662014-md-hr-8ss.jpg > </span><br> <span class=\"pagedeselect\">Page-10</span><span><img
+        class=\"notselected\" onclick=\"getimg('10','413');\" id=\"spanthumbNumber10\"
+        src=EpaperImages/662014/662014-md-hr-10ss.jpg > </span><br> <span class=\"pagedeselect\">Page-11</span><span><img
+        class=\"notselected\" onclick=\"getimg('11','414');\" id=\"spanthumbNumber11\"
+        src=EpaperImages/662014/662014-md-hr-11ss.jpg > </span><br> <span class=\"pagedeselect\">Page-12</span><span><img
+        class=\"notselected\" onclick=\"getimg('12','415');\" id=\"spanthumbNumber12\"
+        src=EpaperImages/662014/662014-md-hr-12ss.jpg > </span><br> <span class=\"pagedeselect\">Page-13</span><span><img
+        class=\"notselected\" onclick=\"getimg('13','416');\" id=\"spanthumbNumber13\"
+        src=EpaperImages/662014/662014-md-hr-13ss.jpg > </span><br> <span class=\"pagedeselect\">Page-14</span><span><img
+        class=\"notselected\" onclick=\"getimg('14','417');\" id=\"spanthumbNumber14\"
+        src=EpaperImages/662014/662014-md-hr-14ss.jpg > </span><br> <span class=\"pagedeselect\">Page-15</span><span><img
+        class=\"notselected\" onclick=\"getimg('15','418');\" id=\"spanthumbNumber15\"
+        src=EpaperImages/662014/662014-md-hr-15ss.jpg > </span><br> <span class=\"pagedeselect\">Page-16</span><span><img
+        class=\"notselected\" onclick=\"getimg('16','419');\" id=\"spanthumbNumber16\"
+        src=EpaperImages/662014/662014-md-hr-16ss.jpg > </span><br> <span class=\"pagedeselect\">Page-17</span><span><img
+        class=\"notselected\" onclick=\"getimg('17','420');\" id=\"spanthumbNumber17\"
+        src=EpaperImages/662014/662014-md-hr-17ss.jpg > </span><br> <span class=\"pagedeselect\">Page-18</span><span><img
+        class=\"notselected\" onclick=\"getimg('18','421');\" id=\"spanthumbNumber18\"
+        src=EpaperImages/662014/662014-md-hr-18ss.jpg > </span><br> <span class=\"pagedeselect\">Page-19</span><span><img
+        class=\"notselected\" onclick=\"getimg('19','422');\" id=\"spanthumbNumber19\"
+        src=EpaperImages/662014/662014-md-hr-19ss.jpg > </span><br> <span class=\"pagedeselect\">Page-20</span><span><img
+        class=\"notselected\" id=\"spanthumbNumber20\"  onclick=\"getimg('20','424');\"
+        id=\"spanthumbNumber20\" src=EpaperImages/662014/662014-md-hr-20ss.jpg > </span></td>\r\n\r\n
+        \                                                               <div class=\"dynamicDIV\"
+        id=\"dv\" onmouseover=\"adiv=true;\" onmouseout=\"adiv=false;setTimeout('hideDIV()',500);\">\r\n
+        \                                                               </div>\r\n
+        \                                                               <div class=\"manage1\"
+        id=\"sub_dv_outer\" style=\"z-index: 104; visibility: hidden; background-color:
+        linen\">\r\n                                                                </div>\r\n
+        \                                                               <div class=\"manage\"
+        id=\"sub_dv\" style=\"z-index: 105; visibility: hidden; background-color:
+        linen\">\r\n                                                                </div>\r\n
+        \                                                               <div id=\"arrow_dv\"
+        style=\"z-index: 106; visibility: hidden; position: absolute\">\r\n                                                                    <img
+        src=\"images/mainarrow.gif\">\r\n                                                                </div>\r\n
+        \                                                           </tr>\r\n                                                        </table>\r\n
+        \                                                   </div>\r\n                                                </td>\r\n\r\n
+        \                                               <td>\r\n                                                </td>\r\n\r\n
+        \                                               <!--<td align=\"left\" valign=\"top\"
+        \ style=\"padding:0px; border:0px solid red; width:685px; height:1075px;\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img
+        id=\"imgpage\" class=\"map\" usemap=\"#Map\" src=\"\" border=\"0\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>-->\r\n
+        \                                               <td align=\"center\">\r\n
+        \                                                   <!--<table border=1 style=\"background-color:red;
+        height:200px;\" width=\"200px\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ <td><div id=\"dv1\" onclick=\"getimg(1,'dv1')\">1</div></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ <td><div id=\"dv2\" onclick=\"getimg(2,'dv2')\">2</div></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t  </tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ </table>-->\r\n                                                    \r\n
+        \                                                   <div id=\"maindv\" style=\"float:
+        left; border: 1px solid #f2f2f2;width:100%;\">\r\n                                                    </div>\r\n
+        \                                               </td>\r\n                                                <td
+        style=\"padding: 0px; border: 0px solid black;\">\r\n                                                    \r\n
+        \                                               </td>\r\n                                                <td
+        id=\"iframe\">\r\n                                                    <iframe
+        id=\"moveIframe\" scrolling=\"no\" marginheight=\"0\" width=\"980\" height=\"1085\"\r\n
+        \                                                       style=\"display: none;
+        border: 0px; float: left; height: 1085px;\" frameborder=\"0\">\r\n                                                    </iframe>\r\n
+        \                                               </td>\r\n                                                <td
+        id=\"right_ads\" valign=\"top\" width=\"145px\">\r\n                                                    <div
+        style=\"float: left; padding-top: 6px; position: absolute;\">\r\n                                                        \r\n
+        \                                                       <div align=\"center\"
+        name=\"ad5265\" id=\"ad5265\">\r\n                                                        \r\n
+        \                                               </td>\r\n\r\n                                                <!--<td
+        id=\"gadd\" align=\"right\" valign=\"top\" style=\"width:120px;PADDING-LEFT:
+        0px;  PADDING: 0px 0px 0px 0px\" colspan=\"0\" rowspan=\"0\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"googleadd\">\r\n\t\t\t\t\t\t\t\t\r\n                                                </div>\r\n
+        \r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n-->\r\n                                            </tr>\r\n
+        \                                       </table>\r\n                                    </td>\r\n
+        \                                   <!--google add-->\r\n                                </tr>\r\n
+        \                               <tr>\r\n                                    <td
+        align=\"center\">\r\n                                        <div id=\"Div11\"
+        align=\"center\">\r\n                                            <table class=\"pagedown\"
+        id=\"down_tabl\" cellspacing=\"0\" cellpadding=\"0\">\r\n                                                <tbody>\r\n
+        \                                                   <tr>\r\n                                                        <!--<td><IMG
+        src=\"images/left-side.jpg\">&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><IMG
+        title=\"Add To Favorites\" style=\"CURSOR: pointer\" onclick=\"setBookmark(
+        self.location.href ,document.title )\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\talt=\"Add
+        To Favorites\" src=\"images/star.gif\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td title=\"Go
+        To Previous Page\" style=\"WIDTH: 16px\"><input type=\"image\" name=\"btnpre\"
+        id=\"btnpre\" class=\"CURSOR: hand;\" src=\"images/prebottom.jpg\" alt=\"Go
+        To Previous Page\" onclick=\"javascript:return R_page_turn();\" border=\"0\"
+        /></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td style=\"WIDTH: 29px\"><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td title=\"Go
+        To Next Page\" style=\"WIDTH: 19px\"><input type=\"image\" name=\"btnnext\"
+        id=\"btnnext\" class=\"CURSOR: hand;\" src=\"images/nextbottom.jpg\" alt=\"Go
+        To Next Page\" onclick=\"javascript:return l_page_turn();\" border=\"0\" /></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><IMG
+        src=\"images/bgbottom.jpg\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;<IMG
+        src=\"images/right-side.jpg\"><input id=\"me_pg\" type=\"hidden\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-->\r\n
+        \                                                   </tr>\r\n                                                </tbody>\r\n
+        \                                           </table>\r\n                                        </div>\r\n
+        \                                   </td>\r\n                                </tr>\r\n
+        \                               <tr>\r\n                                    <td
+        id=\"tdimagemain4\" valign=\"top\" align=\"center\" bgcolor=\"#ffffff\" colspan=\"6\"
+        rowspan=\"5\">\r\n                                        \r\n                                    </td>\r\n\r\n
+        \                               </tr>\r\n                            </table>\r\n
+        \                       </td>\r\n                    </tr>\r\n                </table>\r\n
+        \           </td>\r\n        </tr>\r\n        <!--FOOTER CODE START-->\r\n
+        \       <tr>\r\n            <td>\r\n                <table cellspacing=\"0\"
+        cellpadding=\"0\" bordercolor=\"#ffffff\" border=\"0\" width=\"1000\"\r\n
+        \                   id=\"Table2\" style='padding: 15px;' class=\"best\">\r\n
+        \                   <tbody>\r\n                        <tr>\r\n                            <td
+        rowspan=\"1\" colspan=\"1\" style=\"padding-left: 10px;\">\r\n                                <table
+        cellspacing=\"0\" cellpadding=\"0\" bordercolor=\"red\" border=\"0\" width=\"245\">\r\n
+        \                                   <tbody>\r\n                                        <tr>\r\n
+        \                                           <td style=\"text-align: center;
+        color: #000;\">\r\n                                                <!--<a
+        href=\"\" onclick=\"\" style=\"color:#ffffff;font-family:arial;font-size:12px;\">Contact
+        Us</a>-->\r\n                                            </td>\r\n                                            <td>\r\n
+        \                                               |\r\n                                            </td>\r\n
+        \                                           <td style=\"text-align: center;
+        color: #000;\">\r\n                                                <!--<a
+        href=\"\" onclick=\"\"  style=\"FONT-SIZE:12px;COLOR:#ffffff;FONT-FAMILY:arial\">About
+        Us</a>-->\r\n                                            </td>\r\n                                            <td>\r\n
+        \                                               |\r\n                                            </td>\r\n
+        \                                           <td style=\"text-align: center;
+        color: #000;\">\r\n                                                <!--<a
+        href=\"\" onclick=\"\" style=\"color:#ffffff;font-family:arial;font-size:12px;\">Advertise
+        with Us</a>-->\r\n                                            </td>\r\n                                        </tr>\r\n
+        \                                       <!--\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"text-align:center;\"><a href=\"contactus.aspx\" class=\"lbOn_feed\"
+        style=\"color:#ffffff;font-family:arial;font-size:12px;\">Contact Us</a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>|</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"text-align:center;\"><a href=\"abtusaspx.aspx\" class=\"lbOn_feed\"
+        style=\"FONT-SIZE:12px;COLOR:#ffffff;FONT-FAMILY:arial\">About Us</a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>|</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"text-align:center;\"><a href=\"aboutus.aspx\" class=\"lbOn_feed\"
+        style=\"color:#ffffff;font-family:arial;font-size:12px;\">Advertise with Us</a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>|</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"text-align:center;\"><a href=\"newjobs.aspx\" class=\"lbOn_feed\"
+        style=\"color:#ffffff;font-family:arial;font-size:12px;\">New Jobs</a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>|</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"text-align:center;\"><a href=\"publisher.aspx\" class=\"lbOn_feed\"
+        style=\"color:#ffffff;font-family:arial;font-size:12px;\">Publisher</a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t-->\r\n
+        \                                       <tr>\r\n                                            <td>\r\n
+        \                                           </td>\r\n                                        </tr>\r\n
+        \                                   </tbody>\r\n                                </table>\r\n
+        \                           </td>\r\n                            <td align=\"right\"
+        valign=\"middle\" class=\"designed\">\r\n                                <table
+        bordercolor=\"red\" border=\"0\" width=\"100%\">\r\n                                    <tbody>\r\n
+        \                                       <tr>\r\n                                            <!--<td><a
+        href=\"http://www.and.co.uk/\" target=\"_blank\"><font style=\"color:#ffffff;font-family:arial;font-size:12px;\">Ethnic
+        Media Group (USA) Inc.</font></a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>|&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<td><a
+        href=\"http://www.dailymail.co.uk/home/terms.html\" target=\"_blank\"><font
+        style=\"color:#ffffff;font-family:arial;font-size:12px;\">Terms</font></a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>|&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t<td><a
+        href=\"http://www.dailymail.co.uk/home/privacy.html\" target=\"_blank\"><font
+        style=\"color:#ffffff;font-family:arial;font-size:12px;\"> Privacy policy</font></a></td>\r\n\t\t\t\t\t\t\t\t\t\t\t<td></td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>-->\r\n
+        \                                           <tr>\r\n                                                <td>\r\n
+        \                                               </td>\r\n                                                <td
+        align=\"right\" style=\"color: #000;\">\r\n                                                </td>\r\n
+        \                                           </tr>\r\n                                    </tbody>\r\n
+        \                               </table>\r\n                            </td>\r\n
+        \                       </tr>\r\n                    </tbody>\r\n                </table>\r\n
+        \           </td>\r\n        </tr>\r\n    </table>\r\n    <input name=\"txtcheckdouble\"
+        type=\"hidden\" id=\"txtcheckdouble\" />\r\n    <input name=\"imgpath\" type=\"hidden\"
+        id=\"imgpath\" value=\"EpaperImages\\662014\\662014-md-hr-1l.jpg\" />\r\n
+        \   <input name=\"getpgno\" type=\"hidden\" id=\"getpgno\" />\r\n    </form>\r\n</body>\r\n</html>\r\n"
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: http://epaper.thehimalayantimes.com/epapermain.aspx?queryed=9&eddate=6/6/2014
+  recorded_at: Fri, 06 Jun 2014 06:52:17 GMT
+recorded_with: VCR 2.9.1
