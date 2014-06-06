@@ -17,8 +17,19 @@ task :download_latest do |t|
     puts "#{name} enabled -> #{paper_settings.fetch("enabled")}"
     if paper_settings.fetch("enabled")
       puts "Downloading #{name} for #{Date.today.to_s}"
-      Bharkhar::PaperDownloader.new(name, config.fetch("papers").fetch(name)).download
+      Bharkhar::PaperDownloader.new(name).download
     end
   
   end
+end
+
+desc "Download paper for given date, pass PAPER_NAME=[com_ekantipur|com_thehimalayantimes|...]"
+task :download_paper do |t|
+  paper_name = ENV['PAPER_NAME']
+  unless paper_name
+    abort "usage: rake #{ARGV[0]} PAPER_NAME=[com_ekantipur|com_thehimalayantimes|...]"
+  end
+
+  require_relative 'lib/paper_downloader'
+  Bharkhar::PaperDownloader.new(paper_name).download
 end

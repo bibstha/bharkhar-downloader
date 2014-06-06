@@ -9,6 +9,9 @@ development: &development
     com_thehimalayantimes:
       class_name: ComThehimalayantimes
       enabled: true
+    com_ekantipur:
+      class_name: ComEkantipur
+      enabled: true
     xyz:
       class_name: Dummy
       enabled: false

@@ -1,0 +1,1229 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://epaper.ekantipur.com/epaper/kdaily/page/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jun 2014 17:58:20 GMT
+      Server:
+      - Apache/2.2.3 (CentOS)
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge\">\r\n        <meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" />\r\n        <meta name=\"google-site-verification\" content=\"8rAddYqMrVO-oQxnoavebcOV2_mMLmhT9zYP3qI01Lo\"
+        />\r\n        <meta name=\"keywords\" http-equiv=\"keywords\" content=\"\"
+        />\r\n        <meta name=\"abstract\" content=\"\" />\r\n        <title> Epaper
+        | ekantipur.com </title>\r\n        <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\r\n        <link href=\"http://epaper.ekantipur.com/css/bootstrap/bootstrap.min.css\"
+        rel=\"stylesheet\"/>\r\n        <link rel=\"icon\" href=\"http://epaper.ekantipur.com/images/ek-icon.png\"
+        type=\"image/png\" />\r\n        <link rel=\"stylesheet\"  type=\"text/css\"
+        href=\"http://epaper.ekantipur.com/themes/reset.css\" media=\"screen\"/>\r\n
+        \       <link rel=\"stylesheet\"  type=\"text/css\" href=\"http://epaper.ekantipur.com/themes/en/style.css\"
+        media=\"screen\"/>\r\n        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+';
+        path=/';</script>\r\n        <script src=\"http://epaper.ekantipur.com/js/jquery-1.8.2.min.js\"
+        type=\"text/javascript\"></script> \r\n        <!-- HTML5 shim and Respond.js
+        IE8 support of HTML5 elements and media queries -->\r\n        <!--[if lt
+        IE 9]>\r\n          <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\r\n
+        \         <script src=\"https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js\"></script>\r\n
+        \       <![endif]-->\r\n        <script type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/bootstrap/bootstrap.min.js\"></script>\r\n
+        \   </head>\r\n    <body>\r\n        <div id=\"fixed_icons\" class=\"hidden-xs\">\r\n
+        \           <a href=\"https://twitter.com/kathmandupost\" id=\"twitter\" title=\"Follow
+        us on Twitter\" target=\"_blank\"></a>\r\n            <a href=\"http://www.facebook.com/kathmandupost/\"
+        id=\"facebook\" title=\"Find us on Facebook\" target=\"_blank\"></a>\r\n        </div>\r\n
+        \       <div class=\"container\">\r\n            <div id=\"wrapper\">\r\n
+        \               <!--TOP CONTAINER-->\r\n                <div id=\"top_container\">\r\n
+        \                   <div class=\"row\">\r\n                        <div id=\"top_left\"
+        \ class=\"col-md-4\">\r\n                            \r\n                                &nbsp;&nbsp;
+        \r\n<br /><br />\r\n                                                        <a
+        href=\"http://www.ekantipur.com/\" title=\"Ekantipur.com\">\r\n                                <div
+        id=\"logo\" class=\"fltL\"><img src=\"http://epaper.ekantipur.com/images/logo.gif\"
+        alt=\"Ekantipur\" title=\"Ekantipur\" class=\"img-responsive\"/></div>\r\n
+        \                           </a>\r\n                        </div>\r\n\r\n
+        \                       <div id=\"top_right\" class=\"col-md-8\">\r\n                            <b
+        class=\"tahomasmalldark fltL date\" style=\" margin-top:15px\">Friday, June
+        06, 2014 11:43 PM</b>\r\n                            <div id=\"cse-search-form\"
+        class=\"search hidden\">\r\n                                <form action=\"http://epaper.ekantipur.com/search.php\"
+        id=\"cse-search-box\">\r\n                                    <input type=\"hidden\"
+        name=\"cx\" value=\"partner-pub-5855301837617098:9cr1sh-sssh\" />\r\n                                    <input
+        type=\"hidden\" name=\"cof\" value=\"FORID:10\" />\r\n                                    <input
+        type=\"hidden\" name=\"sitesearch\" value=\"ekantipur.com\" />\r\n                                    <input
+        type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\r\n                                    <input
+        type=\"text\" name=\"q\" size=\"30\" />\r\n                                    <input
+        type=\"submit\" name=\"sa\" value=\"\" class=\"btn btn-default btn-xs\" />\r\n
+        \                               </form>\r\n                                <script
+        type=\"text/javascript\" src=\"http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en\"></script>\r\n
+        \                           </div>\r\n\r\n                            <div
+        class=\"google-ad pull-right\">\r\n                            \r\n\r\n                                <script
+        async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<!--
+        header_top -->\r\n<ins class=\"adsbygoogle\"\r\n     style=\"display:inline-block;width:468px;height:60px\"\r\n
+        \    data-ad-client=\"ca-pub-5855301837617098\"\r\n     data-ad-slot=\"1380253694\"></ins>\r\n<script>\r\n(adsbygoogle
+        = window.adsbygoogle || []).push({});\r\n</script>                           \r\n
+        \r\n                            </div>\r\n                        </div> \r\n
+        \                   </div>\r\n                    <!--TOP RIGHT-->                \r\n
+        \               </div>\r\n                <!--TOP CONTAINER-->\r\n                <div
+        class=\"clr\"></div>\r\n                <!--MENU CONTAINER-->\r\n                <div
+        id=\"menu_container\">\r\n                    <div class=\"navbar navbar-default
+        navbar-static-top\" role=\"navigation\">\r\n                        <div class=\"navbar-header\">\r\n
+        \                           <button type=\"button\" class=\"navbar-toggle\"
+        data-toggle=\"collapse\" data-target=\".navbar-collapse\">\r\n                                <span
+        class=\"sr-only\">Toggle navigation</span>\r\n                                <span
+        class=\"icon-bar\"></span>\r\n                                <span class=\"icon-bar\"></span>\r\n
+        \                               <span class=\"icon-bar\"></span>\r\n                            </button>\r\n
+        \                       </div>\r\n                        <div class=\"collapse
+        navbar-collapse\">\r\n                            <ul class=\"nav navbar-nav\">\r\n
+        \                               <li class=\"active\"><a id=\"home\" href=\"http://www.ekantipur.com/\"
+        title=\"home\">Home</a></li>\r\n                                <li><a id=\"national\"
+        href=\"http://ekantipur.com/national/\" title=\"national\">National</a></li>\r\n
+        \                               <li><a id=\"world\" href=\"http://ekantipur.com/world/\"
+        title=\"world\">World</a></li>\r\n                                <li><a id=\"sports\"
+        href=\"http://ekantipur.com/sports/\" title=\"sports\">sports</a></li>\r\n
+        \                               <li><a id=\"money\" href=\"http://ekantipur.com/money/\"
+        title=\"Money\">Money</a></li>\r\n                                <li><a id=\"photo-gallery\"
+        href=\"http://ekantipur.com/photo-gallery/\" title=\"photo-gallery\">Photo-gallery</a></li>\r\n
+        \                               <li><a id=\"multimedia\" href=\"http://ekantipur.com/multimedia/\"
+        title=\"multimedia\">Multimedia</a></li>\r\n                                <li><a
+        id=\"model\" href=\"http://ekantipur.com/models/\" title=\"models\">Models</a></li>\r\n
+        \                               <li><a id=\"onsaturday\" href=\"http://ekantipur.com/saturday/\"
+        title=\"saturday\">On Saturday</a></li>\r\n                            </ul>\r\n
+        \                       </div>        \r\n                    </div>        \r\n
+        \               </div>       \r\n                <div class=\"clr\"></div>\r\n
+        \               <div class=\"row\">\r\n                                    </div>\r\n
+        \               <!--LATEST NEWS CONTAINER-->\r\n\r\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"http://epaper.ekantipur.com/css/epaper.css\"/>\n<!--<script
+        type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/jquery.cycle.all.2.72.js\"></script>-->\n<script>\n
+        \   $(function(){\n        $('#main-navigation-left ul li a').removeClass('active');\n
+        \       $('#multimedia').addClass('active');\n        $('.s4').cycle({\n            fx:
+        \     'scrollDown',\n            speed:    300,\n            timeout:  2000\n
+        \       });\n    });\n</script>\n                <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n\n
+        \               <script src=\"http://epaper.ekantipur.com/zoom_assets/jquery.smoothZoom.min.js\"></script>
+        \               \n                \n                <link rel=\"stylesheet\"
+        href=\"http://epaper.ekantipur.com/flex/demo.css\" type=\"text/css\" media=\"screen\"
+        />\n<link rel=\"stylesheet\" href=\"http://epaper.ekantipur.com/flex/flexslider.css\"
+        type=\"text/css\" media=\"screen\" />\n\n<script>\n\tjQuery(function($){\n\t\t$('#yourImageID').smoothZoom({\n\t\t\twidth:
+        700,\n\t\t\theight: 700,\n\t\t\tpan_BUTTONS_SHOW: \"NO\",\n\t\t\tpan_LIMIT_BOUNDARY:
+        \"NO\",\n\t\t\tbutton_SIZE: 24,\n\t\t\tbutton_ALIGN: \"top right\",\t\n\t\t\tzoom_MAX:
+        100,\n\t\t\tborder_TRANSPARENCY: 20,\n\t\t\t\n\t\t\t/******************************************\n\t\t\tEnable
+        Responsive settings below if needed.\n\t\t\tMax width and height values are
+        optional.\n\t\t\t******************************************/\n\t\t\tresponsive:
+        true,\n\t\t\tresponsive_maintain_ratio: false,\n\t\t\tmax_WIDTH: '',\n\t\t\tmax_HEIGHT:
+        ''\n\t\t});\n\t});\n</script>\n\n\n\n<!-- back to epaper and gooogle ad sense
+        Top Ad here -->\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n\n
+        \               <div class=\"pull-left backToepaper\">\n                    <a
+        href=\"http://epaper.ekantipur.com/\"><span class=\"glyphicon glyphicon-circle-arrow-left\"></span>
+        Back to Epaper</a>\n                </div> \n\n                <!-- epaper_top_beta
+        -->\n                <div class=\"pull-right rightAdpadding\">\n                    <ins
+        class=\"adsbygoogle\"\n                    style=\"display:inline-block;width:728px;height:90px\"\n
+        \                   data-ad-client=\"ca-pub-5855301837617098\"\n                    data-ad-slot=\"9668063011\"></ins>\n
+        \                   <script>\n                    (adsbygoogle = window.adsbygoogle
+        || []).push({});\n                    </script>\n                </div>\n\n
+        \               <div class=\"clearfix\"></div>\n\n        </div>\n    </div>\n\n<div
+        class=\"row\">\n    <div class=\"col-xs-12\">\n        <div class=\"epaper-feedback-text\">\nWe
+        are trying to improve your e-paper experience. Is the new epaper better? What
+        features would you want. Please give us your <a href=\"#feedback\">feedback</a>\n\n</div>\n
+        \   </div>\n</div>\n\n<div class=\"row\">\n    <div class=\"col-md-2\">\n
+        \       <p class=\"selectorText\"> Epaper of our other papers</p>\n    </div>\n
+        \   <div class=\"col-md-3\">\n        <form name=\"cityselect\">\n        <select
+        class=\"form-control input-sm\" onChange=\"window.document.location.href=this.options[this.selectedIndex].value;\"
+        value=\"GO\">\n          <option value=\"http://epaper.ekantipur.com/\">Select
+        Epaper</option>  \n          <option value=\"http://epaper.ekantipur.com/epaper/kdaily\">Kantipur
+        Daily</option>\n          <option value=\"http://epaper.ekantipur.com/epaper/kpost\">The
+        Kathmandu Post</option>\n          <option value=\"http://epaper.ekantipur.com/epaper/nepal\">Nepal</option>\n
+        \         <option value=\"http://epaper.ekantipur.com/epaper/nari\">Nari</option>\n
+        \         <option value=\"http://epaper.ekantipur.com/epaper/saptahik\">Saptahik</option>\n
+        \         <option value=\"http://epaper.ekantipur.com/epaper/qatar\">Qatar</option>\n
+        \       </select>\n    </form>        \n    </div>\n</div>\n<!-- back to epaper
+        and google ad sense ends here -->\n<div class=\"col-md-9\">\n    \n    <br/>\n
+        \   <div class=\"rows\">\n\t\t<article>\n\t\t\t<div>\n\n\t\t\t\t<!-- Basic
+        -->\n\n\t\t\t\n\t\t\t\t<div class=\"zoomer_wrapper\">\n                                   \n
+        \                                                                    <img
+        id=\"yourImageID\" src=\"http://epaper.ekantipur.com/epaperimage/kantipur/001.jpg\"
+        class=\"epaperImg\" alt=\"kantipur epaper 001\"/>\n                                \t\t\t\t
+        \ \n\t\t\t\t</div>\n\n\t\t\t\t\n\n\t\t\t</div>\n\t\t</article>\n        \n
+        \       \n\n\n        <div class=\"flexslider carousel hidden-lg hidden-md\">
+        \   \n            <ul class=\"slides\">\n        \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/1\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/001.jpg\"
+        width=\"90\" alt=\"kantipur epaper 001\"/>\n    </a>\n<div class=\"page_title\">1</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/2\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/002.jpg\"
+        width=\"90\" alt=\"kantipur epaper 002\"/>\n    </a>\n<div class=\"page_title\">2</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/3\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/003.jpg\"
+        width=\"90\" alt=\"kantipur epaper 003\"/>\n    </a>\n<div class=\"page_title\">3</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/4\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/004.jpg\"
+        width=\"90\" alt=\"kantipur epaper 004\"/>\n    </a>\n<div class=\"page_title\">4</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/5\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/005.jpg\"
+        width=\"90\" alt=\"kantipur epaper 005\"/>\n    </a>\n<div class=\"page_title\">5</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/6\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/006.jpg\"
+        width=\"90\" alt=\"kantipur epaper 006\"/>\n    </a>\n<div class=\"page_title\">6</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/7\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/007.jpg\"
+        width=\"90\" alt=\"kantipur epaper 007\"/>\n    </a>\n<div class=\"page_title\">7</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/8\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/008.jpg\"
+        width=\"90\" alt=\"kantipur epaper 008\"/>\n    </a>\n<div class=\"page_title\">8</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/9\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/009.jpg\"
+        width=\"90\" alt=\"kantipur epaper 009\"/>\n    </a>\n<div class=\"page_title\">9</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/10\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/010.jpg\"
+        width=\"90\" alt=\"kantipur epaper 010\"/>\n    </a>\n<div class=\"page_title\">10</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/11\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/011.jpg\"
+        width=\"90\" alt=\"kantipur epaper 011\"/>\n    </a>\n<div class=\"page_title\">11</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/12\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/012.jpg\"
+        width=\"90\" alt=\"kantipur epaper 012\"/>\n    </a>\n<div class=\"page_title\">12</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/13\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/013.jpg\"
+        width=\"90\" alt=\"kantipur epaper 013\"/>\n    </a>\n<div class=\"page_title\">13</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/14\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/014.jpg\"
+        width=\"90\" alt=\"kantipur epaper 014\"/>\n    </a>\n<div class=\"page_title\">14</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/15\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/015.jpg\"
+        width=\"90\" alt=\"kantipur epaper 015\"/>\n    </a>\n<div class=\"page_title\">15</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/16\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/016.jpg\"
+        width=\"90\" alt=\"kantipur epaper 016\"/>\n    </a>\n<div class=\"page_title\">16</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/17\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/017.jpg\"
+        width=\"90\" alt=\"kantipur epaper 017\"/>\n    </a>\n<div class=\"page_title\">17</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/18\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/018.jpg\"
+        width=\"90\" alt=\"kantipur epaper 018\"/>\n    </a>\n<div class=\"page_title\">18</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/19\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/019.jpg\"
+        width=\"90\" alt=\"kantipur epaper 019\"/>\n    </a>\n<div class=\"page_title\">19</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/20\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/020.jpg\"
+        width=\"90\" alt=\"kantipur epaper 020\"/>\n    </a>\n<div class=\"page_title\">20</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/21\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/021.jpg\"
+        width=\"90\" alt=\"kantipur epaper 021\"/>\n    </a>\n<div class=\"page_title\">21</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/22\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/022.jpg\"
+        width=\"90\" alt=\"kantipur epaper 022\"/>\n    </a>\n<div class=\"page_title\">22</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/23\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/023.jpg\"
+        width=\"90\" alt=\"kantipur epaper 023\"/>\n    </a>\n<div class=\"page_title\">23</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/24\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/024.jpg\"
+        width=\"90\" alt=\"kantipur epaper 024\"/>\n    </a>\n<div class=\"page_title\">24</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/25\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/025.jpg\"
+        width=\"90\" alt=\"kantipur epaper 025\"/>\n    </a>\n<div class=\"page_title\">25</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/26\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/026.jpg\"
+        width=\"90\" alt=\"kantipur epaper 026\"/>\n    </a>\n<div class=\"page_title\">26</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/27\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/027.jpg\"
+        width=\"90\" alt=\"kantipur epaper 027\"/>\n    </a>\n<div class=\"page_title\">27</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/28\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/028.jpg\"
+        width=\"90\" alt=\"kantipur epaper 028\"/>\n    </a>\n<div class=\"page_title\">28</div></li>\n</ul>\n
+        \       </div>\n\n        \n        \n    </div>\n</div>\n                \n
+        \               <div class=\"col-md-3 hidden-sm hidden-xs\" style=\"margin:25px
+        0 0 0;\">\n                    <div class=\"rows\" style=\"height:690px; overflow:
+        hidden;\">\n                        <h2 style=\"font-weight: bold; margin:0
+        0 0 8px;\">Pages</h2>\n                            <div style=\"height:710px;
+        overflow: scroll;\">\n                               \n                                                <ul>\n
+        \                                                 \n        \n<li style=\"float:left;
+        margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/1\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/001.jpg\"
+        width=\"90\" alt=\"kantipur epaper 001\"/>\n    </a>\n    <div class=\"page_title\">1</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/2\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/002.jpg\"
+        width=\"90\" alt=\"kantipur epaper 002\"/>\n    </a>\n    <div class=\"page_title\">2</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/3\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/003.jpg\"
+        width=\"90\" alt=\"kantipur epaper 003\"/>\n    </a>\n    <div class=\"page_title\">3</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/4\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/004.jpg\"
+        width=\"90\" alt=\"kantipur epaper 004\"/>\n    </a>\n    <div class=\"page_title\">4</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/5\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/005.jpg\"
+        width=\"90\" alt=\"kantipur epaper 005\"/>\n    </a>\n    <div class=\"page_title\">5</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/6\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/006.jpg\"
+        width=\"90\" alt=\"kantipur epaper 006\"/>\n    </a>\n    <div class=\"page_title\">6</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/7\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/007.jpg\"
+        width=\"90\" alt=\"kantipur epaper 007\"/>\n    </a>\n    <div class=\"page_title\">7</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/8\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/008.jpg\"
+        width=\"90\" alt=\"kantipur epaper 008\"/>\n    </a>\n    <div class=\"page_title\">8</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/9\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/009.jpg\"
+        width=\"90\" alt=\"kantipur epaper 009\"/>\n    </a>\n    <div class=\"page_title\">9</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/10\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/010.jpg\"
+        width=\"90\" alt=\"kantipur epaper 010\"/>\n    </a>\n    <div class=\"page_title\">10</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/11\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/011.jpg\"
+        width=\"90\" alt=\"kantipur epaper 011\"/>\n    </a>\n    <div class=\"page_title\">11</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/12\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/012.jpg\"
+        width=\"90\" alt=\"kantipur epaper 012\"/>\n    </a>\n    <div class=\"page_title\">12</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/13\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/013.jpg\"
+        width=\"90\" alt=\"kantipur epaper 013\"/>\n    </a>\n    <div class=\"page_title\">13</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/14\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/014.jpg\"
+        width=\"90\" alt=\"kantipur epaper 014\"/>\n    </a>\n    <div class=\"page_title\">14</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/15\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/015.jpg\"
+        width=\"90\" alt=\"kantipur epaper 015\"/>\n    </a>\n    <div class=\"page_title\">15</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/16\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/016.jpg\"
+        width=\"90\" alt=\"kantipur epaper 016\"/>\n    </a>\n    <div class=\"page_title\">16</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/17\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/017.jpg\"
+        width=\"90\" alt=\"kantipur epaper 017\"/>\n    </a>\n    <div class=\"page_title\">17</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/18\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/018.jpg\"
+        width=\"90\" alt=\"kantipur epaper 018\"/>\n    </a>\n    <div class=\"page_title\">18</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/19\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/019.jpg\"
+        width=\"90\" alt=\"kantipur epaper 019\"/>\n    </a>\n    <div class=\"page_title\">19</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/20\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/020.jpg\"
+        width=\"90\" alt=\"kantipur epaper 020\"/>\n    </a>\n    <div class=\"page_title\">20</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/21\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/021.jpg\"
+        width=\"90\" alt=\"kantipur epaper 021\"/>\n    </a>\n    <div class=\"page_title\">21</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/22\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/022.jpg\"
+        width=\"90\" alt=\"kantipur epaper 022\"/>\n    </a>\n    <div class=\"page_title\">22</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/23\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/023.jpg\"
+        width=\"90\" alt=\"kantipur epaper 023\"/>\n    </a>\n    <div class=\"page_title\">23</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/24\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/024.jpg\"
+        width=\"90\" alt=\"kantipur epaper 024\"/>\n    </a>\n    <div class=\"page_title\">24</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/25\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/025.jpg\"
+        width=\"90\" alt=\"kantipur epaper 025\"/>\n    </a>\n    <div class=\"page_title\">25</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/26\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/026.jpg\"
+        width=\"90\" alt=\"kantipur epaper 026\"/>\n    </a>\n    <div class=\"page_title\">26</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/27\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/027.jpg\"
+        width=\"90\" alt=\"kantipur epaper 027\"/>\n    </a>\n    <div class=\"page_title\">27</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/28\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/028.jpg\"
+        width=\"90\" alt=\"kantipur epaper 028\"/>\n    </a>\n    <div class=\"page_title\">28</div>\n</li>\n</ul>\n
+        \                              \n                                \n                            </div>\n
+        \                        \n                        \n                    </div>\n
+        \               </div>\n  <!-- jQuery -->\n<!--  <script src=\"http://epaper.ekantipur.com/epaper/jquery.fs.zoomer.js\"></script>-->\n<!--\t\t<script>\n\t\t\t$(document).ready(function()
+        {\n\t\t\t\t$(\".zoomer_basic\").zoomer();\n\n\t\t\t\t$(\".zoomer_custom\").zoomer({\n\t\t\t\t\tcontrols:
+        {\n\t\t\t\t\t\tzoomIn: \".zoomer_custom_zoom_in\",\n\t\t\t\t\t\tzoomOut: \".zoomer_custom_zoom_out\"\n\t\t\t\t\t},\n\t\t\t\t\tcustomClass:
+        \"dark_zoomer\",\n\t\t\t\t\tincrement: 0.03,\n\t\t\t\t\tinterval: 0.1,\n\t\t\t\t\tmarginMax:
+        10\n\t\t\t\t});\n\n\n\t\t\t\t$(window).on(\"resize\", function(e) {\n\t\t\t\t\t$(\".zoomer_wrapper\").zoomer(\"resize\");\n\t\t\t\t});\n\t\t\t});\n\t\t</script>
+        \ -->\n  \n  \n  <script>window.jQuery || document.write('<script src=\"js/libs/jquery-1.7.min.js\">\\x3C/script>')</script>\n<script
+        src=\"http://epaper.ekantipur.com/flex/modernizr.js\"></script>\n  <!-- FlexSlider
+        -->\n  <script defer src=\"http://epaper.ekantipur.com/flex/jquery.flexslider.js\"></script>\n\n
+        \ <script type=\"text/javascript\">\n    $(function(){\n      SyntaxHighlighter.all();\n
+        \   });\n    $(window).load(function(){\n      $('.flexslider').flexslider({\n
+        \       animation: \"slide\",\n        animationLoop: false,\n        directionNav:true,\n
+        \       itemWidth: 95,\n        itemMargin: 5,\n        pausePlay: false,\n
+        \       touch:true,\n        controlNav:false,\n        start: function(slider){\n
+        \         $('body').removeClass('loading');\n        }\n      });\n    });\n
+        \ </script>            \n    <script src=\"http://epaper.ekantipur.com/flex/jquery.easing.js\"></script>\n
+        \ <script src=\"http://epaper.ekantipur.com/flex/jquery.mousewheel.js\"></script>\n<div
+        class=\"clearfix\"></div>\r\n<div class=\"row\">\r\n    <div class=\"col-xs-12\">\r\n
+        \           <div class=\"epaper-feedback-text-archive\">\r\n            Archives
+        will be available soon.\r\n            </div>\r\n    </div>\r\n</div>\r\n<a
+        id=\"feedback\"></a>\r\n<script src=\"//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js\"></script>\r\n<div
+        class=\"epaper-feedback\">\r\n\r\n\r\n<!--                <div id=\"feedback-form\">
+        field disabled -->\r\n\t\t<div>\r\n\t\t\r\n\t\t<form action=\"\" method=\"POST\"
+        id=\"register-form\">\r\n\t\t\t\t<fieldset>\r\n                                    \t\t\t\t\t\t\t\t\t\t<legend></legend>\r\n\t\t\t\t\t<h2>Feedback</h2>\r\n\r\n\t\t\t\t\t<table
+        width=\"100%\">\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Name</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" placeholder=\"Name...\" name=\"txtName\" id=\"txtName\" class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Address</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" placeholder=\"Address...\"  name=\"txtAddress\" id=\"txtAddress\"
+        class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n                                                \r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Country</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<select
+        name=\"ddlCountry\" id=\"ddlCountry\">\r\n\t\t\t\t\t\t\t\t\t<option value=\"Afghanistan\">Afghanistan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Albania\">Albania</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Algeria\">Algeria</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"American Samoa\">American Samoa</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Andorra\">Andorra</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Angola\">Angola</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Anguilla\">Anguilla</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Antarctica\">Antarctica</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Antigua, Barbuda\">Antigua, Barbuda</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Argentina\">Argentina</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Armenia\">Armenia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Aruba\">Aruba</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Ascension\">Ascension</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Australia\">Australia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Austria\">Austria</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Azerbaidijan\">Azerbaidijan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bahamas\">Bahamas</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Bahrain\">Bahrain</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bangladesh\">Bangladesh</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Barbados\">Barbados</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Belarus\">Belarus</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Belgium\">Belgium</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Belize\">Belize</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Benin\">Benin</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bermuda\">Bermuda</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Bhutan\">Bhutan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bolivia\">Bolivia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Bosnia
+        &amp; Herzegovina\">Bosnia &amp; Herzegovina</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Botswana\">Botswana</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Brazil\">Brazil</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"British Virgin Islands\">British Virgin Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Brunei Darussalam\">Brunei Darussalam</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bulgaria\">Bulgaria</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Burkina
+        Faso\">Burkina Faso</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Burundi\">Burundi</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Cambodia\">Cambodia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Cameroon\">Cameroon</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Canada\">Canada</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Cape
+        Verde\">Cape Verde</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Cayman Islands\">Cayman
+        Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Central African Republic\">Central
+        African Republic</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Chad\">Chad</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Chile\">Chile</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"China\">China</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Colombia\">Colombia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Comoros\">Comoros</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Cook Islands\">Cook Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Costa Rica\">Costa Rica</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Croatia\">Croatia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Cyprus\">Cyprus</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Czech
+        Republic\">Czech Republic</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Denmark\">Denmark</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Diego Garcia\">Diego Garcia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Djibouti\">Djibouti</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Dominica\">Dominica</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Dominican Republic\">Dominican Republic</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"East Timor\">East Timor</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Ecuador\">Ecuador</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Egypt\">Egypt</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"El Salvador\">El
+        Salvador</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Equatorial Guinea\">Equatorial
+        Guinea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Eritrea\">Eritrea</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Estonia\">Estonia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Ethiopia\">Ethiopia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Falklands Islands\">Falklands Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Faroe Islands\">Faroe Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Fiji Islands\">Fiji Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Finland\">Finland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"France\">France</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"French Dept/Terr in Indian Ocean\">French Dept/Terr in Indian Ocean</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"French Guiana\">French Guiana</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"French Polynesia\">French Polynesia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Gabon\">Gabon</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Gambia\">Gambia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Georgia\">Georgia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Germany\">Germany</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Ghana\">Ghana</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Gibraltar\">Gibraltar</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Greece\">Greece</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Greenland\">Greenland</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Grenada\">Grenada</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Guadeloupe\">Guadeloupe</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Guam\">Guam</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Guatemala\">Guatemala</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Guinea\">Guinea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Guinea-Bissau\">Guinea-Bissau</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Guyana\">Guyana</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Haiti\">Haiti</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Honduras\">Honduras</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Hong
+        Kong\">Hong Kong</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Hungary\">Hungary</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Iceland\">Iceland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"India\">India</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Indonesia\">Indonesia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Iraq\">Iraq</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Ireland\">Ireland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Israel\">Israel</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Italy\">Italy</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Jamaica\">Jamaica</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Japan\">Japan</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Jordan\">Jordan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Kenya\">Kenya</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Kiribati\">Kiribati</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Kuwait\">Kuwait</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Kyrgyzstan\">Kyrgyzstan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Lao\">Lao</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Latvia\">Latvia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Lebanon\">Lebanon</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Lesotho\">Lesotho</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Liberia\">Liberia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Liechtenstein\">Liechtenstein</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Lithuania\">Lithuania</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Luxembourg\">Luxembourg</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Macao\">Macao</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Macedonia\">Macedonia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Madagascar\">Madagascar</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Malawi\">Malawi</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Malaysia\">Malaysia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Maldives\">Maldives</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Mali\">Mali</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Malta\">Malta</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Marshall Islands\">Marshall Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Martinique\">Martinique</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mauritania\">Mauritania</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Mauritius\">Mauritius</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mexico\">Mexico</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Micronesia\">Micronesia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Moldova\">Moldova</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Monaco\">Monaco</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mongolia\">Mongolia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Montenegro\">Montenegro</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Montserrat\">Montserrat</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Morocco\">Morocco</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mozambique\">Mozambique</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Namibia\">Namibia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Nauru\">Nauru</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Nepal\">Nepal</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Netherlands\">Netherlands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Netherlands Antilles\">Netherlands Antilles</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"New Caledonia\">New Caledonia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"New Zealand\">New Zealand</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Nicaragua\">Nicaragua</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Niger\">Niger</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Nigeria\">Nigeria</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Niue\">Niue</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Northern
+        Mariana Islands\">Northern Mariana Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Norway\">Norway</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Oman\">Oman</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Pakistan\">Pakistan</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Palau\">Palau</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Panama\">Panama</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Papua
+        New Guinea\">Papua New Guinea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Paraguay\">Paraguay</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Peru\">Peru</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Philippines\">Philippines</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Poland\">Poland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Portugal\">Portugal</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Puerto-Rico\">Puerto-Rico</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Qatar\">Qatar</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Reunion\">Reunion</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Romania\">Romania</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Russia\">Russia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Rwanda\">Rwanda</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Helena\">Saint Helena</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Kitts and Nevis\">Saint Kitts and Nevis</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Lucia\">Saint Lucia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Saint
+        Pierre and Miquelon\">Saint Pierre and Miquelon</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Vincent and the Grenadines\">Saint Vincent and the Grenadines</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Samoa\">Samoa</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"San Marino\">San
+        Marino</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Sao Tome and Principe\">Sao
+        Tome and Principe</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Saudi Arabia\">Saudi
+        Arabia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Senegal\">Senegal</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Serbia\">Serbia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Seychelles\">Seychelles</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Sierra Leone\">Sierra Leone</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Singapore\">Singapore</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Slovakia\">Slovakia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Slovenia\">Slovenia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Solomon
+        Islands\">Solomon Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"South
+        Africa\">South Africa</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"South
+        Korea\">South Korea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Spain\">Spain</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Sri Lanka\">Sri Lanka</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Suriname\">Suriname</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Swaziland\">Swaziland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Sweden\">Sweden</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Switzerland\">Switzerland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Taiwan\">Taiwan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tajikistan\">Tajikistan</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Tanzania\">Tanzania</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Thailand\">Thailand</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Togo\">Togo</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tokelau\">Tokelau</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Tonga\">Tonga</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Trinidad, Tobago\">Trinidad, Tobago</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tunisia\">Tunisia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Turkey\">Turkey</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Turkmenistan\">Turkmenistan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Turks and Caicos\">Turks and Caicos</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tuvalu\">Tuvalu</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Uganda\">Uganda</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Ukraine\">Ukraine</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"United
+        Arab Emirates\">United Arab Emirates</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"United Kingdom\">United Kingdom</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"United States\">United States</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Uruguay\">Uruguay</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"US
+        Virgin Islands\">US Virgin Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Uzbekistan\">Uzbekistan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Vanuatu\">Vanuatu</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Vatican
+        City State\">Vatican City State</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Venezuela\">Venezuela</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Vietnam\">Vietnam</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Wallis
+        and Futuna\">Wallis and Futuna</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Yemen\">Yemen</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Zambia\">Zambia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Zimbabwe\">Zimbabwe</option>
+        \    \r\n\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Email</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\"  name=\"txtEmail\" id=\"txtEmail\" class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n
+        \                                               \t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Phone
+        Number</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input type=\"text\"
+        placeholder=\"Phone...\"  name=\"txtPhone\" id=\"txtPhone\" class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Message</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<textarea
+        name=\"txtMessage\" placeholder=\"Message...\"  id=\"txtMessage\" class=\"txtFromnew\"></textarea>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n
+        \                                               \r\n\t\t\t\t\t\t<tr>\r\n                                                    <td>&nbsp;</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t<p><script
+        type=\"text/javascript\" src=\"http://www.google.com/recaptcha/api/challenge?k=6LcexPQSAAAAABAa6f1aalpqBFr8ikMPcBeVuSnl\"></script>\n\n\t<noscript>\n
+        \ \t\t<iframe src=\"http://www.google.com/recaptcha/api/noscript?k=6LcexPQSAAAAABAa6f1aalpqBFr8ikMPcBeVuSnl\"
+        height=\"300\" width=\"500\" frameborder=\"0\"></iframe><br/>\n  \t\t<textarea
+        name=\"recaptcha_challenge_field\" rows=\"3\" cols=\"40\"></textarea>\n  \t\t<input
+        type=\"hidden\" name=\"recaptcha_response_field\" value=\"manual_challenge\"/>\n\t</noscript></p>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>
+        \                                               \r\n\r\n                                                <input
+        type=\"hidden\" name=\"txtAdd\" value=\"138.246.2.136\"/>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td></td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"submit\" name=\"btnSubmit\" id=\"btnSubmit\" value=\"Submit\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</fieldset>\r\n\t\t\t</form>\r\n\t\t</div>\r\n</div>\r\n\r\n<script
+        type=\"text/javascript\">\r\n\t$('#feedback-form').hide();\r\n\t\t$('.enable-feedback').click(function()
+        {\r\n\t\t\t\t$('#feedback-form').toggle();\r\n\t\t});\r\n</script>\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\t$('#btnSubmit').click(function(e){\r\n\t\te.preventDefault();\r\n\r\n
+        \       if ($('#txtName').val() == '') {\r\n        alert('Please Enter Your
+        Name');\r\n        return false;\r\n                }\r\n        var sEmail
+        = $('#txtEmail').val();\r\n        if ($.trim(sEmail).length == 0) {\r\n            //alert('Please
+        enter valid email address');\r\n            e.preventDefault();\r\n        }\r\n
+        \       if (validateEmail(sEmail)) {\r\n            e.preventDefault();\r\n
+        \       }\r\n        else {\r\n            alert('Invalid Email Address');\r\n
+        \           return false;\r\n        }\r\n\t$('#register-form').submit();\r\n\t\t\r\n\t\t\r\n\t});\r\n
+        \       \r\nfunction validateEmail(sEmail) {\r\n    var filter = /^([\\w-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([\\w-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$/;\r\n
+        \   if (filter.test(sEmail)) {\r\n        return true;\r\n    }\r\n    else
+        {\r\n        return false;\r\n    }\r\n}\r\n</script>\r\n\r\n\r\n<!--Pulbication-->\r\n<div
+        class=\"clearfix\"></div>\r\n<div id=\"sponsors\">\r\n    <div class=\"row
+        col-md-12 col-xs-12\">\r\n        <ul>\r\n            <li class=\"col-md-1
+        col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/kantipur/\" title=\"kantipur
+        Publication\" class=\"kantipur\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/kantipur.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/tkp/\"
+        title=\"kathmandu Post Publication\" class=\"kathmandupost\" target=\"_blank\"><img
+        src=\"http://epaper.ekantipur.com/images/publication/kathmandupost.jpg\" alt=\"\"
+        title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li class=\"col-md-1
+        col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/nepal/\" title=\"Nepal
+        Publication\" class=\"nepal\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/nepal.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/saptahik/\"
+        title=\"Saptahik Publication\" class=\"saptahik\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/saptahik.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/nari/\"
+        title=\"Nari Publication\" class=\"nari\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/nari.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/qatar/\"
+        title=\"Kantipur Qatar Publication\" class=\"kqatar\" target=\"_blank\"><img
+        src=\"http://epaper.ekantipur.com/images/publication/kqatar.jpg\" alt=\"\"
+        title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li class=\"col-md-1
+        col-xs-6 col-sm-3\"><a href=\"http://www.yeskantipur.com\" title=\"Yes Kantipur\"
+        class=\"yeskantipur\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/yeskantipur.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n        </ul>\r\n
+        \   </div>\r\n</div>\r\n<!--Pulbication-->\r\n\r\n<div id=\"footer\">\r\n
+        \   <b class=\"fltL tahomanormal\">&copy; Copyright 2000-2014 Kantipur Publications
+        Pvt. Ltd. All Rights Reserved</b>\r\n    \r\n</div><!--footer-wrapper end-->\r\n</div>\r\n</div>\r\n<!--wrapper
+        end-->\r\n<!-- Start Publication Bar-->\r\n<div class=\"publication-panel
+        hidden-xs\">\r\n    <a class=\"publication-tab\" href=#>Our Publication</a>\r\n
+        \   <ul>\r\n        <li>\r\n            <a href=\"http://www.ekantipur.com/kantipur/\"
+        title=\"kantipur Publication\"  target=\"_blank\">\r\n                <img
+        src=\"http://epaper.ekantipur.com/images/publication/kantipur.jpg\" alt=\"Kantipur\"
+        title=\"Kantipur\"/>\r\n            </a>\r\n        </li>\r\n        <li>\r\n
+        \           <a href=\"http://www.ekantipur.com/tkp/\" title=\"kathmandu Post
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/kathmandupost.jpg\"
+        alt=\"The Kathmandu Post\" title=\"The Kathmandu Post\"/>\r\n            </a>\r\n
+        \       </li>\r\n        <li>\r\n            <a href=\"http://www.ekantipur.com/nepal/\"
+        title=\"Nepal Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/nepal.jpg\"
+        alt=\"Nepal\" title=\"Nepal\"/>\r\n            </a>\r\n        </li>\r\n        <li>\r\n
+        \           <a href=\"http://www.ekantipur.com/saptahik/\" title=\"Saptahik
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/saptahik.jpg\"
+        alt=\"Saptahik\" title=\"Saptahik\"/>\r\n            </a>\r\n        </li>\r\n
+        \       <li>\r\n            <a href=\"http://www.ekantipur.com/nari/\" title=\"Nari
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/nari.jpg\"
+        alt=\"Nari\" title=\"Nari\"/>\r\n            </a>\r\n        </li>\r\n        <li>\r\n
+        \           <a href=\"http://www.ekantipur.com/qatar/\" title=\"Kantipur Qatar
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/kqatar.jpg\"
+        alt=\"Kantipur Qatar\" title=\"Kantipur Qatar\"/>\r\n            </a>\r\n
+        \       </li>\r\n        <li>\r\n            <a href=\"http://www.yeskantipur.com\"
+        title=\"Yes Kantipur\"  target=\"_blank\" class=\"subscribeInClick\">\r\n
+        \               <img src=\"http://epaper.ekantipur.com/images/publication/yeskantipur.jpg\"
+        alt=\"Yes Kantipur\" title=\"Yes Kantipur\"/>\r\n            </a>\r\n        </li>\r\n
+        \   </ul>\r\n    <div class=\"clearfix\"></div>\r\n</div>\r\n\r\n<div id=\"fb-root\"></div>\r\n<script>(function(d,
+        s, id) {\r\n    var js, fjs = d.getElementsByTagName(s)[0];\r\n    if (d.getElementById(id))
+        return;\r\n    js = d.createElement(s); js.id = id;\r\n    js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1&appId=266686766839629\";\r\n
+        \   fjs.parentNode.insertBefore(js, fjs);\r\n}(document, 'script', 'facebook-jssdk'));</script>\r\n<script
+        type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/Application.js\"></script>\r\n<a
+        id=\"back-to-top\" href=\"#top\" style=\"display: none;\"><span class=\"glyphicon
+        glyphicon-chevron-up\"></span></a>\r\n<script type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/jquery.jcarousellite.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/jquery.prettydate.js\"></script>\r\n<link
+        rel=\"stylesheet\" href=\"http://epaper.ekantipur.com/js/flexslider/flexslider.css\"
+        type=\"text/css\" media=\"screen\" />\r\n<script defer src=\"http://epaper.ekantipur.com/js/flexslider/jquery.flexslider.js\"></script>\r\n<script
+        type=\"text/javascript\">\r\n$(window).load(function() {\r\n \r\n                                              \r\n
+        });\r\n  jQuery(function() {\r\n                 var feedbackTab = {\r\n\r\n
+        \                    speed:300,\r\n                     containerWidth:$('.publication-panel').outerWidth(),\r\n
+        \                    containerHeight:$('.publication-panel').outerHeight(),\r\n
+        \                    tabWidth:$('.publication-tab').outerWidth(),\r\n\r\n
+        \                    init:function(){\r\n                         $('.publication-panel').css('height',feedbackTab.containerHeight
+        + 'px');\r\n\r\n                         $('a.publication-tab').click(function(event){\r\n\r\n
+        \                            if ($('.publication-panel').hasClass('open'))
+        {\r\n                                 $('.publication-panel').animate({left:'-'
+        + feedbackTab.containerWidth}, feedbackTab.speed)\r\n                                 .removeClass('open');\r\n
+        \                            } else {\r\n                                 $('.publication-panel').animate({left:'0'},
+        \ feedbackTab.speed)\r\n                                 .addClass('open');\r\n
+        \                            }\r\n                             event.preventDefault();\r\n
+        \                        });\r\n                     }\r\n                 };\r\n\r\n
+        \                feedbackTab.init();\r\n\r\n});\r\n</script>\r\n<script type=\"text/javascript\">\r\n\r\n
+        \ var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-10805376-1']);\r\n
+        \ _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n
+        \   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\r\n  })();\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: http://epaper.ekantipur.com/epaper/kdaily/page/1
+  recorded_at: Fri, 06 Jun 2014 17:56:13 GMT
+- request:
+    method: get
+    uri: http://epaper.ekantipur.com/epaper/kdaily/page/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 Jun 2014 17:58:21 GMT
+      Server:
+      - Apache/2.2.3 (CentOS)
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge\">\r\n        <meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" />\r\n        <meta name=\"google-site-verification\" content=\"8rAddYqMrVO-oQxnoavebcOV2_mMLmhT9zYP3qI01Lo\"
+        />\r\n        <meta name=\"keywords\" http-equiv=\"keywords\" content=\"\"
+        />\r\n        <meta name=\"abstract\" content=\"\" />\r\n        <title> Epaper
+        | ekantipur.com </title>\r\n        <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\r\n        <link href=\"http://epaper.ekantipur.com/css/bootstrap/bootstrap.min.css\"
+        rel=\"stylesheet\"/>\r\n        <link rel=\"icon\" href=\"http://epaper.ekantipur.com/images/ek-icon.png\"
+        type=\"image/png\" />\r\n        <link rel=\"stylesheet\"  type=\"text/css\"
+        href=\"http://epaper.ekantipur.com/themes/reset.css\" media=\"screen\"/>\r\n
+        \       <link rel=\"stylesheet\"  type=\"text/css\" href=\"http://epaper.ekantipur.com/themes/en/style.css\"
+        media=\"screen\"/>\r\n        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+';
+        path=/';</script>\r\n        <script src=\"http://epaper.ekantipur.com/js/jquery-1.8.2.min.js\"
+        type=\"text/javascript\"></script> \r\n        <!-- HTML5 shim and Respond.js
+        IE8 support of HTML5 elements and media queries -->\r\n        <!--[if lt
+        IE 9]>\r\n          <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\r\n
+        \         <script src=\"https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js\"></script>\r\n
+        \       <![endif]-->\r\n        <script type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/bootstrap/bootstrap.min.js\"></script>\r\n
+        \   </head>\r\n    <body>\r\n        <div id=\"fixed_icons\" class=\"hidden-xs\">\r\n
+        \           <a href=\"https://twitter.com/kathmandupost\" id=\"twitter\" title=\"Follow
+        us on Twitter\" target=\"_blank\"></a>\r\n            <a href=\"http://www.facebook.com/kathmandupost/\"
+        id=\"facebook\" title=\"Find us on Facebook\" target=\"_blank\"></a>\r\n        </div>\r\n
+        \       <div class=\"container\">\r\n            <div id=\"wrapper\">\r\n
+        \               <!--TOP CONTAINER-->\r\n                <div id=\"top_container\">\r\n
+        \                   <div class=\"row\">\r\n                        <div id=\"top_left\"
+        \ class=\"col-md-4\">\r\n                            \r\n                                &nbsp;&nbsp;
+        \r\n<br /><br />\r\n                                                        <a
+        href=\"http://www.ekantipur.com/\" title=\"Ekantipur.com\">\r\n                                <div
+        id=\"logo\" class=\"fltL\"><img src=\"http://epaper.ekantipur.com/images/logo.gif\"
+        alt=\"Ekantipur\" title=\"Ekantipur\" class=\"img-responsive\"/></div>\r\n
+        \                           </a>\r\n                        </div>\r\n\r\n
+        \                       <div id=\"top_right\" class=\"col-md-8\">\r\n                            <b
+        class=\"tahomasmalldark fltL date\" style=\" margin-top:15px\">Friday, June
+        06, 2014 11:43 PM</b>\r\n                            <div id=\"cse-search-form\"
+        class=\"search hidden\">\r\n                                <form action=\"http://epaper.ekantipur.com/search.php\"
+        id=\"cse-search-box\">\r\n                                    <input type=\"hidden\"
+        name=\"cx\" value=\"partner-pub-5855301837617098:9cr1sh-sssh\" />\r\n                                    <input
+        type=\"hidden\" name=\"cof\" value=\"FORID:10\" />\r\n                                    <input
+        type=\"hidden\" name=\"sitesearch\" value=\"ekantipur.com\" />\r\n                                    <input
+        type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\r\n                                    <input
+        type=\"text\" name=\"q\" size=\"30\" />\r\n                                    <input
+        type=\"submit\" name=\"sa\" value=\"\" class=\"btn btn-default btn-xs\" />\r\n
+        \                               </form>\r\n                                <script
+        type=\"text/javascript\" src=\"http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en\"></script>\r\n
+        \                           </div>\r\n\r\n                            <div
+        class=\"google-ad pull-right\">\r\n                            \r\n\r\n                                <script
+        async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<!--
+        header_top -->\r\n<ins class=\"adsbygoogle\"\r\n     style=\"display:inline-block;width:468px;height:60px\"\r\n
+        \    data-ad-client=\"ca-pub-5855301837617098\"\r\n     data-ad-slot=\"1380253694\"></ins>\r\n<script>\r\n(adsbygoogle
+        = window.adsbygoogle || []).push({});\r\n</script>                           \r\n
+        \r\n                            </div>\r\n                        </div> \r\n
+        \                   </div>\r\n                    <!--TOP RIGHT-->                \r\n
+        \               </div>\r\n                <!--TOP CONTAINER-->\r\n                <div
+        class=\"clr\"></div>\r\n                <!--MENU CONTAINER-->\r\n                <div
+        id=\"menu_container\">\r\n                    <div class=\"navbar navbar-default
+        navbar-static-top\" role=\"navigation\">\r\n                        <div class=\"navbar-header\">\r\n
+        \                           <button type=\"button\" class=\"navbar-toggle\"
+        data-toggle=\"collapse\" data-target=\".navbar-collapse\">\r\n                                <span
+        class=\"sr-only\">Toggle navigation</span>\r\n                                <span
+        class=\"icon-bar\"></span>\r\n                                <span class=\"icon-bar\"></span>\r\n
+        \                               <span class=\"icon-bar\"></span>\r\n                            </button>\r\n
+        \                       </div>\r\n                        <div class=\"collapse
+        navbar-collapse\">\r\n                            <ul class=\"nav navbar-nav\">\r\n
+        \                               <li class=\"active\"><a id=\"home\" href=\"http://www.ekantipur.com/\"
+        title=\"home\">Home</a></li>\r\n                                <li><a id=\"national\"
+        href=\"http://ekantipur.com/national/\" title=\"national\">National</a></li>\r\n
+        \                               <li><a id=\"world\" href=\"http://ekantipur.com/world/\"
+        title=\"world\">World</a></li>\r\n                                <li><a id=\"sports\"
+        href=\"http://ekantipur.com/sports/\" title=\"sports\">sports</a></li>\r\n
+        \                               <li><a id=\"money\" href=\"http://ekantipur.com/money/\"
+        title=\"Money\">Money</a></li>\r\n                                <li><a id=\"photo-gallery\"
+        href=\"http://ekantipur.com/photo-gallery/\" title=\"photo-gallery\">Photo-gallery</a></li>\r\n
+        \                               <li><a id=\"multimedia\" href=\"http://ekantipur.com/multimedia/\"
+        title=\"multimedia\">Multimedia</a></li>\r\n                                <li><a
+        id=\"model\" href=\"http://ekantipur.com/models/\" title=\"models\">Models</a></li>\r\n
+        \                               <li><a id=\"onsaturday\" href=\"http://ekantipur.com/saturday/\"
+        title=\"saturday\">On Saturday</a></li>\r\n                            </ul>\r\n
+        \                       </div>        \r\n                    </div>        \r\n
+        \               </div>       \r\n                <div class=\"clr\"></div>\r\n
+        \               <div class=\"row\">\r\n                                    </div>\r\n
+        \               <!--LATEST NEWS CONTAINER-->\r\n\r\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"http://epaper.ekantipur.com/css/epaper.css\"/>\n<!--<script
+        type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/jquery.cycle.all.2.72.js\"></script>-->\n<script>\n
+        \   $(function(){\n        $('#main-navigation-left ul li a').removeClass('active');\n
+        \       $('#multimedia').addClass('active');\n        $('.s4').cycle({\n            fx:
+        \     'scrollDown',\n            speed:    300,\n            timeout:  2000\n
+        \       });\n    });\n</script>\n                <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n\n
+        \               <script src=\"http://epaper.ekantipur.com/zoom_assets/jquery.smoothZoom.min.js\"></script>
+        \               \n                \n                <link rel=\"stylesheet\"
+        href=\"http://epaper.ekantipur.com/flex/demo.css\" type=\"text/css\" media=\"screen\"
+        />\n<link rel=\"stylesheet\" href=\"http://epaper.ekantipur.com/flex/flexslider.css\"
+        type=\"text/css\" media=\"screen\" />\n\n<script>\n\tjQuery(function($){\n\t\t$('#yourImageID').smoothZoom({\n\t\t\twidth:
+        700,\n\t\t\theight: 700,\n\t\t\tpan_BUTTONS_SHOW: \"NO\",\n\t\t\tpan_LIMIT_BOUNDARY:
+        \"NO\",\n\t\t\tbutton_SIZE: 24,\n\t\t\tbutton_ALIGN: \"top right\",\t\n\t\t\tzoom_MAX:
+        100,\n\t\t\tborder_TRANSPARENCY: 20,\n\t\t\t\n\t\t\t/******************************************\n\t\t\tEnable
+        Responsive settings below if needed.\n\t\t\tMax width and height values are
+        optional.\n\t\t\t******************************************/\n\t\t\tresponsive:
+        true,\n\t\t\tresponsive_maintain_ratio: false,\n\t\t\tmax_WIDTH: '',\n\t\t\tmax_HEIGHT:
+        ''\n\t\t});\n\t});\n</script>\n\n\n\n<!-- back to epaper and gooogle ad sense
+        Top Ad here -->\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n\n
+        \               <div class=\"pull-left backToepaper\">\n                    <a
+        href=\"http://epaper.ekantipur.com/\"><span class=\"glyphicon glyphicon-circle-arrow-left\"></span>
+        Back to Epaper</a>\n                </div> \n\n                <!-- epaper_top_beta
+        -->\n                <div class=\"pull-right rightAdpadding\">\n                    <ins
+        class=\"adsbygoogle\"\n                    style=\"display:inline-block;width:728px;height:90px\"\n
+        \                   data-ad-client=\"ca-pub-5855301837617098\"\n                    data-ad-slot=\"9668063011\"></ins>\n
+        \                   <script>\n                    (adsbygoogle = window.adsbygoogle
+        || []).push({});\n                    </script>\n                </div>\n\n
+        \               <div class=\"clearfix\"></div>\n\n        </div>\n    </div>\n\n<div
+        class=\"row\">\n    <div class=\"col-xs-12\">\n        <div class=\"epaper-feedback-text\">\nWe
+        are trying to improve your e-paper experience. Is the new epaper better? What
+        features would you want. Please give us your <a href=\"#feedback\">feedback</a>\n\n</div>\n
+        \   </div>\n</div>\n\n<div class=\"row\">\n    <div class=\"col-md-2\">\n
+        \       <p class=\"selectorText\"> Epaper of our other papers</p>\n    </div>\n
+        \   <div class=\"col-md-3\">\n        <form name=\"cityselect\">\n        <select
+        class=\"form-control input-sm\" onChange=\"window.document.location.href=this.options[this.selectedIndex].value;\"
+        value=\"GO\">\n          <option value=\"http://epaper.ekantipur.com/\">Select
+        Epaper</option>  \n          <option value=\"http://epaper.ekantipur.com/epaper/kdaily\">Kantipur
+        Daily</option>\n          <option value=\"http://epaper.ekantipur.com/epaper/kpost\">The
+        Kathmandu Post</option>\n          <option value=\"http://epaper.ekantipur.com/epaper/nepal\">Nepal</option>\n
+        \         <option value=\"http://epaper.ekantipur.com/epaper/nari\">Nari</option>\n
+        \         <option value=\"http://epaper.ekantipur.com/epaper/saptahik\">Saptahik</option>\n
+        \         <option value=\"http://epaper.ekantipur.com/epaper/qatar\">Qatar</option>\n
+        \       </select>\n    </form>        \n    </div>\n</div>\n<!-- back to epaper
+        and google ad sense ends here -->\n<div class=\"col-md-9\">\n    \n    <br/>\n
+        \   <div class=\"rows\">\n\t\t<article>\n\t\t\t<div>\n\n\t\t\t\t<!-- Basic
+        -->\n\n\t\t\t\n\t\t\t\t<div class=\"zoomer_wrapper\">\n                                   \n
+        \                                                                    <img
+        id=\"yourImageID\" src=\"http://epaper.ekantipur.com/epaperimage/kantipur/001.jpg\"
+        class=\"epaperImg\" alt=\"kantipur epaper 001\"/>\n                                \t\t\t\t
+        \ \n\t\t\t\t</div>\n\n\t\t\t\t\n\n\t\t\t</div>\n\t\t</article>\n        \n
+        \       \n\n\n        <div class=\"flexslider carousel hidden-lg hidden-md\">
+        \   \n            <ul class=\"slides\">\n        \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/1\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/001.jpg\"
+        width=\"90\" alt=\"kantipur epaper 001\"/>\n    </a>\n<div class=\"page_title\">1</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/2\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/002.jpg\"
+        width=\"90\" alt=\"kantipur epaper 002\"/>\n    </a>\n<div class=\"page_title\">2</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/3\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/003.jpg\"
+        width=\"90\" alt=\"kantipur epaper 003\"/>\n    </a>\n<div class=\"page_title\">3</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/4\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/004.jpg\"
+        width=\"90\" alt=\"kantipur epaper 004\"/>\n    </a>\n<div class=\"page_title\">4</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/5\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/005.jpg\"
+        width=\"90\" alt=\"kantipur epaper 005\"/>\n    </a>\n<div class=\"page_title\">5</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/6\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/006.jpg\"
+        width=\"90\" alt=\"kantipur epaper 006\"/>\n    </a>\n<div class=\"page_title\">6</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/7\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/007.jpg\"
+        width=\"90\" alt=\"kantipur epaper 007\"/>\n    </a>\n<div class=\"page_title\">7</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/8\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/008.jpg\"
+        width=\"90\" alt=\"kantipur epaper 008\"/>\n    </a>\n<div class=\"page_title\">8</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/9\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/009.jpg\"
+        width=\"90\" alt=\"kantipur epaper 009\"/>\n    </a>\n<div class=\"page_title\">9</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/10\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/010.jpg\"
+        width=\"90\" alt=\"kantipur epaper 010\"/>\n    </a>\n<div class=\"page_title\">10</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/11\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/011.jpg\"
+        width=\"90\" alt=\"kantipur epaper 011\"/>\n    </a>\n<div class=\"page_title\">11</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/12\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/012.jpg\"
+        width=\"90\" alt=\"kantipur epaper 012\"/>\n    </a>\n<div class=\"page_title\">12</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/13\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/013.jpg\"
+        width=\"90\" alt=\"kantipur epaper 013\"/>\n    </a>\n<div class=\"page_title\">13</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/14\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/014.jpg\"
+        width=\"90\" alt=\"kantipur epaper 014\"/>\n    </a>\n<div class=\"page_title\">14</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/15\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/015.jpg\"
+        width=\"90\" alt=\"kantipur epaper 015\"/>\n    </a>\n<div class=\"page_title\">15</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/16\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/016.jpg\"
+        width=\"90\" alt=\"kantipur epaper 016\"/>\n    </a>\n<div class=\"page_title\">16</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/17\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/017.jpg\"
+        width=\"90\" alt=\"kantipur epaper 017\"/>\n    </a>\n<div class=\"page_title\">17</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/18\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/018.jpg\"
+        width=\"90\" alt=\"kantipur epaper 018\"/>\n    </a>\n<div class=\"page_title\">18</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/19\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/019.jpg\"
+        width=\"90\" alt=\"kantipur epaper 019\"/>\n    </a>\n<div class=\"page_title\">19</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/20\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/020.jpg\"
+        width=\"90\" alt=\"kantipur epaper 020\"/>\n    </a>\n<div class=\"page_title\">20</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/21\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/021.jpg\"
+        width=\"90\" alt=\"kantipur epaper 021\"/>\n    </a>\n<div class=\"page_title\">21</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/22\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/022.jpg\"
+        width=\"90\" alt=\"kantipur epaper 022\"/>\n    </a>\n<div class=\"page_title\">22</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/23\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/023.jpg\"
+        width=\"90\" alt=\"kantipur epaper 023\"/>\n    </a>\n<div class=\"page_title\">23</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/24\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/024.jpg\"
+        width=\"90\" alt=\"kantipur epaper 024\"/>\n    </a>\n<div class=\"page_title\">24</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/25\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/025.jpg\"
+        width=\"90\" alt=\"kantipur epaper 025\"/>\n    </a>\n<div class=\"page_title\">25</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/26\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/026.jpg\"
+        width=\"90\" alt=\"kantipur epaper 026\"/>\n    </a>\n<div class=\"page_title\">26</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/27\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/027.jpg\"
+        width=\"90\" alt=\"kantipur epaper 027\"/>\n    </a>\n<div class=\"page_title\">27</div></li>\n
+        \       \n<li>\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/28\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/028.jpg\"
+        width=\"90\" alt=\"kantipur epaper 028\"/>\n    </a>\n<div class=\"page_title\">28</div></li>\n</ul>\n
+        \       </div>\n\n        \n        \n    </div>\n</div>\n                \n
+        \               <div class=\"col-md-3 hidden-sm hidden-xs\" style=\"margin:25px
+        0 0 0;\">\n                    <div class=\"rows\" style=\"height:690px; overflow:
+        hidden;\">\n                        <h2 style=\"font-weight: bold; margin:0
+        0 0 8px;\">Pages</h2>\n                            <div style=\"height:710px;
+        overflow: scroll;\">\n                               \n                                                <ul>\n
+        \                                                 \n        \n<li style=\"float:left;
+        margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/1\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/001.jpg\"
+        width=\"90\" alt=\"kantipur epaper 001\"/>\n    </a>\n    <div class=\"page_title\">1</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/2\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/002.jpg\"
+        width=\"90\" alt=\"kantipur epaper 002\"/>\n    </a>\n    <div class=\"page_title\">2</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/3\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/003.jpg\"
+        width=\"90\" alt=\"kantipur epaper 003\"/>\n    </a>\n    <div class=\"page_title\">3</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/4\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/004.jpg\"
+        width=\"90\" alt=\"kantipur epaper 004\"/>\n    </a>\n    <div class=\"page_title\">4</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/5\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/005.jpg\"
+        width=\"90\" alt=\"kantipur epaper 005\"/>\n    </a>\n    <div class=\"page_title\">5</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/6\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/006.jpg\"
+        width=\"90\" alt=\"kantipur epaper 006\"/>\n    </a>\n    <div class=\"page_title\">6</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/7\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/007.jpg\"
+        width=\"90\" alt=\"kantipur epaper 007\"/>\n    </a>\n    <div class=\"page_title\">7</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/8\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/008.jpg\"
+        width=\"90\" alt=\"kantipur epaper 008\"/>\n    </a>\n    <div class=\"page_title\">8</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/9\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/009.jpg\"
+        width=\"90\" alt=\"kantipur epaper 009\"/>\n    </a>\n    <div class=\"page_title\">9</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/10\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/010.jpg\"
+        width=\"90\" alt=\"kantipur epaper 010\"/>\n    </a>\n    <div class=\"page_title\">10</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/11\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/011.jpg\"
+        width=\"90\" alt=\"kantipur epaper 011\"/>\n    </a>\n    <div class=\"page_title\">11</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/12\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/012.jpg\"
+        width=\"90\" alt=\"kantipur epaper 012\"/>\n    </a>\n    <div class=\"page_title\">12</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/13\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/013.jpg\"
+        width=\"90\" alt=\"kantipur epaper 013\"/>\n    </a>\n    <div class=\"page_title\">13</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/14\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/014.jpg\"
+        width=\"90\" alt=\"kantipur epaper 014\"/>\n    </a>\n    <div class=\"page_title\">14</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/15\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/015.jpg\"
+        width=\"90\" alt=\"kantipur epaper 015\"/>\n    </a>\n    <div class=\"page_title\">15</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/16\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/016.jpg\"
+        width=\"90\" alt=\"kantipur epaper 016\"/>\n    </a>\n    <div class=\"page_title\">16</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/17\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/017.jpg\"
+        width=\"90\" alt=\"kantipur epaper 017\"/>\n    </a>\n    <div class=\"page_title\">17</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/18\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/018.jpg\"
+        width=\"90\" alt=\"kantipur epaper 018\"/>\n    </a>\n    <div class=\"page_title\">18</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/19\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/019.jpg\"
+        width=\"90\" alt=\"kantipur epaper 019\"/>\n    </a>\n    <div class=\"page_title\">19</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/20\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/020.jpg\"
+        width=\"90\" alt=\"kantipur epaper 020\"/>\n    </a>\n    <div class=\"page_title\">20</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/21\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/021.jpg\"
+        width=\"90\" alt=\"kantipur epaper 021\"/>\n    </a>\n    <div class=\"page_title\">21</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/22\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/022.jpg\"
+        width=\"90\" alt=\"kantipur epaper 022\"/>\n    </a>\n    <div class=\"page_title\">22</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/23\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/023.jpg\"
+        width=\"90\" alt=\"kantipur epaper 023\"/>\n    </a>\n    <div class=\"page_title\">23</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/24\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/024.jpg\"
+        width=\"90\" alt=\"kantipur epaper 024\"/>\n    </a>\n    <div class=\"page_title\">24</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/25\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/025.jpg\"
+        width=\"90\" alt=\"kantipur epaper 025\"/>\n    </a>\n    <div class=\"page_title\">25</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/26\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/026.jpg\"
+        width=\"90\" alt=\"kantipur epaper 026\"/>\n    </a>\n    <div class=\"page_title\">26</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/27\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/027.jpg\"
+        width=\"90\" alt=\"kantipur epaper 027\"/>\n    </a>\n    <div class=\"page_title\">27</div>\n</li>\n
+        \       \n<li style=\"float:left; margin:3px 5px;\">\n    <a href=\"http://epaper.ekantipur.com/epaper/kdaily/page/28\">\n
+        \               <img src=\"http://epaper.ekantipur.com/epaperimage/kantipur/thumb/028.jpg\"
+        width=\"90\" alt=\"kantipur epaper 028\"/>\n    </a>\n    <div class=\"page_title\">28</div>\n</li>\n</ul>\n
+        \                              \n                                \n                            </div>\n
+        \                        \n                        \n                    </div>\n
+        \               </div>\n  <!-- jQuery -->\n<!--  <script src=\"http://epaper.ekantipur.com/epaper/jquery.fs.zoomer.js\"></script>-->\n<!--\t\t<script>\n\t\t\t$(document).ready(function()
+        {\n\t\t\t\t$(\".zoomer_basic\").zoomer();\n\n\t\t\t\t$(\".zoomer_custom\").zoomer({\n\t\t\t\t\tcontrols:
+        {\n\t\t\t\t\t\tzoomIn: \".zoomer_custom_zoom_in\",\n\t\t\t\t\t\tzoomOut: \".zoomer_custom_zoom_out\"\n\t\t\t\t\t},\n\t\t\t\t\tcustomClass:
+        \"dark_zoomer\",\n\t\t\t\t\tincrement: 0.03,\n\t\t\t\t\tinterval: 0.1,\n\t\t\t\t\tmarginMax:
+        10\n\t\t\t\t});\n\n\n\t\t\t\t$(window).on(\"resize\", function(e) {\n\t\t\t\t\t$(\".zoomer_wrapper\").zoomer(\"resize\");\n\t\t\t\t});\n\t\t\t});\n\t\t</script>
+        \ -->\n  \n  \n  <script>window.jQuery || document.write('<script src=\"js/libs/jquery-1.7.min.js\">\\x3C/script>')</script>\n<script
+        src=\"http://epaper.ekantipur.com/flex/modernizr.js\"></script>\n  <!-- FlexSlider
+        -->\n  <script defer src=\"http://epaper.ekantipur.com/flex/jquery.flexslider.js\"></script>\n\n
+        \ <script type=\"text/javascript\">\n    $(function(){\n      SyntaxHighlighter.all();\n
+        \   });\n    $(window).load(function(){\n      $('.flexslider').flexslider({\n
+        \       animation: \"slide\",\n        animationLoop: false,\n        directionNav:true,\n
+        \       itemWidth: 95,\n        itemMargin: 5,\n        pausePlay: false,\n
+        \       touch:true,\n        controlNav:false,\n        start: function(slider){\n
+        \         $('body').removeClass('loading');\n        }\n      });\n    });\n
+        \ </script>            \n    <script src=\"http://epaper.ekantipur.com/flex/jquery.easing.js\"></script>\n
+        \ <script src=\"http://epaper.ekantipur.com/flex/jquery.mousewheel.js\"></script>\n<div
+        class=\"clearfix\"></div>\r\n<div class=\"row\">\r\n    <div class=\"col-xs-12\">\r\n
+        \           <div class=\"epaper-feedback-text-archive\">\r\n            Archives
+        will be available soon.\r\n            </div>\r\n    </div>\r\n</div>\r\n<a
+        id=\"feedback\"></a>\r\n<script src=\"//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js\"></script>\r\n<div
+        class=\"epaper-feedback\">\r\n\r\n\r\n<!--                <div id=\"feedback-form\">
+        field disabled -->\r\n\t\t<div>\r\n\t\t\r\n\t\t<form action=\"\" method=\"POST\"
+        id=\"register-form\">\r\n\t\t\t\t<fieldset>\r\n                                    \t\t\t\t\t\t\t\t\t\t<legend></legend>\r\n\t\t\t\t\t<h2>Feedback</h2>\r\n\r\n\t\t\t\t\t<table
+        width=\"100%\">\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Name</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" placeholder=\"Name...\" name=\"txtName\" id=\"txtName\" class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Address</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" placeholder=\"Address...\"  name=\"txtAddress\" id=\"txtAddress\"
+        class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n                                                \r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Country</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<select
+        name=\"ddlCountry\" id=\"ddlCountry\">\r\n\t\t\t\t\t\t\t\t\t<option value=\"Afghanistan\">Afghanistan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Albania\">Albania</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Algeria\">Algeria</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"American Samoa\">American Samoa</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Andorra\">Andorra</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Angola\">Angola</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Anguilla\">Anguilla</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Antarctica\">Antarctica</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Antigua, Barbuda\">Antigua, Barbuda</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Argentina\">Argentina</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Armenia\">Armenia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Aruba\">Aruba</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Ascension\">Ascension</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Australia\">Australia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Austria\">Austria</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Azerbaidijan\">Azerbaidijan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bahamas\">Bahamas</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Bahrain\">Bahrain</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bangladesh\">Bangladesh</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Barbados\">Barbados</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Belarus\">Belarus</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Belgium\">Belgium</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Belize\">Belize</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Benin\">Benin</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bermuda\">Bermuda</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Bhutan\">Bhutan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bolivia\">Bolivia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Bosnia
+        &amp; Herzegovina\">Bosnia &amp; Herzegovina</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Botswana\">Botswana</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Brazil\">Brazil</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"British Virgin Islands\">British Virgin Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Brunei Darussalam\">Brunei Darussalam</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Bulgaria\">Bulgaria</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Burkina
+        Faso\">Burkina Faso</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Burundi\">Burundi</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Cambodia\">Cambodia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Cameroon\">Cameroon</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Canada\">Canada</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Cape
+        Verde\">Cape Verde</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Cayman Islands\">Cayman
+        Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Central African Republic\">Central
+        African Republic</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Chad\">Chad</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Chile\">Chile</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"China\">China</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Colombia\">Colombia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Comoros\">Comoros</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Cook Islands\">Cook Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Costa Rica\">Costa Rica</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Croatia\">Croatia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Cyprus\">Cyprus</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Czech
+        Republic\">Czech Republic</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Denmark\">Denmark</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Diego Garcia\">Diego Garcia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Djibouti\">Djibouti</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Dominica\">Dominica</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Dominican Republic\">Dominican Republic</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"East Timor\">East Timor</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Ecuador\">Ecuador</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Egypt\">Egypt</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"El Salvador\">El
+        Salvador</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Equatorial Guinea\">Equatorial
+        Guinea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Eritrea\">Eritrea</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Estonia\">Estonia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Ethiopia\">Ethiopia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Falklands Islands\">Falklands Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Faroe Islands\">Faroe Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Fiji Islands\">Fiji Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Finland\">Finland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"France\">France</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"French Dept/Terr in Indian Ocean\">French Dept/Terr in Indian Ocean</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"French Guiana\">French Guiana</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"French Polynesia\">French Polynesia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Gabon\">Gabon</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Gambia\">Gambia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Georgia\">Georgia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Germany\">Germany</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Ghana\">Ghana</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Gibraltar\">Gibraltar</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Greece\">Greece</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Greenland\">Greenland</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Grenada\">Grenada</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Guadeloupe\">Guadeloupe</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Guam\">Guam</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Guatemala\">Guatemala</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Guinea\">Guinea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Guinea-Bissau\">Guinea-Bissau</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Guyana\">Guyana</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Haiti\">Haiti</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Honduras\">Honduras</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Hong
+        Kong\">Hong Kong</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Hungary\">Hungary</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Iceland\">Iceland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"India\">India</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Indonesia\">Indonesia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Iraq\">Iraq</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Ireland\">Ireland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Israel\">Israel</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Italy\">Italy</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Jamaica\">Jamaica</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Japan\">Japan</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Jordan\">Jordan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Kenya\">Kenya</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Kiribati\">Kiribati</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Kuwait\">Kuwait</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Kyrgyzstan\">Kyrgyzstan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Lao\">Lao</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Latvia\">Latvia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Lebanon\">Lebanon</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Lesotho\">Lesotho</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Liberia\">Liberia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Liechtenstein\">Liechtenstein</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Lithuania\">Lithuania</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Luxembourg\">Luxembourg</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Macao\">Macao</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Macedonia\">Macedonia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Madagascar\">Madagascar</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Malawi\">Malawi</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Malaysia\">Malaysia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Maldives\">Maldives</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Mali\">Mali</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Malta\">Malta</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Marshall Islands\">Marshall Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Martinique\">Martinique</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mauritania\">Mauritania</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Mauritius\">Mauritius</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mexico\">Mexico</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Micronesia\">Micronesia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Moldova\">Moldova</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Monaco\">Monaco</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mongolia\">Mongolia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Montenegro\">Montenegro</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Montserrat\">Montserrat</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Morocco\">Morocco</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Mozambique\">Mozambique</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Namibia\">Namibia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Nauru\">Nauru</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Nepal\">Nepal</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Netherlands\">Netherlands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Netherlands Antilles\">Netherlands Antilles</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"New Caledonia\">New Caledonia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"New Zealand\">New Zealand</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Nicaragua\">Nicaragua</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Niger\">Niger</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Nigeria\">Nigeria</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Niue\">Niue</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Northern
+        Mariana Islands\">Northern Mariana Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Norway\">Norway</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Oman\">Oman</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Pakistan\">Pakistan</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Palau\">Palau</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Panama\">Panama</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Papua
+        New Guinea\">Papua New Guinea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Paraguay\">Paraguay</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Peru\">Peru</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Philippines\">Philippines</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Poland\">Poland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Portugal\">Portugal</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Puerto-Rico\">Puerto-Rico</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Qatar\">Qatar</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Reunion\">Reunion</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Romania\">Romania</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Russia\">Russia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Rwanda\">Rwanda</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Helena\">Saint Helena</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Kitts and Nevis\">Saint Kitts and Nevis</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Lucia\">Saint Lucia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Saint
+        Pierre and Miquelon\">Saint Pierre and Miquelon</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Saint Vincent and the Grenadines\">Saint Vincent and the Grenadines</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Samoa\">Samoa</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"San Marino\">San
+        Marino</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Sao Tome and Principe\">Sao
+        Tome and Principe</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Saudi Arabia\">Saudi
+        Arabia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Senegal\">Senegal</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Serbia\">Serbia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Seychelles\">Seychelles</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Sierra Leone\">Sierra Leone</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Singapore\">Singapore</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Slovakia\">Slovakia</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Slovenia\">Slovenia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Solomon
+        Islands\">Solomon Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"South
+        Africa\">South Africa</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"South
+        Korea\">South Korea</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Spain\">Spain</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Sri Lanka\">Sri Lanka</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Suriname\">Suriname</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Swaziland\">Swaziland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Sweden\">Sweden</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Switzerland\">Switzerland</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Taiwan\">Taiwan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tajikistan\">Tajikistan</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Tanzania\">Tanzania</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Thailand\">Thailand</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Togo\">Togo</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tokelau\">Tokelau</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Tonga\">Tonga</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Trinidad, Tobago\">Trinidad, Tobago</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tunisia\">Tunisia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Turkey\">Turkey</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Turkmenistan\">Turkmenistan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Turks and Caicos\">Turks and Caicos</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Tuvalu\">Tuvalu</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Uganda\">Uganda</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Ukraine\">Ukraine</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"United
+        Arab Emirates\">United Arab Emirates</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"United Kingdom\">United Kingdom</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"United States\">United States</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Uruguay\">Uruguay</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"US
+        Virgin Islands\">US Virgin Islands</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Uzbekistan\">Uzbekistan</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Vanuatu\">Vanuatu</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Vatican
+        City State\">Vatican City State</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Venezuela\">Venezuela</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Vietnam\">Vietnam</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Wallis
+        and Futuna\">Wallis and Futuna</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Yemen\">Yemen</option>\r\n\t\t\t\t\t\t\t\t\t<option
+        value=\"Zambia\">Zambia</option>\r\n\t\t\t\t\t\t\t\t\t<option value=\"Zimbabwe\">Zimbabwe</option>
+        \    \r\n\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Email</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\"  name=\"txtEmail\" id=\"txtEmail\" class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n
+        \                                               \t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Phone
+        Number</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input type=\"text\"
+        placeholder=\"Phone...\"  name=\"txtPhone\" id=\"txtPhone\" class=\"txtFromnew\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>Message</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<textarea
+        name=\"txtMessage\" placeholder=\"Message...\"  id=\"txtMessage\" class=\"txtFromnew\"></textarea>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n
+        \                                               \r\n\t\t\t\t\t\t<tr>\r\n                                                    <td>&nbsp;</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t<p><script
+        type=\"text/javascript\" src=\"http://www.google.com/recaptcha/api/challenge?k=6LcexPQSAAAAABAa6f1aalpqBFr8ikMPcBeVuSnl\"></script>\n\n\t<noscript>\n
+        \ \t\t<iframe src=\"http://www.google.com/recaptcha/api/noscript?k=6LcexPQSAAAAABAa6f1aalpqBFr8ikMPcBeVuSnl\"
+        height=\"300\" width=\"500\" frameborder=\"0\"></iframe><br/>\n  \t\t<textarea
+        name=\"recaptcha_challenge_field\" rows=\"3\" cols=\"40\"></textarea>\n  \t\t<input
+        type=\"hidden\" name=\"recaptcha_response_field\" value=\"manual_challenge\"/>\n\t</noscript></p>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>
+        \                                               \r\n\r\n                                                <input
+        type=\"hidden\" name=\"txtAdd\" value=\"138.246.2.136\"/>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td></td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"submit\" name=\"btnSubmit\" id=\"btnSubmit\" value=\"Submit\"/>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</fieldset>\r\n\t\t\t</form>\r\n\t\t</div>\r\n</div>\r\n\r\n<script
+        type=\"text/javascript\">\r\n\t$('#feedback-form').hide();\r\n\t\t$('.enable-feedback').click(function()
+        {\r\n\t\t\t\t$('#feedback-form').toggle();\r\n\t\t});\r\n</script>\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\t$('#btnSubmit').click(function(e){\r\n\t\te.preventDefault();\r\n\r\n
+        \       if ($('#txtName').val() == '') {\r\n        alert('Please Enter Your
+        Name');\r\n        return false;\r\n                }\r\n        var sEmail
+        = $('#txtEmail').val();\r\n        if ($.trim(sEmail).length == 0) {\r\n            //alert('Please
+        enter valid email address');\r\n            e.preventDefault();\r\n        }\r\n
+        \       if (validateEmail(sEmail)) {\r\n            e.preventDefault();\r\n
+        \       }\r\n        else {\r\n            alert('Invalid Email Address');\r\n
+        \           return false;\r\n        }\r\n\t$('#register-form').submit();\r\n\t\t\r\n\t\t\r\n\t});\r\n
+        \       \r\nfunction validateEmail(sEmail) {\r\n    var filter = /^([\\w-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([\\w-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$/;\r\n
+        \   if (filter.test(sEmail)) {\r\n        return true;\r\n    }\r\n    else
+        {\r\n        return false;\r\n    }\r\n}\r\n</script>\r\n\r\n\r\n<!--Pulbication-->\r\n<div
+        class=\"clearfix\"></div>\r\n<div id=\"sponsors\">\r\n    <div class=\"row
+        col-md-12 col-xs-12\">\r\n        <ul>\r\n            <li class=\"col-md-1
+        col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/kantipur/\" title=\"kantipur
+        Publication\" class=\"kantipur\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/kantipur.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/tkp/\"
+        title=\"kathmandu Post Publication\" class=\"kathmandupost\" target=\"_blank\"><img
+        src=\"http://epaper.ekantipur.com/images/publication/kathmandupost.jpg\" alt=\"\"
+        title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li class=\"col-md-1
+        col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/nepal/\" title=\"Nepal
+        Publication\" class=\"nepal\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/nepal.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/saptahik/\"
+        title=\"Saptahik Publication\" class=\"saptahik\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/saptahik.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/nari/\"
+        title=\"Nari Publication\" class=\"nari\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/nari.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li
+        class=\"col-md-1 col-xs-6 col-sm-3\"><a href=\"http://www.ekantipur.com/qatar/\"
+        title=\"Kantipur Qatar Publication\" class=\"kqatar\" target=\"_blank\"><img
+        src=\"http://epaper.ekantipur.com/images/publication/kqatar.jpg\" alt=\"\"
+        title=\"\" class=\"img-responsive\"/></a></li>\r\n            <li class=\"col-md-1
+        col-xs-6 col-sm-3\"><a href=\"http://www.yeskantipur.com\" title=\"Yes Kantipur\"
+        class=\"yeskantipur\" target=\"_blank\"><img src=\"http://epaper.ekantipur.com/images/publication/yeskantipur.jpg\"
+        alt=\"\" title=\"\" class=\"img-responsive\"/></a></li>\r\n        </ul>\r\n
+        \   </div>\r\n</div>\r\n<!--Pulbication-->\r\n\r\n<div id=\"footer\">\r\n
+        \   <b class=\"fltL tahomanormal\">&copy; Copyright 2000-2014 Kantipur Publications
+        Pvt. Ltd. All Rights Reserved</b>\r\n    \r\n</div><!--footer-wrapper end-->\r\n</div>\r\n</div>\r\n<!--wrapper
+        end-->\r\n<!-- Start Publication Bar-->\r\n<div class=\"publication-panel
+        hidden-xs\">\r\n    <a class=\"publication-tab\" href=#>Our Publication</a>\r\n
+        \   <ul>\r\n        <li>\r\n            <a href=\"http://www.ekantipur.com/kantipur/\"
+        title=\"kantipur Publication\"  target=\"_blank\">\r\n                <img
+        src=\"http://epaper.ekantipur.com/images/publication/kantipur.jpg\" alt=\"Kantipur\"
+        title=\"Kantipur\"/>\r\n            </a>\r\n        </li>\r\n        <li>\r\n
+        \           <a href=\"http://www.ekantipur.com/tkp/\" title=\"kathmandu Post
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/kathmandupost.jpg\"
+        alt=\"The Kathmandu Post\" title=\"The Kathmandu Post\"/>\r\n            </a>\r\n
+        \       </li>\r\n        <li>\r\n            <a href=\"http://www.ekantipur.com/nepal/\"
+        title=\"Nepal Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/nepal.jpg\"
+        alt=\"Nepal\" title=\"Nepal\"/>\r\n            </a>\r\n        </li>\r\n        <li>\r\n
+        \           <a href=\"http://www.ekantipur.com/saptahik/\" title=\"Saptahik
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/saptahik.jpg\"
+        alt=\"Saptahik\" title=\"Saptahik\"/>\r\n            </a>\r\n        </li>\r\n
+        \       <li>\r\n            <a href=\"http://www.ekantipur.com/nari/\" title=\"Nari
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/nari.jpg\"
+        alt=\"Nari\" title=\"Nari\"/>\r\n            </a>\r\n        </li>\r\n        <li>\r\n
+        \           <a href=\"http://www.ekantipur.com/qatar/\" title=\"Kantipur Qatar
+        Publication\"  target=\"_blank\">\r\n                <img src=\"http://epaper.ekantipur.com/images/publication/kqatar.jpg\"
+        alt=\"Kantipur Qatar\" title=\"Kantipur Qatar\"/>\r\n            </a>\r\n
+        \       </li>\r\n        <li>\r\n            <a href=\"http://www.yeskantipur.com\"
+        title=\"Yes Kantipur\"  target=\"_blank\" class=\"subscribeInClick\">\r\n
+        \               <img src=\"http://epaper.ekantipur.com/images/publication/yeskantipur.jpg\"
+        alt=\"Yes Kantipur\" title=\"Yes Kantipur\"/>\r\n            </a>\r\n        </li>\r\n
+        \   </ul>\r\n    <div class=\"clearfix\"></div>\r\n</div>\r\n\r\n<div id=\"fb-root\"></div>\r\n<script>(function(d,
+        s, id) {\r\n    var js, fjs = d.getElementsByTagName(s)[0];\r\n    if (d.getElementById(id))
+        return;\r\n    js = d.createElement(s); js.id = id;\r\n    js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1&appId=266686766839629\";\r\n
+        \   fjs.parentNode.insertBefore(js, fjs);\r\n}(document, 'script', 'facebook-jssdk'));</script>\r\n<script
+        type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/Application.js\"></script>\r\n<a
+        id=\"back-to-top\" href=\"#top\" style=\"display: none;\"><span class=\"glyphicon
+        glyphicon-chevron-up\"></span></a>\r\n<script type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/jquery.jcarousellite.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"http://epaper.ekantipur.com/js/jquery.prettydate.js\"></script>\r\n<link
+        rel=\"stylesheet\" href=\"http://epaper.ekantipur.com/js/flexslider/flexslider.css\"
+        type=\"text/css\" media=\"screen\" />\r\n<script defer src=\"http://epaper.ekantipur.com/js/flexslider/jquery.flexslider.js\"></script>\r\n<script
+        type=\"text/javascript\">\r\n$(window).load(function() {\r\n \r\n                                              \r\n
+        });\r\n  jQuery(function() {\r\n                 var feedbackTab = {\r\n\r\n
+        \                    speed:300,\r\n                     containerWidth:$('.publication-panel').outerWidth(),\r\n
+        \                    containerHeight:$('.publication-panel').outerHeight(),\r\n
+        \                    tabWidth:$('.publication-tab').outerWidth(),\r\n\r\n
+        \                    init:function(){\r\n                         $('.publication-panel').css('height',feedbackTab.containerHeight
+        + 'px');\r\n\r\n                         $('a.publication-tab').click(function(event){\r\n\r\n
+        \                            if ($('.publication-panel').hasClass('open'))
+        {\r\n                                 $('.publication-panel').animate({left:'-'
+        + feedbackTab.containerWidth}, feedbackTab.speed)\r\n                                 .removeClass('open');\r\n
+        \                            } else {\r\n                                 $('.publication-panel').animate({left:'0'},
+        \ feedbackTab.speed)\r\n                                 .addClass('open');\r\n
+        \                            }\r\n                             event.preventDefault();\r\n
+        \                        });\r\n                     }\r\n                 };\r\n\r\n
+        \                feedbackTab.init();\r\n\r\n});\r\n</script>\r\n<script type=\"text/javascript\">\r\n\r\n
+        \ var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-10805376-1']);\r\n
+        \ _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n
+        \   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\r\n  })();\r\n\r\n</script>\r\n</body>\r\n</html>\r\n"
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: http://epaper.ekantipur.com/epaper/kdaily/page/1
+  recorded_at: Fri, 06 Jun 2014 17:56:14 GMT
+recorded_with: VCR 2.9.1
