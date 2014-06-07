@@ -18,6 +18,8 @@ module Bharkhar
         end
       end
 
+      private
+
       def frontpage_url
         "http://epaper.ekantipur.com/epaper/kdaily/page/1"
       end
@@ -25,8 +27,6 @@ module Bharkhar
       def frontpage
         @frontpage ||= Nokogiri::HTML(Typhoeus.get(frontpage_url).body)
       end
-
-      private
 
     end
   end

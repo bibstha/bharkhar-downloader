@@ -12,6 +12,9 @@ development: &development
     com_ekantipur:
       class_name: ComEkantipur
       enabled: true
+    com_ekantipur_kpost:
+      class_name: ComEkantipurKpost
+      enabled: true
     xyz:
       class_name: Dummy
       enabled: false
