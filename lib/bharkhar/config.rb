@@ -5,6 +5,7 @@ module Bharkhar
   class << self
 
     attr_reader :config
+    attr_reader :env
 
     def config
       @config = YAML.load_file("config/Bharkhar.yml").fetch(env)

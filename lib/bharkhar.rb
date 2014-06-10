@@ -5,6 +5,7 @@ require 'bharkhar/helper/string'
 require 'bharkhar/config'
 require 'bharkhar/worker'
 require 'bharkhar/pdf_packager'
+require_relative '../config/redis'
 
 module Bharkhar
 end

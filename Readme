@@ -4,7 +4,7 @@ Clone
 
     git clone https://github.com/bibstha/bharkhar-downloader.git
     cd bharkhar-downloader
-    docker build --rm -t bharkharapp .
+    docker build --rm -t bharkhar-sidekiq .
     
 Start a docker data volume by
 
@@ -12,6 +12,6 @@ Start a docker data volume by
 
 Start the docker container for sidekiq workers and sshd
 
-    docker run -d --name bharkharapp -p 127.0.0.1:4567:4567 -p 127.0.0.1:49122:22 --volumes-from DATA bharkharapp
+    docker run -d --name bharkhar-sidekiq -p 127.0.0.1:49122:22 --volumes-from DATA --link redis:redis bharkhar-sidekiq
 
 

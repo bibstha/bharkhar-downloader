@@ -6,11 +6,11 @@ require './lib/bharkhar'
 
 # Calm down
 Sidekiq.configure_server do |config|
-  config.redis = { :namespace => 'Bharkhar', :size => 5 }
+  config.redis = REDIS_CONFIG
 end
 
 Sidekiq.configure_client do |config|
-  config.redis = { :namespace => 'Bharkhar', :size => 5 }
+  config.redis = REDIS_CONFIG
 end
 
 Sidekiq::RetrySet.new.clear
