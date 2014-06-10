@@ -16,7 +16,6 @@ RUN \
 ENV RACK_ENV production
 COPY . /app
 WORKDIR /app
-RUN bundle install --without development --without test
 VOLUME ["/data", "/log"]
 EXPOSE 4567 22
-CMD ["bundle exec sidekiq -r ./workers.rb"]
+CMD ["scripts/run.sh"]
