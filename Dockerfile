@@ -14,7 +14,7 @@ RUN \
   sed -ri 's/PermitRootLogin without-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 
 ENV RACK_ENV production
-COPY . /app
+ADD . /app
 WORKDIR /app
 VOLUME ["/data", "/log"]
 EXPOSE 4567 22
