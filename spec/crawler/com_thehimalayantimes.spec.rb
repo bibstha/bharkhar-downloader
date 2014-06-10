@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require 'crawler/com_thehimalayantimes'
+require 'bharkhar/crawler/com_thehimalayantimes'
 
 module Bharkhar::Crawler
   describe ComThehimalayantimes do

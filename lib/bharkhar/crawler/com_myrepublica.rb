@@ -6,11 +6,16 @@ require 'date'
 
 module Bharkhar
   module Crawler
-    class ComNagariknews
+    class ComMyrepublica
       
-      URL = "http://nagarikplus.nagariknews.com/"
+      URL = "http://e.myrepublica.com/"
 
       attr_reader :date
+
+      def self.set_recurrence schedule
+        # 5am utc
+        schedule.daily.hour_of_day(5)
+      end
 
       def initialize(date = Date.today)
         @date = date
@@ -36,9 +41,9 @@ module Bharkhar
 
       def all_papers
         frontpage = Nokogiri::HTML(Typhoeus.get(URL).body)
-        frontpage.css('.fb_book_list_table .flippingbook_book-description a').inject({}) do |url_map, paper|
+        frontpage.css('.fb_book_list_table a').inject({}) do |url_map, paper|
           
-          date = Date.parse paper['title'].match(/[0-9]+.*/).to_s # Nagarik 26 May 2014
+          date = Date.parse paper['title'].match(/[0-9]+.*/).to_s # Republica 26 May 2014
           url  = URI(URL).merge!(paper['href']).to_s
 
           url_map[date] = url
@@ -47,7 +52,7 @@ module Bharkhar
       end
 
       class DateNotFound < StandardError; end
-      
+
     end
   end
 end

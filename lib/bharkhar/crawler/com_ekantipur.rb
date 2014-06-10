@@ -7,6 +7,11 @@ module Bharkhar
 
       URL = "http://epaper.ekantipur.com/"
 
+      def self.set_recurrence schedule
+        # 5am utc
+        schedule.daily.hour_of_day(5)
+      end
+
       def initialize(date = Date.today)
         # stupid paper only shows paper for that day
         @date = Date.today 

@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require 'crawler/com_myrepublica'
+require 'bharkhar/crawler/com_myrepublica'
 
 include Bharkhar::Crawler
 describe ComMyrepublica do

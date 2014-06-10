@@ -1,8 +1,6 @@
 require 'tmpdir'
 require 'mini_magick'
 
-require_relative 'config'
-
 module Bharkhar
   class PdfPackager
     
@@ -78,7 +76,7 @@ module Bharkhar
     end
 
     def config
-      @config ||= Config.load
+      @config ||= Bharkhar.config
     end
   end
 end

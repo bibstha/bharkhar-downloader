@@ -1,6 +1,4 @@
 require 'date'
-require_relative 'config'
-require_relative 'pdf_packager'
 
 module Bharkhar
   class PaperDownloader
@@ -24,10 +22,5 @@ module Bharkhar
       Kernel.const_get(class_name).new(@date)
     end
 
-    def config
-      @config ||= Config.load
-    end
-
   end
-
 end

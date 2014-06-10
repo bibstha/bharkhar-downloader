@@ -4,11 +4,8 @@ gem 'typhoeus'
 gem 'nokogiri'
 gem 'mini_magick'
 gem 'sidekiq'
-gem 'sidetiq'
+gem 'sidetiq', '~> 0.6.1'
 
-# webapp
-gem 'sinatra'
-gem 'slim'
 
 group 'development' do
   gem 'rake'
@@ -18,8 +15,4 @@ group 'test' do
   gem 'mocha'
   gem 'minispec-metadata'
   gem 'vcr'
-end
-
-group 'production' do
-  gem 'thin'
 end

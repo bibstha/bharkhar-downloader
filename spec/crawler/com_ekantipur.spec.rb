@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require 'crawler/com_ekantipur'
+require 'bharkhar/crawler/com_ekantipur'
 
 module Bharkhar::Crawler
   describe ComEkantipur do

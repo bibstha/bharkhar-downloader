@@ -9,6 +9,11 @@ module Bharkhar
 
       URL = "http://epaper.thehimalayantimes.com/"
 
+      def self.set_recurrence schedule
+        # 5am utc
+        schedule.daily.hour_of_day(5)
+      end
+
       def initialize(date = Date.today)
         @date = date
       end

@@ -1,5 +1,5 @@
 require 'rake/testtask'
-require_relative 'lib/config'
+require_relative 'lib/bharkhar'
 
 task :default => :test
 
@@ -12,7 +12,7 @@ task :download_latest do |t|
   require 'date'
   require_relative 'lib/paper_downloader'
   
-  config = Bharkhar::Config.load
+  config = Bharkhar.config
   config.fetch("papers").each do |name, paper_settings|
     puts "#{name} enabled -> #{paper_settings.fetch("enabled")}"
     if paper_settings.fetch("enabled")
