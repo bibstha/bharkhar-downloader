@@ -10,7 +10,7 @@ end
 desc "Download all of the latest papers"
 task :download_latest do |t|
   require 'date'
-  require_relative 'lib/paper_downloader'
+  require 'bharkhar/paper_downloader'
   
   config = Bharkhar.config
   config.fetch("papers").each do |name, paper_settings|

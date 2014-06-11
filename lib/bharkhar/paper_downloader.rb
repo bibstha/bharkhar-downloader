@@ -18,8 +18,12 @@ module Bharkhar
 
     def crawler
       require_relative "crawler/#{@name}"
-      class_name = "Bharkhar::Crawler::#{@settings.fetch('class_name')}"
+      class_name = "Bharkhar::Crawler::#{@name.camelize}"
       Kernel.const_get(class_name).new(@date)
+    end
+
+    def config
+      Bharkhar.config
     end
 
   end
