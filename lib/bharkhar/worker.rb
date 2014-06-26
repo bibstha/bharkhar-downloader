@@ -1,3 +1,6 @@
+require 'sidekiq'
+require 'sidetiq'
+
 module Bharkhar
   module Worker
 

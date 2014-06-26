@@ -27,6 +27,7 @@ development: &development
   pdf_write_dir: tmp/public/pdf
   thumbnail_write_dir: tmp/public/thumbnail
   tmp_dir: tmp
+  log_path: log/bharkhar.log
 
 
 test: 
@@ -39,3 +40,4 @@ production:
   static_dir: /data/bharkharapp/public
   pdf_write_dir: /data/bharkharapp/public/pdf
   thumbnail_write_dir: /data/bharkharapp/public/thumbnail
+  log_path: /log/bharkhar.log

@@ -1,4 +1,4 @@
-require './lib/bharkhar'
+require_relative '../../bharkhar'
 
 Bharkhar.config.fetch("papers").each do |name, settings|
   if settings.fetch("enabled")
