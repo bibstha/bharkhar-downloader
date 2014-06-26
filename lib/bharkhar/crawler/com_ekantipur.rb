@@ -12,7 +12,7 @@ module Bharkhar
 
       def self.set_recurrence schedule
         # 5am utc
-        schedule.daily.hour_of_day(0)
+        schedule.daily.hour_of_day(1)
       end
 
       def initialize(date = Date.today)

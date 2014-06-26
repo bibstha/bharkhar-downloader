@@ -17,8 +17,8 @@ module Bharkhar
     
     # A worker needs to call recurrence method to set rule
 
-    def perform(last, current, date = Date.today.to_s)
-      @date = Date.parse(date)
+    def perform()
+      @date = Date.today
       download
     end
 

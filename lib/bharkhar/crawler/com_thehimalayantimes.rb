@@ -11,7 +11,7 @@ module Bharkhar
 
       def self.set_recurrence schedule
         # 5am utc
-        schedule.daily.hour_of_day(5)
+        schedule.daily.hour_of_day(3)
       end
 
       def initialize(date = Date.today)
