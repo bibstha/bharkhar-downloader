@@ -4,12 +4,15 @@ require 'nokogiri'
 module Bharkhar
   module Crawler
     class ComEkantipur
+      attr_reader :date
 
-      URL = "http://epaper.ekantipur.com/"
+      def base_url
+        "http://epaper.ekantipur.com/kantipur/"
+      end
 
       def self.set_recurrence schedule
         # 5am utc
-        schedule.daily.hour_of_day(5)
+        schedule.daily.hour_of_day(0)
       end
 
       def initialize(date = Date.today)
@@ -18,19 +21,19 @@ module Bharkhar
       end
 
       def page_urls
-        frontpage.css(".col-md-3 .rows a img").map do |thumb_url|
-          thumb_url['src'].gsub(/thumb\//, '')
+        frontpage.css("pageFlipper page").map do |page_rel_url|
+          "#{base_url}%s/largest3/%s" % [date.strftime('%e%-m%Y'), page_rel_url.content]
         end
       end
 
       private
 
       def frontpage_url
-        "http://epaper.ekantipur.com/epaper/kdaily/page/1"
+        "#{base_url}%s/pages.xml" % date.strftime('%e%-m%Y')
       end
 
       def frontpage
-        @frontpage ||= Nokogiri::HTML(Typhoeus.get(frontpage_url).body)
+        @frontpage ||= Nokogiri::XML(Typhoeus.get(frontpage_url).body)
       end
 
     end

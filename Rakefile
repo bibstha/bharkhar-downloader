@@ -30,6 +30,6 @@ task :download_paper do |t|
     abort "usage: rake #{ARGV[0]} PAPER_NAME=[com_ekantipur|com_thehimalayantimes|...]"
   end
 
-  require_relative 'lib/paper_downloader'
+  require_relative 'lib/bharkhar/paper_downloader'
   Bharkhar::PaperDownloader.new(paper_name).download
 end

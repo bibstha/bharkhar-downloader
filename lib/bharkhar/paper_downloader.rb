@@ -4,6 +4,7 @@ module Bharkhar
   class PaperDownloader
 
     def initialize name, date = Date.today
+      Log.debug "Downloading #{name} for #{date}"
       @name     = name
       @settings = config.fetch("papers").fetch(name)
       @date     = date
@@ -11,6 +12,7 @@ module Bharkhar
 
     def download
       page_urls = crawler.page_urls
+      Log.debug "Number of pages: #{Array(page_urls).size}"
       PdfPackager.new(page_urls, "#{@name}/#{@date.to_s}.pdf").package
     end
 

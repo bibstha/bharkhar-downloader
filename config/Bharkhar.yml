@@ -24,8 +24,8 @@ development: &development
       enabled: true
 
 
-  pdf_write_dir: lib/webapp/public/pdf
-  thumbnail_write_dir: lib/webapp/public/thumbnail
+  pdf_write_dir: tmp/public/pdf
+  thumbnail_write_dir: tmp/public/thumbnail
   tmp_dir: tmp
 
 

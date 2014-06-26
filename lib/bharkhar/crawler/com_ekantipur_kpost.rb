@@ -6,8 +6,8 @@ module Bharkhar
   module Crawler
     class ComEkantipurKpost < ComEkantipur
 
-      def frontpage_url
-        "http://epaper.ekantipur.com/epaper/kpost/page/1"
+      def base_url
+        "http://epaper.ekantipur.com/kpost/"
       end
 
     end

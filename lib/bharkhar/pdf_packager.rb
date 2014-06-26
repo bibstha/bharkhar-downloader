@@ -43,6 +43,7 @@ module Bharkhar
 
     def download
       @page_urls.map do |page_url|
+        Log.debug "Downloading #{page_url}"
         response = Typhoeus.get(page_url)
         basename = File.basename(page_url)
         tmp_page_path = File.expand_path(basename, tmp_dir)
