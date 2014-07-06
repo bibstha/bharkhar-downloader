@@ -1,4 +1,7 @@
 require_relative '../../bharkhar'
+require_relative '../../../config/redis'
+require_relative '../../../config/sidekiq'
+require 'bharkhar/worker'
 
 Bharkhar.config.fetch("papers").each do |name, settings|
   if settings.fetch("enabled")

@@ -1,0 +1,2 @@
+require_relative 'errors/invalid_response_error'
+require_relative 'errors/zero_pages_error'

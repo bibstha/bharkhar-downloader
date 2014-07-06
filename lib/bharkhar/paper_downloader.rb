@@ -18,6 +18,9 @@ module Bharkhar
       else
         PdfPackager.new(page_urls, "#{@name}/#{@date.to_s}.pdf").package
       end
+    rescue Bharkhar::InvalidResponseError
+      # Can't do anything about it
+      Log.error "Invalid status code while downloading page"
     end
 
   private

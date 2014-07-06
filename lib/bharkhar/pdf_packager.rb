@@ -45,6 +45,7 @@ module Bharkhar
       @page_urls.map do |page_url|
         Log.debug "Downloading #{page_url}"
         response = Typhoeus.get(page_url)
+        raise Bharkhar::InvalidResponseError unless response.code == 200
         basename = File.basename(page_url)
         tmp_page_path = File.expand_path(basename, tmp_dir)
         File.write(tmp_page_path, response.body)
@@ -79,5 +80,7 @@ module Bharkhar
     def config
       @config ||= Bharkhar.config
     end
+
+    class InvalidResponseError < StandardError; end
   end
 end
