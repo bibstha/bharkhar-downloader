@@ -13,7 +13,11 @@ module Bharkhar
     def download
       page_urls = crawler.page_urls
       Log.debug "Number of pages: #{Array(page_urls).size}"
-      PdfPackager.new(page_urls, "#{@name}/#{@date.to_s}.pdf").package
+      if page_urls.empty?
+        Log.error "No pages found"
+      else
+        PdfPackager.new(page_urls, "#{@name}/#{@date.to_s}.pdf").package
+      end
     end
 
   private

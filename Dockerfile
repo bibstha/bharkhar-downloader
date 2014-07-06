@@ -14,7 +14,14 @@ RUN \
   sed -ri 's/PermitRootLogin without-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 
 ENV RACK_ENV production
-ADD . /app
+ADD config        /app/config
+ADD lib           /app/lib
+ADD scripts       /app/scripts
+ADD .ruby-version /app/
+ADD Gemfile       /app/
+ADD Gemfile.lock  /app/
+ADD Rakefile      /app/
+
 WORKDIR /app
 VOLUME ["/data", "/log"]
 EXPOSE 4567 22

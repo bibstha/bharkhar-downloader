@@ -22,17 +22,18 @@ module Bharkhar
 
       def page_urls
         frontpage.css("pageFlipper page").map do |page_rel_url|
-          "#{base_url}%s/largest3/%s" % [date.strftime('%e%-m%Y'), page_rel_url.content]
+          "#{base_url}%s/largest3/%s" % [date.strftime('%-e%-m%Y'), page_rel_url.content]
         end
       end
 
       private
 
       def frontpage_url
-        "#{base_url}%s/pages.xml" % date.strftime('%e%-m%Y')
+        "#{base_url}%s/pages.xml" % date.strftime('%-e%-m%Y')
       end
 
       def frontpage
+        Log.debug("URL: #{frontpage_url}")
         @frontpage ||= Nokogiri::XML(Typhoeus.get(frontpage_url).body)
       end
 
